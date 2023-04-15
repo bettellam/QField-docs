@@ -2309,8 +2309,8 @@ na configuração do projeto no QGIS.</p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_setup_wfs.png"><img alt="widgets" src="../../assets/images/oauth2_setup_wfs.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
 </p>
-<p>Add a new authentication configuration. Parameters need to be adjusted
-to the OAuth2 server setup:</p>
+<p>Adicionar uma nova configuração de autenticação. Os parâmetros necessitam
+de ser ajustados com a configuração OAuth2 do servidor:</p>
 <p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_setup_auth.png"><img alt="widgets" src="../../assets/images/oauth2_setup_auth.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
@@ -2331,34 +2331,35 @@ e a configuração armazenada no projeto QGIS coincidam.</p>
 <p>Neste ponto, verifique se consegue ligar corretamente 
 ao serviço do QGIS. Esta configuração de autenticação deve primeiro ser
 exportada do próprio QGIS.</p>
-<p>To do so, open the QGIS options dialog and focus on the
-authentication panel. There, you can select the <em>OAuth2 configuration</em>
-used by the project layer(s) by clicking on the appropriate row in the
-configurations table widget. Then, use the lower-right
-utilities button to select the <em>export selected authentication
-configurations to file</em> action.</p>
+<p>Para fazer isso, os utilizadores abrem a caixa de diálogo de opções
+do QGIS e selecionam o painel de autenticação. Aí, o utilizador seleciona a
+<em>configuração do OAuth2</em> utilizada pela(s) camada(s) do projeto clicando na
+linha apropriada no widget da tabela de configurações. Em seguida, use o
+botão de utilitários no canto inferior direito para selecionar a ação <em>exportar
+as configurações de autenticação selecionadas para o ficheiro</em>.</p>
 <p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_export_config.png"><img alt="widgets" src="../../assets/images/oauth2_export_config.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
 </p>
-<p>When prompted for a password, leave it blank. You will be warned
-that she might be leaking sensitive information. In the case of
-OAuth2 configurations, it is safe to do so.</p>
-<p>Once you have exported the authentication configuration to an XML
-file, she copies that file onto the device(s) running QField. The
-file has to be copied to the devices <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth/</code> QField directory. The <code>/QField/auth/</code> path is created when first
-launching QField.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Since QField 2 the auth files needs to be stored in the app directory <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth</code> instead of the devices main directory <code>&lt;drive&gt;:/QField/auth</code>.</p>
+<p>Quando for solicitada uma palavra-chave, deixe-a em branco. O utilizador
+será avisado de que pode estar a expor informações confidenciais. No caso
+das configurações OAuth2, é seguro fazê-lo.</p>
+<p>Depois de exportada a configuração de autenticação para um ficheiro
+XML, copie esse ficheiro para o(s) dispostivo(s) com o QField. O ficheiro
+tem de ser copiado para a diretoria QField dos dispositivos <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth/</code>. O caminho <code>/QField/auth/</code> é criado quando corre o QField
+a primeira vez.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>Desde o QField 2 os ficheiros de autenticação necessitam de ser armazenados na diretoria da aplicação <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth</code> em vez da diretoria principal dos dispositivos <code>&lt;drive&gt;:/QField/auth</code>.</p>
 </div>
-<p>Once the authentication configuration XML file is copied, you can copy
-the project file containing OAuth2-protected layer(s) onto the device(s)
-and open the project in QField. You will be prompted for the
-user, password, and 2-step-verification authentication code within a
-browser panel that will pop up in QField itself.</p>
-<p>Once authenticated, content will be rendered without the need to
-re-enter user information for the duration of the session.</p>
+<p>Depois do ficheiro XML de configuração de autenticação ser copiado, os
+utilizadores podem copiar o ficheiro de projeto que contém a(s) camada(s)
+protegida(s) por OAuth2 para o(s) dispositivo(s) e abrir o projeto no QField.
+Será solicitado ao utilizador a fornecer o seu nome de utilizador,
+palavra-chave e código de autenticação de verificação de duas etapas num
+painel do navegador que aparecerá no próprio QField.</p>
+<p>Uma vez autenticado, o conteúdo será renderizado sem necessitar de
+reintroduzir a informação do utilizador durante a sessão.</p>
 
   
   
