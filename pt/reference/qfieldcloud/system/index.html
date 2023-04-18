@@ -2393,25 +2393,25 @@
 
 
 <h1 id="documentacao-do-sistema-qfieldcloud">Documentação do Sistema QFieldCloud<a class="headerlink" href="#documentacao-do-sistema-qfieldcloud" title="Permanent link">&para;</a></h1>
-<p>The aim of this document is to provide an overview of the QFieldCloud system to
-  understand the underlaying logic and technology.</p>
+<p>O objetivo deste documento é fornecer uma visão geral do sistema QFieldCloud para
+  entender a lógica e a tecnologia subjacentes.</p>
 <h2 id="entidades-e-conceitos">Entidades e Conceitos<a class="headerlink" href="#entidades-e-conceitos" title="Permanent link">&para;</a></h2>
 <h3 id="projeto-qgis">Projeto QGIS<a class="headerlink" href="#projeto-qgis" title="Permanent link">&para;</a></h3>
-<p>A QGIS project is a <em>.qgs</em> or <em>.qgz</em> file. A Project is created on
-QGIS Desktop and uploaded to QFieldCloud using the QGIS's plugin
-QFieldSync. Before the uploading of the QGIS project, it is necessary
-for each layer of the QGIS project an "action" that determines how
-QFieldSync and QField should treat the layer. There are the two types
-of actions that can be setup - one for QFieldCloud and one for the
-traditional cable export.</p>
-<p>This information is saved within the QGS project as layer's
-<em>customProperty</em>, with the <em>QFieldSync/action</em> key.</p>
+<p>Um projeto QGIS é um ficheiro <em>.qgs</em> ou <em>.qgz</em>. Um projeto é criado no
+QGIS Desktop e carregado para QFieldCloud usando o plugin do QGIS
+QFieldSync. Antes do upload do projeto QGIS, é necessário
+para cada camada do projeto QGIS uma "ação" que determina como
+o QFieldSync e o QField devem tratar a camada. Existem dois tipos
+de ações que podem ser configuradas - uma para QFieldCloud e outra para a
+tradicional exportação por cabo.</p>
+<p>A informação é guardada dentro dos projetos QGIS como camadas
+<em>customProperty</em> , com a chave <em>QFieldSync/action</em>.</p>
 <p>As ações disponíveis são:</p>
 <table>
 <thead>
 <tr>
-<th>Action internal name</th>
-<th>Name showed in the UI</th>
+<th>Nome interno da ação</th>
+<th>Nome exibido na interface UI</th>
 </tr>
 </thead>
 <tbody>
@@ -2437,21 +2437,21 @@ traditional cable export.</p>
 </tr>
 </tbody>
 </table>
-<p>This would be the behavior of QFieldSync with the different
-layer actions:</p>
+<p>Este será o comportamente do QFieldSync com as diferentes
+ações da camada:</p>
 <table>
 <thead>
 <tr>
 <th>Ação</th>
-<th>File based layer</th>
-<th>Not file based layer</th>
+<th>Camada baseada num ficheiro</th>
+<th>Camada não baseada num ficheiro</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>OFFLINE</td>
-<td>Create a consolidated copy of the data</td>
-<td>Create a consolidated copy of the data</td>
+<td>Cria uma cópia consolidada dos dados</td>
+<td>Cria uma cópia consolidada dos dados</td>
 </tr>
 <tr>
 <td>SEM_AÇÃO</td>
@@ -2465,31 +2465,31 @@ layer actions:</p>
 </tr>
 <tr>
 <td>COPIAR</td>
-<td>Make source path relative and copy the file</td>
+<td>Torna o caminho da fonte relativo e copia o ficheiro</td>
 <td>N/A</td>
 </tr>
 <tr>
 <td>MANTER_EXISTENTES</td>
-<td>Make source path relative and copy the file if it does not exist</td>
+<td>Torna o caminho da fonte relativo e copia o ficheiro se este não existir</td>
 <td>N/A</td>
 </tr>
 </tbody>
 </table>
-<p>This is the behavior of QFieldCloud (<code>libqfieldsync</code>) with the
- layers:</p>
+<p>Este é o comportamento do QFieldCloud (<code>libqfieldsync</code>) com as
+ camadas:</p>
 <table>
 <thead>
 <tr>
 <th>Ação</th>
-<th>File based layer</th>
-<th>Not file based</th>
+<th>Camada baseada num ficheiro</th>
+<th>Camada não baseada num ficheiro</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>OFFLINE</td>
-<td>Create consolidated copy of the data on pull, apply delta file on push to original data source</td>
-<td>Create consolidated copy of the data on pull, apply delta file on push to original data source</td>
+<td>Crie uma cópia consolidada dos dados no pull, aplique um ficheiro delta no push à fonte de dados original</td>
+<td>Crie uma cópia consolidada dos dados no pull, aplique um ficheiro delta no push à fonte de dados original</td>
 </tr>
 <tr>
 <td>SEM_AÇÃO</td>
@@ -2503,12 +2503,12 @@ layer actions:</p>
 </tr>
 <tr>
 <td>COPIAR</td>
-<td>Make source path relative and create copy of the data on pull, apply delta file on push to original data source</td>
+<td>Torna o caminho de origem relativo e crie uma cópia dos dados no pull, apliqua o ficheiro delta no push à fonte de dados original</td>
 <td>N/A</td>
 </tr>
 <tr>
 <td>MANTER_EXISTENTES</td>
-<td>Make source path relative and create copy of the data on pull, apply delta file on push to original data source</td>
+<td>Torna o caminho de origem relativo e crie uma cópia dos dados no pull, apliqua o ficheiro delta no push à fonte de dados original</td>
 <td>N/A</td>
 </tr>
 </tbody>
@@ -2518,15 +2518,15 @@ layer actions:</p>
 <thead>
 <tr>
 <th>Ação</th>
-<th>File based layer</th>
-<th>Not file based layer</th>
+<th>Camada baseada num ficheiro</th>
+<th>Camada não baseada num ficheiro</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>OFFLINE</td>
 <td>Cria e faz push do deltafile</td>
-<td>N/A (it's always file based at this point)</td>
+<td>N/A (nesta fase é sempre baseado num ficheiro)</td>
 </tr>
 <tr>
 <td>SEM_AÇÃO</td>
@@ -2552,31 +2552,31 @@ layer actions:</p>
 </table>
 <p>Resumindo, para o QFieldCloud:</p>
 <ul>
-<li><em>NO_ACTION</em> is used for online layers that are located on a server
-  accessible via the Internet and that are modified directly by
+<li><em>NO_ACTION</em> é usado para camadas online localizadas num servidor
+  acessíveis via Internet e que são modificados diretamente por
   QField.</li>
-<li><em>HYBRID</em> means that a geopackage will be generated on the
-  server (or directly on the desktop for file-based layers) and
+<li><em>HYBRID</em> significa que um geopackage será gerado no
+  servidor (ou diretamente na área de trabalho para camadas baseadas num ficheiro) e
   transferidos pelos clientes. O cliente irá gerar os deltafiles das alterações.</li>
-<li><em>OFFLINE</em> is used for example to work with local databases not
-  visible by QFieldCloud which are consolidated before being
+<li><em>OFFLINE</em> é usado, por exemplo, para trabalhar com dados locais não
+  visíveis pelo QFieldCloud que são consolidados antes de serem
   carregar a partir do computador para o servidor e não estão sincronizados
   com os dados originais pelo QFieldCloud.</li>
 <li><em>REMOVE</em> irá simplesmente remover a camada do projeto.</li>
 <li><em>KEEP_EXISTENT</em> não será usado nas sincronização do QFieldCloud.</li>
 </ul>
-<p>From QFieldSync it will be possible to update a project already
-loaded on QFieldCloud. In the event that the changes concern only
-styles, forms etc. but not the structure of the layers, the
-project on the server will simply be updated.
-If there are changes in the layers structure, the project will be
-reset on the server (delta files will be deleted) and for each
-client it will be necessary to download the updated version of the
-project before being able to push new changes.</p>
+<p>A partir do QFieldSync será possível atualizar um projeto já
+carregado no QFieldCloud. Caso as alterações digam respeito apenas
+estilos, formulários, etc., mas não à estrutura das camadas, o
+projeto no servidor será simplesmente atualizado.
+Caso haja alterações na estrutura de camadas, o projeto será
+redefinido no servidor (ficheiros delta serão excluídos) e para cada
+cliente será necessário baixar a versão atualizada do
+projeto antes de poder enviar novas alterações.</p>
 <h3 id="project-qfieldcloud">Project QFieldCloud<a class="headerlink" href="#project-qfieldcloud" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Is composed of one and only one QGIS project and the possible
-related files (e.g. geopackages, images, ...) included the offline
-or hybrid data package.
+<div class="highlight"><pre><span></span><code>É composto por um e apenas um projeto QGIS e os possíveis
+ficheiros relacionados (e.g. geopackages, imagens, ...) incluídos offline
+ou nos packages de dados hýbridos.
 </code></pre></div>
 <h2 id="casos-de-uso">Casos de uso<a class="headerlink" href="#casos-de-uso" title="Permanent link">&para;</a></h2>
 <h3 id="hibrido">Híbrido<a class="headerlink" href="#hibrido" title="Permanent link">&para;</a></h3>

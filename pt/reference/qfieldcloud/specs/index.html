@@ -1856,9 +1856,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#postgresql-configuration" class="md-nav__link">
+  <a href="#configuracao-postgresql" class="md-nav__link">
     <span class="md-ellipsis">
-      PostgreSQL configuration
+      Configuração PostgreSQL
     </span>
   </a>
   
@@ -2262,9 +2262,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#postgresql-configuration" class="md-nav__link">
+  <a href="#configuracao-postgresql" class="md-nav__link">
     <span class="md-ellipsis">
-      PostgreSQL configuration
+      Configuração PostgreSQL
     </span>
   </a>
   
@@ -2293,7 +2293,7 @@
   <h1>Especificações técnicas</h1>
 
 <h2 id="configuracao-da-firewall">Configuração da Firewall<a class="headerlink" href="#configuracao-da-firewall" title="Permanent link">&para;</a></h2>
-<p>If a project contains online layers (PostGIS, WMS, WFS, etc), QFieldCloud will try to establish a connection to this services. Sometimes these services are behind a firewall and the system administrators need to allowlist the QFieldCloud IP.</p>
+<p>Se um projeto contém camadas online (PostGIS, WMS, WFS, etc), o QFieldCloud tentará estabelecer uma ligação com esses serviços. Às vezes, esses serviços estão protegidos por uma firewall e os administradores do sistema precisam de autorizar o IP do QFieldCloud.</p>
 <table>
 <thead>
 <tr>
@@ -2312,12 +2312,12 @@
 </tr>
 <tr>
 <td>app.qfield.cloud</td>
-<td>185.203.114.168 (deprecated)</td>
+<td>185.203.114.168 (descontinuado)</td>
 </tr>
 </tbody>
 </table>
-<h2 id="postgresql-configuration">PostgreSQL configuration<a class="headerlink" href="#postgresql-configuration" title="Permanent link">&para;</a></h2>
-<p>If your project contains PostgreSQL (PostGIS) layers, you need to configure your PostgreSQL server so it allows connection from <code>app.qfield.cloud</code> IP address.</p>
+<h2 id="configuracao-postgresql">Configuração PostgreSQL<a class="headerlink" href="#configuracao-postgresql" title="Permanent link">&para;</a></h2>
+<p>Se o seu projeto contém camadas PostgreSQL (PostGIS), precisará de configurar o seu servidor PostgreSQL para permitir ligações ao endereço IP <code>app.qfield.cloud</code>.</p>
 <p>Caso contrário, irá obter um erro como este:</p>
 <div class="highlight"><pre><span></span><code>FATAL: no pg_hba.conf entry for host &quot;185.203.114.168&quot;, user &quot;qfc&quot;, database &quot;mydb_test&quot;, SSL off
 WARNING:QGIS_MSGLOG:1 unavailable layer(s) found:
