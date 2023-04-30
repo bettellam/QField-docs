@@ -2718,11 +2718,11 @@ a edição dos valores dos atributos para os elementos recém adicionados.</p>
 para uma determinada camada por meio da sua caixa de diálogo de propriedades no QGIS</p>
 </div>
 <h4 id="lembrar-os-ultimos-valores">Lembrar os últimos valores<a class="headerlink" href="#lembrar-os-ultimos-valores" title="Permanent link">&para;</a></h4>
-<p>For quick collection of rather homogeneus datasets, it is crucial to not
-having to enter the same attribute values over an over. The checkboxes
-at the right of every attribute allow remembering of the last entered value for
-each attribute individually so that the next time you will add a feature on the same
-layer, these attributes will be automatically pre-filled.</p>
+<p>Para uma recolha rápida de conjuntos de dados bastante homogéneos, é crucial não
+ter que inserir os mesmos valores de atributo várias vezes. As caixas de seleção
+à direita de cada atributo permitem lembrar cada atributo individualmente para
+que na próxima vez que adicionar um elemento na mesma
+camada, esses atributos sejam preenchidos automaticamente.</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/526919606" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
 <h2 id="edicao-da-geometria">Edição da geometria<a class="headerlink" href="#edicao-da-geometria" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> Trabalho de campo</p>
@@ -2744,24 +2744,25 @@ novos vértices nas geometrias.</p>
 <p>A ferramenta de divisão permite dividir geometrias de linhas e polígonos em dois, uma que se tornará
 num novo elemento.</p>
 <h3 id="ferramenta-de-redesenho">Ferramenta de Redesenho<a class="headerlink" href="#ferramenta-de-redesenho" title="Permanent link">&para;</a></h3>
-<p>The reshape tool allows you to change line and polygon geometries by drawing shapes which will
-result in a reshaped line following the edge of the drawn shape or a polygon with the drawn shaped
-used to clip or expand the geometry.</p>
+<p>A ferramenta de redesenho permite que você altere geometrias de linhas e polígonos desenhando formas que irão
+resultar em uma linha redesenhada seguindo a borda da forma desenhada ou um polígono com a forma desenhada
+usado para recortar ou expandir a geometria.</p>
 <h3 id="ferramenta-de-anel">Ferramenta de Anél<a class="headerlink" href="#ferramenta-de-anel" title="Permanent link">&para;</a></h3>
-<p>The ring tool allows you to digitize rings (i.e. holes) into polygon geometries. Once a ring
-is created, QField will offer the possibility of filling the ring with a new feature.</p>
+<p>A ferramenta de anel permite digitalizar anéis (ou seja, furos) em geometrias de polígonos.
+Uma vez um anel
+for criado, o QField oferecerá a possibilidade de preencher o anel com um novo elemento.</p>
 <h3 id="demonstracao-da-edicao-de-geometrias">Demonstração da edição de geometrias<a class="headerlink" href="#demonstracao-da-edicao-de-geometrias" title="Permanent link">&para;</a></h3>
 <p>O seguinte vídeo demonstra algumas das possibilidades de edição:</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/499564854" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
 <h2 id="juntar-elementos">Juntar elementos<a class="headerlink" href="#juntar-elementos" title="Permanent link">&para;</a></h2>
-<p>QField allows you to merge features and their geometries into a single feature. To do so, identify two (or more)
-features on the map, select them in the features list and merge them by selecting
-the <em>Merge Selected Features</em> in the <em>Menu (⁝) Button</em>.</p>
+<p>O QField permite juntar elementos e as suas geometrias num único elemento. Para isso, identifique dois (ou mais)
+elementos no mapa, selecione-as na lista de elementos e junte-os selecionando
+o <em>Juntar Elementos Selecionados</em> no <em>Botão Menu (⁝)</em>.</p>
 <h2 id="digitalizacao-manual">Digitalização manual<a class="headerlink" href="#digitalizacao-manual" title="Permanent link">&para;</a></h2>
-<p>The freehand digitizing mode allows you to "draw" lines and polygons
-using their stylus pen or mouse. The mode is available for line and polygon
-feature additions as well as the above-mentioned geometry editor's rings,
-split, and reshape tools.</p>
+<p>A digitalização manual permite aos utilizadores "desenhar" linhas e polígonos
+usando a sua pen/stylus ou o rato. O modo está disponível para adição de elementos do tipo linha/polígono
+assim como as ferramentas geometrias de editor de anéis,
+recorte, e redesenho.</p>
 <p>The freehand digitizing mode is activated through a new toolbar button
 which appears when QField is set to editing mode and a stylus pen or
 a mouse is hovering the map canvas while a line or polygon vector is selected.</p>
@@ -2799,15 +2800,15 @@ action in the features list <em>3-dot menu</em>.</p>
 </p>
 <h2 id="snapping">Snapping<a class="headerlink" href="#snapping" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Preparação no Desktop</p>
-<p>While digitizing new features, new points can be snapped to existing
-geometries.</p>
+<p>Enquanto digitaliza novos elementos, novos pontos podem ser atraídos a
+geometrias existentes.</p>
 <p>All configuration can be done in <em>Project &gt; Snapping Settings</em></p>
 <h3 id="tipos-de-snapping">Tipos de Snapping<a class="headerlink" href="#tipos-de-snapping" title="Permanent link">&para;</a></h3>
 <p>É possível fazer snap a novos pontos</p>
 <ul>
-<li>only to nodes of existing geometries</li>
-<li>only to segments of existing geometries</li>
-<li>to nodes and segments of existing geometries</li>
+<li>apenas a vértices de geometrias existentes</li>
+<li>apenas a segmentos de geometrias existentes</li>
+<li>a vértices e segmentos de geometrias existentes</li>
 </ul>
 <h3 id="snapping-a-camadas">Snapping a camadas<a class="headerlink" href="#snapping-a-camadas" title="Permanent link">&para;</a></h3>
 <p>É também possível apenas atrair a uma ou a poucas camadas.</p>
