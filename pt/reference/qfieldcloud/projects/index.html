@@ -2383,12 +2383,12 @@
   <h1>Projetos</h1>
 
 <p>Os projetos são o principal pacote de dados dentro do QFieldCloud. Cada utilizador pode criar um ou mais projetos QFieldCloud. Cada projeto contém um único ficheiro de projeto QGIS <code>.qgs</code>/<code>.qgz</code>, os ficheiros geoespaciais - GeoPackages, Shapefiles, TIFs e dados adicionais como fotos, PDFs etc. Todos os ficheiros de dados do projeto devem estar dentro de um único projeto QFieldCloud.</p>
-<p>Each QFieldCloud project has a name and an owner. The owner of a project is a QFieldCloud user or an organization. The owner name and project name must be a unique combination within QFieldCloud, which means a user cannot have two projects with the same name.</p>
-<p>Projects can be marked as public or private. Private projects are accessible only by users that are added as project collaborators. The public projects are visible to anyone on QFieldCloud and they can download the project on their QField device.</p>
+<p>Cada projeto QFieldCloud tem um nome e um proprietário. O proprietário de um projeto é um utilizador QFieldCloud ou uma organização. O nome do proprietário e o nome do projeto devem ser uma combinação única dentro do QFieldCloud, o que significa que um utilizador não pode ter dois projetos com o mesmo nome.</p>
+<p>Os projetos podem ser marcados como públicos ou privados. Projetos privados são acessíveis apenas por utilizadores adicionados como colaboradores do projeto. Os projetos públicos são visíveis para qualquer pessoa no QFieldCloud e eles podem baixar o projeto no seu dispositivo QField.</p>
 <h2 id="criar-um-projeto">Criar um projeto<a class="headerlink" href="#criar-um-projeto" title="Permanent link">&para;</a></h2>
-<p>A project can be created in two different ways: either using the QFieldCloud web interface or using QFieldSync in QGIS.</p>
+<p>Um projeto pode ser criado de duas maneiras diferentes: usando a interface web QFieldCloud ou usando QFieldSync no QGIS.</p>
 <h2 id="ficheiros">Ficheiros<a class="headerlink" href="#ficheiros" title="Permanent link">&para;</a></h2>
-<p>Files are the skeleton on which QFieldCloud project works. To make a QFieldCloud project alive you need to upload at least a single QGIS project file in the <code>.qgs</code> or <code>.qgz</code> file format. All geospatial files need to be uploaded with the same relative paths as on your computer. If external SVG or raster symbology is used, you need to upload these files too.</p>
+<p>Os ficheiros são a espinha dorsal no qual o projeto QFieldCloud funciona. Para tornar um projeto QFieldCloud ativo, precisa de carregar pelo menos um único ficheiro de projeto QGIS no formato do ficheiro <code>.qgs</code> ou <code>.qgz</code>. Todos os ficheiros geoespaciais precisam de ser carregados com os mesmos caminhos relativos do seu computador. Se SVG externo ou simbologia raster for usada, você também precisará carregar esses ficheiros.</p>
 <div class="admonition nota">
 <p class="admonition-title">Nota</p>
 <p>O QFieldCloud não suporta projecto armazenados em ficheiros GeoPackage (<code>.gpkg</code>).</p>
@@ -2411,7 +2411,7 @@
 <h2 id="colaboradores">Colaboradores<a class="headerlink" href="#colaboradores" title="Permanent link">&para;</a></h2>
 <p>Um colaborador do projeto é outro utilizador do QFieldCloud convidado a contribuir com um projeto. Um projeto pode ter vários colaboradores. Colaboradores com a função <strong>proprietário</strong> ou <strong>admin</strong> podem adicionar mais utilizadores como colaboradores. Se o projeto pertencer a uma organização, você também pode adicionar <strong>equipas</strong> como colaboradores. Leia mais sobre <a href="../permissions/">funções de colaborador</a>.</p>
 <h2 id="alteracoes">Alterações<a class="headerlink" href="#alteracoes" title="Permanent link">&para;</a></h2>
-<p>Changes made on vector layers and pushed to QFieldCloud from a QField device will appear here. Each change stores the changed attributes and geometries.</p>
+<p>Alterações feitas em camadas vetoriais e enviadas para QFieldCloud a partir de um dispositivo QField aparecerão aqui. Cada alteração armazena os atributos e geometrias alteradas.</p>
 <p>As alterações têm um dos três métodos:</p>
 <ul>
 <li><code>create</code> - um novo elemento foi criado.</li>
@@ -2430,7 +2430,7 @@
 <h2 id="trabalhos">Trabalhos<a class="headerlink" href="#trabalhos" title="Permanent link">&para;</a></h2>
 <p>Leia mais sobre <a href="../jobs/">trabalhos do projeto</a>.</p>
 <h2 id="secrets">Secrets<a class="headerlink" href="#secrets" title="Permanent link">&para;</a></h2>
-<p>Secrets are settings that are securely stored in encrypted way. Project jobs will automatically have access to their secrets. Once added, a secret can only be removed, but cannot be edited.</p>
+<p>Os secrets são configurações armazenadas com segurança e de forma criptografada. Os trabalhos do projeto terão um acesso automaticamente aos seus secrets. Uma vez adicionados, um secret pode apenas ser removido mas nunca editado.</p>
 <p>Existem dois tipos de secrets:</p>
 <ul>
 <li><strong>Variáveis de ambiente</strong> - As variáveis de ambiente estarão disponíveis para o QGIS enquanto os trabalhos do seu projeto estiverem a correr.</li>
