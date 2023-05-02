@@ -1277,9 +1277,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configure-vector-layers-search-in-qgis" class="md-nav__link">
+  <a href="#configurar-a-pesquisa-em-camadas-vetoriais-no-qgis" class="md-nav__link">
     <span class="md-ellipsis">
-      Configure vector layers search in QGIS
+      Configurar a pesquisa em camadas vetoriais no QGIS
     </span>
   </a>
   
@@ -2350,9 +2350,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configure-vector-layers-search-in-qgis" class="md-nav__link">
+  <a href="#configurar-a-pesquisa-em-camadas-vetoriais-no-qgis" class="md-nav__link">
     <span class="md-ellipsis">
-      Configure vector layers search in QGIS
+      Configurar a pesquisa em camadas vetoriais no QGIS
     </span>
   </a>
   
@@ -2379,55 +2379,55 @@
 
 
 <h1 id="barra-de-pesquisa">Barra de Pesquisa<a class="headerlink" href="#barra-de-pesquisa" title="Permanent link">&para;</a></h1>
-<p>QField is equipped with a nifty search bar which allows you to search for
-features within project's vector layers, to go to entered coordinates and more.</p>
+<p>O QField está equipado com uma barra de pesquisa que permite pesquisar
+elementos dentro das camadas vetoriais do projeto, para aceder às coordenadas inseridas e muito mais.</p>
 <h2 id="utilizacao">Utilização<a class="headerlink" href="#utilizacao" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> Trabalho de campo</p>
-<p>Tap on the <em>Search button</em> in the top-right corner of the screen to
-open expand the search bar.</p>
+<p>Toque no <em>Botão de Pesquisa</em> no canto superior direito do ecrã
+para abrir e expandir a barra de pesquisa.</p>
 <h3 id="pesquisa-de-camadas-vectoriais">Pesquisa de camadas vectoriais<a class="headerlink" href="#pesquisa-de-camadas-vectoriais" title="Permanent link">&para;</a></h3>
-<p>The value entered in the search bar will be used to find features with
-matching attribute values. A minimum of three characters is required to
-start the search.</p>
+<p>O valor inserido na barra de pesquisa será usado para encontrar elementos com
+valores de atributos correspondentes. É necessário um mínimo de três caracteres para
+iniciar a pesquisa.</p>
 <p>
 <figure><a data-caption="imagem" data-fancybox="gallery" href="../../assets/images/search-bar.png"><img alt="imagem" src="../../assets/images/search-bar.png" title="imagem" width="600px" /></a><figcaption>imagem</figcaption>
 </figure>
 </p>
-<p>Matching features will show in the results list offering you two possible
-actions :</p>
+<p>Os elementos correspondentes serão exibidos na lista de resultados, oferecendo duas possibilidades
+ações :</p>
 <ol>
 <li>Toque no <em>nome</em> do resultado para mover o mapa no elemento (o 
     o elemento será destacado em amarelo).</li>
 <li>Toca no <em>botão de atributos</em> para abrir os atributos</li>
 </ol>
 <h3 id="ir-para-a-coordenada">Ir para a coordenada<a class="headerlink" href="#ir-para-a-coordenada" title="Permanent link">&para;</a></h3>
-<p>It is possible to go to a given coordinates through the search bar by entering
-<em>latitude, longitude</em> coordinates (in WGS84). You will also be able to enter
-coordinates in the CRS of the opened project.</p>
-<p>Once QField identifies the entered value as a coordinate, tap on the <em>coordinates</em>
-in the result to move the map canvas to that point.</p>
+<p>É possível ir a uma determinada coordenada através da barra de pesquisa inserindo
+<em>latitude, longitude</em> coordenadas (em WGS84). Também poderá introduzir
+coordenadas no CRS do projeto que está aberto.</p>
+<p>Assim que o QField identificar o valor inserido como uma coordenada, toque nas <em>coordenadas</em>
+no resultado para mover o ecrã do mapa para esse ponto.</p>
 <h3 id="ir-para-o-marcador-espacial">Ir para o marcador espacial<a class="headerlink" href="#ir-para-o-marcador-espacial" title="Permanent link">&para;</a></h3>
-<p>The search bar also matches saved spatial bookmarks. The entered text will be
-matched against user-saved bookmarks as well as embedded bookmarks with the
-currently opened project.</p>
-<p>The matching bookmarks will appear in the results list. Tapping on one bookmark
-will re-center the map canvas to match the bookmark's extent.</p>
+<p>A barra de pesquisa também corresponde aos marcadores espaciais guardados. O texto introduzido será
+comparado com favoritos guardados pelo utilizador, bem como os favoritos incorporados no
+projeto atualmente aberto.</p>
+<p>Os favoritos correspondentes aparecerão na lista de resultados. Tocar  num marcador
+irá recentralizar o ecrã do mapa para corresponder à extensão do marcador.</p>
 <h3 id="calculadora-de-expressoes">Calculadora de expressões<a class="headerlink" href="#calculadora-de-expressoes" title="Permanent link">&para;</a></h3>
-<p>QField's search bar also acts as a nifty calculator, whereas entered text can be
-treated as expressions, with their returned value shown in the result list
-with the possibility of copying the value to the clipboard.</p>
-<p>To trigger the calculator, a <em>= * (i.e. equal sign followed by a space) prefix is
-needed. For example, </em>= 20 + 5* would return a value of 25.</p>
-<p>Pro-tip: use the aggregate() expression function to calculate statistics against
-vector layers. For example, calculating the total area covered by a polygon layers
-can be done by typing <em>= aggregate('my_layer','sum', $area)</em>.</p>
-<h2 id="configure-vector-layers-search-in-qgis">Configure vector layers search in QGIS<a class="headerlink" href="#configure-vector-layers-search-in-qgis" title="Permanent link">&para;</a></h2>
+<p>A barra de pesquisa do QField também atua como uma calculadora porreira, enquanto o texto é introduzido pode ser
+tratados como expressões, retornando os seus valores e mostrando na lista de resultados
+com a possibilidade de copiar o valor para a área de transferência.</p>
+<p>Para ativar a calculadora, o prefixo <em>= * é necessário
+(ou seja, sinal de igual seguido por um espaço). Por exemplo, </em>= 20 + 5* devolve o valor de 25.</p>
+<p>Dica profissional: use a função de expressão aggregate() para calcular estatísticas nas
+camadas vetoriais. Por exemplo, calculando a área total coberta por camadas de um polígono
+pode ser feito introduzindo <em>= aggregate('my_layer','sum', $area)</em>.</p>
+<h2 id="configurar-a-pesquisa-em-camadas-vetoriais-no-qgis">Configurar a pesquisa em camadas vetoriais no QGIS<a class="headerlink" href="#configurar-a-pesquisa-em-camadas-vetoriais-no-qgis" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Preparação no Desktop</p>
-<p>By default, all vector layers are searchable. When configuring your project in QGIS,
-it is possible to exclude vector layers from search results. To do so, open the
-project properties dialog and switch to the <em>Data Sources</em> panel, where you will
-be presented with a layers capabilities table widget. From there, use the <em>Searchable</em>
-checkbox to include/exclude specific layers.</p>
+<p>Por padrão, todas as camadas vetoriais são pesquisáveis. Ao configurar o seu projeto no QGIS,
+é possível excluir camadas vetoriais dos resultados da pesquisa. Para isso, abra a
+janela de diálogo das propriedades do projeto e mude para o painel <em>Data Sources</em>, onde irá
+ser apresentado um widget da tabela com as capacidades das camadas. A partir daí, use a caixa de seleção da coluna <em>Pesquisável</em>
+para incluir/excluir camadas específicas.</p>
 
   
   

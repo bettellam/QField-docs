@@ -2557,32 +2557,30 @@ o conteúdo da pasta (incluindo suas subpastas) na localização dos seus ‘Pro
 importados’. Os utilizadores podem abrir e interagir com o projeto a partir daí.</p>
 <p>A reimportação de uma determinada pasta por meio da ação do menu suspenso substituirá os projetos
 pré-existentes e recebem um nome de pasta idêntico. Isso permite que os utilizadores possam atualizar projetos.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Feature editing, addition, and deletion will be saved into the imported project’s
-datasets, not in the original folder selected during the import process. See sections below
-on how to send/export edited projects and datasets.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>A edição, adição e exclusão de recursos serão salvas no projeto importado
+conjuntos de dados, não na pasta original selecionada durante o processo de importação. Veja as seções abaixo
+sobre como enviar/exportar projetos e conjuntos de dados editados.</p>
 </div>
 <h3 id="a-importar-um-projeto-comprimido">A importar um projeto comprimido<a class="headerlink" href="#a-importar-um-projeto-comprimido" title="Permanent link">&para;</a></h3>
-<p>Projects can be imported into QField by being provided a project compressed into a ZIP
-archive. When choosing the ‘Import project from ZIP’ action, users will be asked to select
-a ZIP file on their device‘s storage. QField will then decompress the file into its
-‘Imported projects’ location. Users can then open and interact with the project from there.</p>
+<p>Os projetos podem ser importados para o QField ao receber um projeto compactado num ficheiro
+ZIP. Ao escolher a ação 'Importar projeto de ZIP', os utilizadores serão solicitados a selecionar
+um ficheiro ZIP no armazenamento do dispositivo. O QField irá então descompactar o ficheiro na
+Localização dos ‘projetos importados’. Os utilizadores podem abrir e interagir com o projeto a partir daí.</p>
 <p>Isso pode facilitar muito a implantação remota de projetos ao enviar um único
 ficheiro aos utilizadores.</p>
 <h3 id="a-importar-individualmente-conjuntos-de-dados">A importar individualmente conjunto(s) de dado(s)<a class="headerlink" href="#a-importar-individualmente-conjuntos-de-dados" title="Permanent link">&para;</a></h3>
-<p>The ‘Import dataset(s)‘ action allows users to select one or more datasets via an Android
-system file picker. Upon selecting the datasets, QField will copy those into the
-‘Imported datasets’ folder, where users can then open and modify their content.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Users will have to ensure that all sidecar files are selected when importing
-datsets (e.g. a shapefile would require users to select the .shp, .shx, .dbf, .prj,
-and .cpg files).</p>
+<p>A ação 'Importar conjunto(s)' permite que os utilizadores selecionem um ou mais conjuntos de dados por meio do seletor
+de ficheiros do sistema Android. Ao selecionar os conjuntos de dados, o QField irá copiá-los para o
+Pasta 'Conjuntos de dados importados', onde os utilizadores podem abrir e modificar seu conteúdo.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>Os utilizadores terão que garantir que todos os ficheiros secundários sejam selecionados ao importar os conjuntos de dados (ou seja, uma shapefile exigirá que os utilizadores selecionem os ficheiros .shp, .shx, .dbf, .prj e .cpg).</p>
 </div>
 <h2 id="a-exportar-os-projetos-e-conjuntos-de-dados-modificados-em-android">A exportar os projetos e conjuntos de dados modificados em Android<a class="headerlink" href="#a-exportar-os-projetos-e-conjuntos-de-dados-modificados-em-android" title="Permanent link">&para;</a></h2>
-<p>Once users modify imported projects and datasets, QField offer various means through which
-the content can be sent from and exported out of its system-protected files storage:</p>
+<p>Quando os utilizadores modificam projetos e conjuntos de dados importados, o QField oferece vários meios pelos quais
+o conteúdo pode ser enviado e exportado do seu armazenamento de ficheiros protegidos pelo sistema:</p>
 <ul>
 <li>exportando uma pasta de projeto ou um conjunto de dados;</li>
 <li>enviando uma pasta comprimida de um projeto para um aplicativo {cloud, email, messenger, etc.};</li>
@@ -2593,40 +2591,40 @@ the content can be sent from and exported out of its system-protected files stor
 <figure><a data-caption="Ações de exportação do QField" data-fancybox="gallery" href="../../assets/images/storage-export-actions.png"><img alt="Ações de exportação do QField" src="../../assets/images/storage-export-actions.png" title="Ações de exportação do QField" width="600px" /></a><figcaption>Ações de exportação do QField</figcaption>
 </figure>
 </p>
-<p>These actions are available via the dropdown action menu attached to project folders and
-individual datasets list in the project/dataset picker, which can be accessed by clicking
-on the ‘Open local files‘ button located in QField’s welcome screen.</p>
+<p>Essas ações estão disponíveis por meio do menu suspenso de ações anexado às pastas do projeto e a
+lista de conjuntos de dados individuais no seletor de projeto/conjunto de dados, que pode ser acedido clicando
+no botão 'Abrir ficheiros locais' localizado no ecrã de boas-vindas do QField.</p>
 <h3 id="exportar-uma-pasta-de-projeto-ou-um-conjunto-de-dados">Exportar uma pasta de projeto ou um conjunto de dados<a class="headerlink" href="#exportar-uma-pasta-de-projeto-ou-um-conjunto-de-dados" title="Permanent link">&para;</a></h3>
-<p>When choosing the ‘Export to folder‘ action, users will be asked to pick a location - using
-the Android system‘s folder picker activity - within which the content of a select project folder
-or individual dataset will be copied to.</p>
-<p>This action can be used to copy the content of modified projects or datasets into a folder on
-the device that can be accessed by third-party synchronization apps such as Syncthing, or
-directly copy content into cloud accounts of providers that support Android‘s Scoped Storage directory
-provider (at the time of writing, only NextCloud app has such support).</p>
+<p>Ao escolher a ação 'Exportar para pasta', os utilizadores serão solicitados a escolher um local - usando
+o seletor de pastas do sistema Android - dentro da qual o conteúdo de uma pasta do projeto selecionado
+ou conjunto de dados individual será copiado.</p>
+<p>Esta ação pode ser usada para copiar o conteúdo de projetos modificados ou conjuntos de dados numa pasta do
+o dispositivo que pode ser acedido por aplicações de sincronização de terceiros, como o Syncthing, ou
+copiar conteúdo diretamente para contas da nuvem de fornecedores que suportam o diretório Scoped Storage do Android
+(no momento atual desta documentação, apenas a aplicação NextCloud tem esse tipo de suporte).</p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p>A exportação para uma pasta irá substituir o conteúdo existente da mesma.</p>
 </div>
 <h3 id="enviar-uma-pasta-comprimida-de-um-projeto">Enviar uma pasta comprimida de um projeto<a class="headerlink" href="#enviar-uma-pasta-comprimida-de-um-projeto" title="Permanent link">&para;</a></h3>
-<p>The ‘Send compressed folder to‘ action compresses the content of a selected folder into a
-ZIP archive. Users are then asked through which app on their device the resulting ZIP
-archive should be send through.</p>
+<p>A ação 'Enviar pasta compactada para' comprime o conteúdo de uma pasta selecionada num
+ficheiro ZIP. Os utilizadores são então questionados por qual aplicação no seu dispositivo o ficheiro ZIP resultante
+deve ser enviado.</p>
 <p>Os utilizadores podem compactar e enviar projetos inteiros selecionando as pastas no QField ‘Projetos
 Importados‘, bem como enviar pastas de forma seletiva dentro das pastas do projeto. Isso permite
 ao utilizadores restringir os ficheiros compactados, por exemplo, uma subpasta /DCIM.</p>
 <h3 id="a-enviar-um-conjunto-de-dados-individualmente">A enviar um conjunto de dados individualmente<a class="headerlink" href="#a-enviar-um-conjunto-de-dados-individualmente" title="Permanent link">&para;</a></h3>
-<p>Users can select the ‘Send to‘ action for individual datasets, allowing for the sending of
-edited datasets directly to third party apps such as Gmail, Drive, Dropbox, Nextcloud,
+<p>Os utilizadores podem selecionar a ação "Enviar para" para conjuntos de dados individuais, permitindo o envio de conjuntos de dados editados diretamente para
+aplicações de terceiros, como Gmail, Drive, Dropbox, Nextcloud,
 <insert your favourite messenger app>, etc.</p>
 <h2 id="acedendo-a-conteudo-importado-diretamente-por-ligacao-usb">Acedendo a conteúdo importado diretamente por ligação USB<a class="headerlink" href="#acedendo-a-conteudo-importado-diretamente-por-ligacao-usb" title="Permanent link">&para;</a></h2>
 <h3 id="android">Android<a class="headerlink" href="#android" title="Permanent link">&para;</a></h3>
 <p>Os projetos e conjuntos de dados importados podem ser acedidos diretamente usando um cabo USB. A localização
 é exibida na barra de navegação superior onde é feita a seleção de projeto/conjunto de dados.</p>
-<p>On most devices plugged into a computer via USB cable connection, the path will be
-<code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/</code>. Users will find both the Imported Datasets and
-Imported Projects folders within which the imported projects and datasets will be located.
-Changes done to project content and datasets are saved in the files found in this location.</p>
+<p>Na maioria dos dispositivos ligados a um computador via ligação de cabo USB, o caminho será
+<code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/</code>. Os utilizadores encontrarão os conjuntos de dados importados e
+Pastas de Projetos importados nas quais os projetos e os conjuntos de dados importados estarão localizados.
+As alterações feitas no conteúdo do projeto e nos conjuntos de dados são guardadas nos ficheiros encontrados neste local.</p>
 <h3 id="ios">iOS<a class="headerlink" href="#ios" title="Permanent link">&para;</a></h3>
 <p>Os projetos e conjuntos de dados importados podem ser acedidos diretamente usando um cabo USB e navegando
 para a pasta da aplicação QField usando o iTunes no Windows e macOS. No Linux, os utilizadores

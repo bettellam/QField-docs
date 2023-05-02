@@ -2392,44 +2392,45 @@
 
 <h1 id="selecao-de-projeto">Seleção de projeto<a class="headerlink" href="#selecao-de-projeto" title="Permanent link">&para;</a></h1>
 <p>O QField tem um ecrã de seleção de ficheiro que permite abrir um projeto armazenado localmente no dispositivo. Para abrir o ficheiros na nuvem segue <a href="../../get-started/tutorials/get-started-qfc/">QFieldCloud </a>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Starting with Android 11 apps are denied full access to main and external storage content. For QField, this means direct access to projects and datasets transferred and/or downloaded into storage folders is not possible anymore. You can know more <a href="../../get-started/storage-en/">on this page</a>.</p>
+<div class="admonition nota">
+<p class="admonition-title">Nota</p>
+<p>A partir do Android 11, as aplicações têm acesso total negado ao conteúdo de armazenamento principal e externo. Para o QField, isso significa que o acesso direto a projetos e conjuntos de dados transferidos e/ou guardados em pastas de armazenamento não é mais possível. Poderá saber mais <a href="../../get-started/storage-en/">nesta página</a>.</p>
 </div>
-<p>You have to import project folders or individual datasets into the app-dedicated storage location <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField</code> where it has unrestricted read/write access. With that behavior importing from external SD cards or providers that work with remote files (e.g. Google Drive) are supported as well.</p>
+<p>Precisará importar as pastas de projeto ou conjuntos de dados individuais para o local de armazenamento dedicado à aplicação <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField</code> onde tem acesso irrestrito de leitura/gravação. Com este comportamento, a importação de cartões SD externos ou fornecedores que trabalham com ficheiros remotos (por exemplo, Google Drive) também são suportados.</p>
 <div class="admonition warning">
 <p class="admonition-title">Aviso</p>
 <p>Tem em atenção que ao desinstalar o QField, o diretório da aplicação é removido também. Contudo nas atualizações ele é mantido.</p>
 </div>
 <h2 id="importar-e-abrir-projeto-local">Importar e abrir projeto local<a class="headerlink" href="#importar-e-abrir-projeto-local" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> Trabalho de campo</p>
-<p>When going to <em>Open local files</em> (via <em>Menu button &gt; Open</em>) you will see a set of new folders named "QField files directory", "Imported datasets", and "Imported projects" as well as a drop-down menu accessible via a bottom-right plus button.</p>
+<p>Ao ir para <em>Abrir ficheiros locais</em> (através do <em>botão Menu &gt; Abrir</em>), você verá um conjunto de novas pastas denominadas "Diretório de ficheiros QField", "Conjuntos de dados importados" e "Projetos importados", bem como um menu suspenso acessível por meio de um botão de adição no canto inferior direito.</p>
 <p>
 <figure><a data-caption="QField escolha de ficheiros" data-fancybox="gallery" href="../../assets/images/howto_filebrowser.png"><img alt="QField escolha de ficheiros" src="../../assets/images/howto_filebrowser.png" title="QField escolha de ficheiros" width="600px" /></a><figcaption>QField escolha de ficheiros</figcaption>
 </figure>
 </p>
-<p>The drop-down menu lists the means to import projects and datasets: <em>import project from folder</em>, <em>import project from ZIP (archive)</em>, and <em>import (individual) dataset(s)</em>.</p>
+<p>As listas de menu suspensos significam a importação de projetos e conjuntos de dados: <em>importar projeto da pasta</em>, <em>importar projeto ZIP (ficheiro)</em> e <em>importar conjunto(s) de dados (individuais)</em>.</p>
 <h3 id="importar-projeto-de-uma-pasta-ou-ficheiro-zip">Importar projeto de uma pasta ou ficheiro ZIP<a class="headerlink" href="#importar-projeto-de-uma-pasta-ou-ficheiro-zip" title="Permanent link">&para;</a></h3>
-<p>When importing a project from a folder or a ZIP archive, you will be asked to grant permission for QField to read the content of a given folder on the device’s storage via a system folder picker. When the folder or the archive is selected, QField copies the content (including its sub-folders) into the app’s ‘Imported projects’ location. You can then open the project from there.</p>
-<p>Re-importing a given folder through the drop-down menu action will overwrite preexisting projects given an identical folder name. That allows you to be able to update projects.</p>
+<p>Ao importar um projeto de uma pasta ou ficheiro ZIP, será solicitado a  permissão para o QField ler o conteúdo de uma determinada pasta no armazenamento do dispositivo através do seletor de pastas do sistema. Quando a pasta ou o ficheiro é selecionado, o QField copia o conteúdo (incluindo suas subpastas) para o local ‘Projetos importados’ da aplicação. Poderá então abrir o projeto a partir daí.</p>
+<p>A reimportação de uma determinada pasta por meio da ação do menu suspenso substituirá os projetos
+pré-existentes e recebem um nome de pasta idêntico. Isso permite que os utilizadores possam atualizar projetos.</p>
 <div class="admonition warning">
 <p class="admonition-title">Aviso</p>
 <p>Toma nota que a edição, adição e remoção de elementos será gravada nos conjuntos de dados dos projetos importados, e não na pasta original selecionada aquando o processo de importação.</p>
 </div>
 <h3 id="importar-conjunto-de-dados">Importar conjunto de dados<a class="headerlink" href="#importar-conjunto-de-dados" title="Permanent link">&para;</a></h3>
-<p>You can also import individual datasets. You will be asked to select one or more files via a system file picker, which will be copied into the "Imported datasets" folder. You have to ensure that all sidecar files are selected when importing (e.g. a shapefile dataset would require you to select the .shp, .shx, .dbf, .prj, and .cpg files).</p>
+<p>Também pode importar conjuntos de dados individuais. Será solicitado a selecionar um ou mais ficheiros por meio de um seletor de ficheiros do sistema, que será copiado para a pasta "Conjuntos de dados importados". Deverá garantir que todos os ficheiros secundários sejam selecionados durante a importação (por exemplo, um conjunto de dados shapefile exigirá que selecione os ficheiros .shp, .shx, .dbf, .prj e .cpg).</p>
 <h2 id="directorios-favoritos">Directórios favoritos<a class="headerlink" href="#directorios-favoritos" title="Permanent link">&para;</a></h2>
-<p>In the first screen of the file selector, there is a section showing the
-favorite directories. To add a directory to the favorites, long click in
-the file selector on the directory name. To remove an entry from the
-favorites, long click on the entry in the favorites list.</p>
+<p>No primeiro ecrã de seleção de ficheiros, há uma seção mostrando os
+diretórios favoritos. Para adicionar um diretório aos favoritos, pressione
+durante alguns segundos na seleção de ficheiros no nome do diretório. Para remover uma entrada dos 
+favoritos, clique alguns segundos na entrada da lista de favoritos.</p>
 <h2 id="recupera-projetos-e-conjuntos-de-dados-modificados">Recupera projetos e conjuntos de dados modificados<a class="headerlink" href="#recupera-projetos-e-conjuntos-de-dados-modificados" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Preparação no Desktop</p>
 <p>Projetos e conjuntos de dados importados, podem ser acedidos por ligação USB. A localização do armazenamento é apresentada na barra de navegação quando abres o ficheiro localmente.</p>
-<p>On most devices plugged into a computer via USB cable connection, the path will be <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/</code> where you will find both the "Imported Datasets" and "Imported Projects" folders within which your edited content will be located.</p>
+<p>Na maioria dos dispositivos ligados a um computador via ligação de cabo USB, o caminho será <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/</code> onde encontrará as pastas "Conjuntos de dados importados" e "Projetos importados" nas quais seu conteúdo editado estará localizado.</p>
 <h3 id="enviar-para">Enviar para<a class="headerlink" href="#enviar-para" title="Permanent link">&para;</a></h3>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> Trabalho de campo</p>
-<p>You can share and send the datasets straight from QField using Android APIs. This allows for the sending of edited datasets directly to third party apps (Gmail, Drive, Dropbox, Nextcloud, your favourite messenger app, etc.).</p>
+<p>Pode partilhar e enviar os conjuntos de dados diretamente do QField usando as APIs do Android. Isso permite o envio de conjuntos de dados editados diretamente para aplicações de terceiros (Gmail, Drive, Dropbox, Nextcloud, sua aplicação de mensagens favorito, etc.).</p>
 <p>
 <figure><a data-caption="Enviar para..." data-fancybox="gallery" href="../../assets/images/howto_sendto.png"><img alt="Enviar para..." src="../../assets/images/howto_sendto.png" title="Enviar para..." width="600px" /></a><figcaption>Enviar para...</figcaption>
 </figure>

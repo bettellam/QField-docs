@@ -2649,12 +2649,12 @@
 <p>A <code>delta_apply</code> job might result in <code>FAILED</code> status. Check the non-exhaustive list of causes below:</p>
 <ul>
 <li>At least one of the online databases (PostGIS/WFS) used in the QGIS project reset the connection.</li>
-<li>The project is too big and the job has failed to run.</li>
+<li>O projeto é muito grande resultando na falha da execução do trabalho.</li>
 <li>There are hidden files and directories within the project that are preventing the normal work of QFieldCloud. Hidden files and directories are those starting with a leading dot (<code>.</code>).</li>
 </ul>
 <h2 id="troubleshoot-job-logs">Troubleshoot job logs<a class="headerlink" href="#troubleshoot-job-logs" title="Permanent link">&para;</a></h2>
 <p>When running a job, usually you can find a step in the logs called "Check project layers" that prints a table with all the project layers and status next to them.</p>
-<p>The possible statuses are:</p>
+<p>Os possíveis status são:</p>
 <ul>
 <li><strong>ok</strong> - The layer loads correctly on QFieldCloud.</li>
 <li><strong>invalid_dataprovider</strong> - the layer's data provider is invalid. Usually additional information is shown in the "Provider Summary".</li>
