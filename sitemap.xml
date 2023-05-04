@@ -443,6 +443,19 @@
          
     </url>
     <url>
+         <loc>https://docs.qfield.org/how-to/sensors/</loc>
+         <lastmod>2023-05-04</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/en/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/sensors/"/>
+         
+    </url>
+    <url>
          <loc>https://docs.qfield.org/how-to/standalone-datasets/</loc>
          <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
