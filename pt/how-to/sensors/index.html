@@ -37,7 +37,7 @@
     
     
       
-        <title>Sensors - QField Ecosystem Documentation</title>
+        <title>Sensores - QField Ecosystem Documentation</title>
       
     
     
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sensors" class="md-skip">
+        <a href="#sensores" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sensors
+              Sensores
             
           </span>
         </div>
@@ -1345,7 +1345,7 @@
           
   
   <span class="md-ellipsis">
-    Sensors
+    Sensores
     
   </span>
   
@@ -1358,7 +1358,7 @@
         
   
   <span class="md-ellipsis">
-    Sensors
+    Sensores
     
   </span>
   
@@ -1382,18 +1382,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#activating-sensors" class="md-nav__link">
+  <a href="#ativando-os-sensores" class="md-nav__link">
     <span class="md-ellipsis">
-      Activating sensors
+      Ativando os sensores
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#tracking-gps-acionado-por-sensor" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Tracking GPS acionado por sensor
     </span>
   </a>
   
@@ -2281,18 +2281,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#activating-sensors" class="md-nav__link">
+  <a href="#ativando-os-sensores" class="md-nav__link">
     <span class="md-ellipsis">
-      Activating sensors
+      Ativando os sensores
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#tracking-gps-acionado-por-sensor" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Tracking GPS acionado por sensor
     </span>
   </a>
   
@@ -2318,36 +2318,35 @@
   </a>
 
 
-<h1 id="sensors">Sensors<a class="headerlink" href="#sensors" title="Permanent link">&para;</a></h1>
-<p>QField offers a range of sensor functionalities that allow you to passively collect sensor data in the background,
-display the collected data, and save it into newly-digitized feature attributes.</p>
-<h2 id="activating-sensors">Activating sensors<a class="headerlink" href="#activating-sensors" title="Permanent link">&para;</a></h2>
-<p>In QField, registered sensors are listed within the currently opened project file in a sub-menu thatcan be
-accessed via the side dashboard's main menu.</p>
+<h1 id="sensores">Sensores<a class="headerlink" href="#sensores" title="Permanent link">&para;</a></h1>
+<p>O QField oferece uma variedade de funcionalidades para os sensores que permitem recolher passivamente os dados do sensor em segundo plano,
+exibir os dados recolhidos e guarda-los em atributos de elementos recém-digitalizados.</p>
+<h2 id="ativando-os-sensores">Ativando os sensores<a class="headerlink" href="#ativando-os-sensores" title="Permanent link">&para;</a></h2>
+<p>No QField, os sensores registados são listados dentro do ficheiro atual do projeto aberto num submenu que pode ser 
+acedido através do menu principal do painel lateral.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/main_menu_sensors.png"><img alt="" src="../../assets/images/main_menu_sensors.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>To toggle the passive collection of sensor data, simply click on a sensor name in the sub-menu. When active,
-a sensor icon will appear next to the sensor name, while when inactive, a dot icon will be shown.</p>
+<p>Para ativar ou desativar a recolha passiva de dados do sensor, basta clicar no nome de um sensor no submenu. Quando ativo,
+um ícone de sensor aparecerá ao lado do nome do sensor, enquanto quando está inativo, um ícone de ponto será mostrado.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_menu.png"><img alt="" src="../../assets/images/sensors_menu.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>All active sensors that are collecting data will be listed in a sensors information table located at the bottom
-of QField's map canvas.</p>
+<p>Todos os sensores ativos que estão a registar dados serão listados numa tabela de informações de sensores localizada na parte inferior
+do ecrã do mapa do QField.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_information_panel.png"><img alt="" src="../../assets/images/sensors_information_panel.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<h2 id="sensor-driven-tracking">Sensor-Driven Tracking<a class="headerlink" href="#sensor-driven-tracking" title="Permanent link">&para;</a></h2>
-<p>QField enables you to initiate tracking sessions against a point layer, saving collected sensor data linked to
-your current position. To do this, you'll need to prepare the attribute default value for the point layer in QGIS by
-using the default value sensor_data('abc'), where 'abc' is replaced with the name of the sensor registered in the
-project file. Visit the attributes form documentation page to learn more about default values.</p>
-<p>Once this configuration is done, you can start tracking your position against the point layer. When starting the
-tracking session, a sensor constraint can be activated to ensure that added points occur every time a sensor has
-captured new data.</p>
+<h2 id="tracking-gps-acionado-por-sensor">Tracking GPS acionado por sensor<a class="headerlink" href="#tracking-gps-acionado-por-sensor" title="Permanent link">&para;</a></h2>
+<p>O QField permite que inicie sessões de tracking GPS numa camada de ponto, guardando os dados recolhidos do sensor vinculados à 
+posição atual. Para fazer isso, precisará preparar o valor padrão do atributo para a camada de ponto no QGIS usando
+o valor padrão sensor_data('abc'), onde 'abc' é substituído pelo nome do sensor registado no ficheiro do 
+projeto. Visite a página de documentação do formulário de atributos para saber mais sobre os valores padrão.</p>
+<p>Uma vez que esta configuração esteja concluída, poderá começar a realizar o tracking GPS da sua posição em relação à camada de ponto. Ao iniciar o tracking GPS, uma restrição de sensor pode ser ativada para garantir que pontos adicionais ocorram cada vez que um sensor tiver </p>
+<p>capturado novos dados.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_tracker_constraint.png"><img alt="" src="../../assets/images/sensors_tracker_constraint.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
