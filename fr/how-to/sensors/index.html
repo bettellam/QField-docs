@@ -41,7 +41,7 @@
     
     
       
-        <title>Sensors - QField Ecosystem Documentation</title>
+        <title>Capteurs - QField Ecosystem Documentation</title>
       
     
     
@@ -97,7 +97,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sensors" class="md-skip">
+        <a href="#capteurs" class="md-skip">
           Aller au contenu
         </a>
       
@@ -129,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sensors
+              Capteurs
             
           </span>
         </div>
@@ -1361,7 +1361,7 @@
           
   
   <span class="md-ellipsis">
-    Sensors
+    Capteurs
     
   </span>
   
@@ -1374,7 +1374,7 @@
         
   
   <span class="md-ellipsis">
-    Sensors
+    Capteurs
     
   </span>
   
@@ -1398,18 +1398,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#activating-sensors" class="md-nav__link">
+  <a href="#activation-des-capteurs" class="md-nav__link">
     <span class="md-ellipsis">
-      Activating sensors
+      Activation des capteurs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#tracage-par-capteur" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Traçage par capteur
     </span>
   </a>
   
@@ -2297,18 +2297,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#activating-sensors" class="md-nav__link">
+  <a href="#activation-des-capteurs" class="md-nav__link">
     <span class="md-ellipsis">
-      Activating sensors
+      Activation des capteurs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#tracage-par-capteur" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Traçage par capteur
     </span>
   </a>
   
@@ -2334,40 +2334,34 @@
   </a>
 
 
-<h1 id="sensors">Sensors<a class="headerlink" href="#sensors" title="Permanent link">&para;</a></h1>
-<p>QField offers a range of sensor functionalities that allow you to passively collect sensor data in the background,
-display the collected data, and save it into newly-digitized feature attributes.</p>
-<h2 id="activating-sensors">Activating sensors<a class="headerlink" href="#activating-sensors" title="Permanent link">&para;</a></h2>
-<p>In QField, registered sensors are listed within the currently opened project file in a sub-menu thatcan be
-accessed via the side dashboard's main menu.</p>
+<h1 id="capteurs">Capteurs<a class="headerlink" href="#capteurs" title="Permanent link">&para;</a></h1>
+<p>QField propose une gamme de fonctionnalités de capteurs qui te permettent de collecter passivement des données de capteurs en arrière-plan,
+d'afficher les données collectées et de les enregistrer dans des attributs de nouvelles données numérisés.</p>
+<h2 id="activation-des-capteurs">Activation des capteurs<a class="headerlink" href="#activation-des-capteurs" title="Permanent link">&para;</a></h2>
+<p>Dans QField, les capteurs enregistrés sont répertoriés dans le fichier de projet actuellement ouvert dans un sous-menu auquel on peut accéder par le menu principal du tableau de bord latéral.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/main_menu_sensors.png"><img alt="" src="../../assets/images/main_menu_sensors.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>To toggle the passive collection of sensor data, simply click on a sensor name in the sub-menu. When active,
-a sensor icon will appear next to the sensor name, while when inactive, a dot icon will be shown.</p>
+<p>Pour basculer en collecte passive des données des capteurs, cliquer sur le nom d'un capteur dans le sous-menu. Lorsqu'il est actif, 
+une icône de capteur apparaît à côté du nom du capteur, tandis que lorsqu'il est inactif, c'est une icône de point qui s'affiche.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_menu.png"><img alt="" src="../../assets/images/sensors_menu.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>All active sensors that are collecting data will be listed in a sensors information table located at the bottom
-of QField's map canvas.</p>
+<p>Tous les capteurs actifs qui collectent des données seront répertoriés dans un tableau d'informations sur les capteurs situé au bas de la carte de QField.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_information_panel.png"><img alt="" src="../../assets/images/sensors_information_panel.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<h2 id="sensor-driven-tracking">Sensor-Driven Tracking<a class="headerlink" href="#sensor-driven-tracking" title="Permanent link">&para;</a></h2>
-<p>QField enables you to initiate tracking sessions against a point layer, saving collected sensor data linked to
-your current position. To do this, you'll need to prepare the attribute default value for the point layer in QGIS by
-using the default value sensor_data('abc'), where 'abc' is replaced with the name of the sensor registered in the
-project file. Visit the attributes form documentation page to learn more about default values.</p>
-<p>Once this configuration is done, you can start tracking your position against the point layer. When starting the
-tracking session, a sensor constraint can be activated to ensure that added points occur every time a sensor has
-captured new data.</p>
-<p>
-<figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_tracker_constraint.png"><img alt="" src="../../assets/images/sensors_tracker_constraint.png" title="" width="600px" /></a><figcaption></figcaption>
-</figure>
-</p>
+<h2 id="tracage-par-capteur">Traçage par capteur<a class="headerlink" href="#tracage-par-capteur" title="Permanent link">&para;</a></h2>
+<p>QField te permet de lancer des sessions de traçage par rapport à une couche de points, en sauvegardant les données collectées par les capteurs et liées à ta position actuelle.
+Pour ce faire, tu dois préparer la valeur par défaut de l'attribut pour la couche de points dans QGIS
+en utilisant la valeur par défaut sensor_data('abc'), où 'abc' est remplacé par le nom du capteur enregistré dans le fichier de projet.
+Visite la page de la documentation du formulaire des attributs pour en savoir plus sur les valeurs par défaut.</p>
+<p>Une fois cette configuration effectuée, tu peux commencer à tracer ta position par rapport à la couche de points. Lors du démarrage de la
+session de traçage, une contrainte de capteur peut être activée pour s'assurer que les points ajoutés se produisent chaque fois qu'un capteur a enregistré de nouvelles données.</p>
+<p>! <img alt="" src="../../assets/images/sensors_tracker_constraint.png" /></p>
 
   
   
