@@ -1360,27 +1360,27 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#accuracy-requirement" class="md-nav__link">
+  <a href="#genauigkeitsanforderung" class="md-nav__link">
     <span class="md-ellipsis">
-      Accuracy requirement
+      Genauigkeitsanforderung
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#antenna-height-compensation" class="md-nav__link">
+  <a href="#hohenausgleich-der-antenne" class="md-nav__link">
     <span class="md-ellipsis">
-      Antenna height compensation
+      Höhenausgleich der Antenne
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#altitude-correction-vertical-grid-shift" class="md-nav__link">
+  <a href="#hohenkorrektur-vertikale-gitterverschiebung" class="md-nav__link">
     <span class="md-ellipsis">
-      Altitude correction / vertical grid shift
+      Höhenkorrektur / vertikale Gitterverschiebung
     </span>
   </a>
   
@@ -1438,9 +1438,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#positioning-variables" class="md-nav__link">
+  <a href="#positionierungsvariablen" class="md-nav__link">
     <span class="md-ellipsis">
-      Positioning variables
+      Positionierungsvariablen
     </span>
   </a>
   
@@ -2436,27 +2436,27 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#accuracy-requirement" class="md-nav__link">
+  <a href="#genauigkeitsanforderung" class="md-nav__link">
     <span class="md-ellipsis">
-      Accuracy requirement
+      Genauigkeitsanforderung
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#antenna-height-compensation" class="md-nav__link">
+  <a href="#hohenausgleich-der-antenne" class="md-nav__link">
     <span class="md-ellipsis">
-      Antenna height compensation
+      Höhenausgleich der Antenne
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#altitude-correction-vertical-grid-shift" class="md-nav__link">
+  <a href="#hohenkorrektur-vertikale-gitterverschiebung" class="md-nav__link">
     <span class="md-ellipsis">
-      Altitude correction / vertical grid shift
+      Höhenkorrektur / vertikale Gitterverschiebung
     </span>
   </a>
   
@@ -2514,9 +2514,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#positioning-variables" class="md-nav__link">
+  <a href="#positionierungsvariablen" class="md-nav__link">
     <span class="md-ellipsis">
-      Positioning variables
+      Positionierungsvariablen
     </span>
   </a>
   
@@ -2567,28 +2567,22 @@ Ihre Position ist entweder als blauer Punkt sichtbar, wenn Sie stillstehen, oder
 <h2 id="konfiguration">Konfiguration<a class="headerlink" href="#konfiguration" title="Permanent link">&para;</a></h2>
 <p>Die folgenden Einstellungen sind auf der Registerkarte "Positionierung" der QField-Einstellungen verfügbar.</p>
 <h3 id="messung-wert-m">Messung Wert (M)<a class="headerlink" href="#messung-wert-m" title="Permanent link">&para;</a></h3>
-<p>When digitizing a geometry onto a vector layer that contains an M dimension,
-QField will add a measurement value to individual vertices whenever the
-coordinate cursor is locked to the current position.</p>
+<p>Wenn eine Geometrie auf eine Vektorebene digitalisiert wird, die ein M-Wert enthält, fügt QField automatisch Messwerte zu einzelnen Knotenpunkten hinzu, wenn der Koordinatencursor an der aktuellen Position eingerastet ist.</p>
 <p>By default, the value will represent the captured position's timestamp (milliseconds
 since epoch). You can change this value using the combo box in the settings'
 positioning tab.</p>
 <p>The available values to chose from are timestamp, ground speed, bearing, horizontal
 accuracy and vertical accuracy as well as PDOP, HDOP and VDOP.</p>
-<h3 id="accuracy-requirement">Accuracy requirement<a class="headerlink" href="#accuracy-requirement" title="Permanent link">&para;</a></h3>
-<p>A minimum desired accuracy for measurements can be defined. The quality
-will be reported in three classes, bad (red), ok (yellow) and excellent
-(green). These colors will show up as a dot on top of the GNSS button.</p>
+<h3 id="genauigkeitsanforderung">Genauigkeitsanforderung<a class="headerlink" href="#genauigkeitsanforderung" title="Permanent link">&para;</a></h3>
+<p>Es kann eine gewünschte Mindestgenauigkeit für Messungen festgelegt werden. Die Qualität wird in drei Klassen angegeben: schlecht (rot), ok (gelb) und ausgezeichnet (grün). Diese Farben werden als Punkt oben auf der GNSS-Schaltfläche angezeigt.</p>
 <p>The thresholds can be defined in the settings' positioning tab.</p>
 <p>If the <em>Enable accuracy requirement</em> setting is activated, you will not
 be able to collect new measurements with the coordinate cursor locked to
 the current position with an accuracy value which is bad (red).</p>
-<h3 id="antenna-height-compensation">Antenna height compensation<a class="headerlink" href="#antenna-height-compensation" title="Permanent link">&para;</a></h3>
-<p>The height of the antenna pole in use can be defined in the settings.
-Any measured altitude will be corrected by this value.</p>
-<h3 id="altitude-correction-vertical-grid-shift">Altitude correction / vertical grid shift<a class="headerlink" href="#altitude-correction-vertical-grid-shift" title="Permanent link">&para;</a></h3>
-<p>Altitude values can be corrected with vertical grid shift files to
-calculate orthometric height.</p>
+<h3 id="hohenausgleich-der-antenne">Höhenausgleich der Antenne<a class="headerlink" href="#hohenausgleich-der-antenne" title="Permanent link">&para;</a></h3>
+<p>Die Höhe des verwendeten Antennenstange kann in den Einstellungen festgelegt werden. Jede gemessene Höhe wird um diesen Wert korrigiert.</p>
+<h3 id="hohenkorrektur-vertikale-gitterverschiebung">Höhenkorrektur / vertikale Gitterverschiebung<a class="headerlink" href="#hohenkorrektur-vertikale-gitterverschiebung" title="Permanent link">&para;</a></h3>
+<p>Die Höhenwerte können mit vertikalen Raster Grid Dateien korrigiert werden, um orthometrische Höhe zu berechnen.</p>
 <p>Vertical grid shift files have to be made available to QField by putting
 them into the QField app folder <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/proj</code>.</p>
 <p>Once the grid shift file is placed there, it is available in QField in
@@ -2718,22 +2712,20 @@ When active, holding the add vertex button is not required, a short tap on the b
 <p>When using <a href="../gnss/#positioning-variables"><code>@gnss_*</code> or <code>@position_</code> variables</a> on averaged positions, the variable will also represent the average over all collected samples.</p>
 <h2 id="project-configuration">Project configuration<a class="headerlink" href="#project-configuration" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Desktop Vorbereitung</p>
-<h3 id="positioning-variables">Positioning variables<a class="headerlink" href="#positioning-variables" title="Permanent link">&para;</a></h3>
-<p>You can get access to positioning information through additional
-expression variables accessible in the attribute form. These will
-only be available when positioning is enabled.</p>
-<p>These variables are commonly used as part of<a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">default values expressions</a>
-for fields to keep track of the quality of individual measured points.</p>
+<h3 id="positionierungsvariablen">Positionierungsvariablen<a class="headerlink" href="#positionierungsvariablen" title="Permanent link">&para;</a></h3>
+<p>Du hast Zugriff auf die Positionierungsinformationen über zusätzliche
+Ausdrucksvariablen, die im Attributformular zugänglich sind. Diese
+sind nur verfügbar, wenn die Positionierung aktiviert ist.</p>
+<p>Diese Variablen werden häufig als Teil von <a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">Ausdrücken für Vorgabewerte</a>
+für Felder verwendet, um die Qualität der einzelnen Messpunkte zu verfolgen.</p>
 <ul>
 <li><code>@position_source_name</code> - The name of the device that gave location information as
-    reported by the sensor. To differenciate between internal and
-    external sensor. If the position is manually set, and the
-    position is not snapped to the cursor, the source name is
+    Um zwischen internen und externen Sensoren zu unterscheiden.
+    Falls die Position manuell gesetzt wurde, und die
+    Position nicht auf die aktuelle Position eingerastet ist, wird der
     "manual". <strong>In case the cursor is not snapped to the position, all other variables will be null, if you need this, use the
-    <code>gnss_</code> variables instead</strong>.</li>
-<li><code>@position_quality_description</code> - A human readable and translated string for the quality as
-        reported by the sensor. E.g. "Fixed RTK". It is only available
-        when the crosshair is snapped to the sensor. - IE</li>
+    <code>gnss_</code> variables statt dessen</strong>.</li>
+<li><code>@position_quality_description</code> - A human readable and translated string for the quality asvom Sensor gemeldet wird. Z.B. "Fixed RTK". Sie ist nur verfügbar     verfügbar, wenn das Fadenkreuz am Sensor eingerastet ist.</li>
 <li><code>@position_coordinate</code> - A point with the coordinate in WGS84. Lon, Lat, Altitude as
         delivered by the sensor. It is only available when the crosshair
         is snapped to the sensor. - <code>x(@position_coordinate)</code> - IE</li>
