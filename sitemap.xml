@@ -8,6 +8,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/"/>
@@ -23,6 +24,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/concepts/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/concepts/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/concepts/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/concepts/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/concepts/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/concepts/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/concepts/"/>
@@ -38,6 +40,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/contribute/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/contribute/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/contribute/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/contribute/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/contribute/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/contribute/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/contribute/"/>
@@ -53,6 +56,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/faq/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/faq/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/faq/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/faq/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/faq/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/faq/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/faq/"/>
@@ -68,6 +72,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/"/>
@@ -83,6 +88,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/license/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/license/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/license/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/license/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/license/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/license/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/license/"/>
@@ -98,6 +104,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/sample-projects/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/sample-projects/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/sample-projects/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/sample-projects/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sample-projects/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/sample-projects/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sample-projects/"/>
@@ -113,6 +120,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/sponsor/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/sponsor/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/sponsor/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/sponsor/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sponsor/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/sponsor/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
@@ -128,6 +136,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage/"/>
@@ -143,6 +152,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/support/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/support/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/support/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/support/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/support/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/support/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/support/"/>
@@ -158,6 +168,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/third-part-tutorials/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/third-part-tutorials/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/third-part-tutorials/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/third-part-tutorials/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/third-part-tutorials/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/third-part-tutorials/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/third-part-tutorials/"/>
@@ -173,6 +184,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/tutorials/advanced-setup-qfc/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/tutorials/advanced-setup-qfc/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/tutorials/advanced-setup-qfc/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/tutorials/advanced-setup-qfc/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/tutorials/advanced-setup-qfc/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/tutorials/advanced-setup-qfc/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/tutorials/advanced-setup-qfc/"/>
@@ -188,6 +200,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/tutorials/get-started-qfc/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/tutorials/get-started-qfc/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/tutorials/get-started-qfc/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/tutorials/get-started-qfc/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/tutorials/get-started-qfc/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/tutorials/get-started-qfc/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/tutorials/get-started-qfc/"/>
@@ -203,6 +216,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/tutorials/get-started-qfs/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/tutorials/get-started-qfs/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/tutorials/get-started-qfs/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/tutorials/get-started-qfs/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/tutorials/get-started-qfs/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/tutorials/get-started-qfs/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/tutorials/get-started-qfs/"/>
@@ -218,6 +232,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/attributes-form/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/attributes-form/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/attributes-form/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/attributes-form/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/attributes-form/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/attributes-form/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/attributes-form/"/>
@@ -233,6 +248,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/authentication/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/authentication/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/authentication/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/authentication/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/authentication/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/authentication/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/authentication/"/>
@@ -248,6 +264,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/bookmarks/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/bookmarks/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/bookmarks/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/bookmarks/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/bookmarks/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/bookmarks/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/bookmarks/"/>
@@ -263,6 +280,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/digitize/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/digitize/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/digitize/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/digitize/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/digitize/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/digitize/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/digitize/"/>
@@ -278,6 +296,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/gnss/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/gnss/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/gnss/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/gnss/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/gnss/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/gnss/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/gnss/"/>
@@ -293,6 +312,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/hiding-legend-nodes/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/hiding-legend-nodes/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/hiding-legend-nodes/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/hiding-legend-nodes/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/hiding-legend-nodes/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/hiding-legend-nodes/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/hiding-legend-nodes/"/>
@@ -308,6 +328,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
@@ -323,6 +344,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/live-default-value/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/live-default-value/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/live-default-value/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/live-default-value/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/live-default-value/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/live-default-value/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/live-default-value/"/>
@@ -338,6 +360,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/map-interaction/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/map-interaction/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/map-interaction/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/map-interaction/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/map-interaction/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/map-interaction/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/map-interaction/"/>
@@ -353,6 +376,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/map-styling/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/map-styling/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/map-styling/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/map-styling/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/map-styling/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/map-styling/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/map-styling/"/>
@@ -368,6 +392,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/map-themes/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/map-themes/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/map-themes/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/map-themes/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/map-themes/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/map-themes/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/map-themes/"/>
@@ -383,6 +408,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/measuring-tool/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/measuring-tool/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/measuring-tool/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/measuring-tool/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/measuring-tool/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/measuring-tool/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/measuring-tool/"/>
@@ -398,6 +424,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/movable-project/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/movable-project/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/movable-project/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/movable-project/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/movable-project/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/movable-project/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/movable-project/"/>
@@ -413,6 +440,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/navigation/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/navigation/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/navigation/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/navigation/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/navigation/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/navigation/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/navigation/"/>
@@ -428,6 +456,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/outside-layers/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/outside-layers/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/outside-layers/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/outside-layers/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/outside-layers/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/outside-layers/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/outside-layers/"/>
@@ -443,6 +472,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/pg-service/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/pg-service/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/pg-service/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/pg-service/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/pg-service/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/pg-service/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/pg-service/"/>
@@ -458,6 +488,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/pictures/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/pictures/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/pictures/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/pictures/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/pictures/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/pictures/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/pictures/"/>
@@ -473,6 +504,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/print-to-pdf/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/print-to-pdf/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/print-to-pdf/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/print-to-pdf/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/print-to-pdf/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/print-to-pdf/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/print-to-pdf/"/>
@@ -488,6 +520,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/projects/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/projects/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/projects/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/projects/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/projects/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/projects/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/projects/"/>
@@ -503,6 +536,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/search/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/search/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/search/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/search/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/search/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/search/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/search/"/>
@@ -518,6 +552,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/sensors/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/sensors/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/sensors/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/sensors/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/sensors/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/sensors/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/sensors/"/>
@@ -533,6 +568,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/standalone-datasets/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/standalone-datasets/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/standalone-datasets/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/standalone-datasets/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/standalone-datasets/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/standalone-datasets/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/standalone-datasets/"/>
@@ -548,6 +584,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/temporal-filtering/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/temporal-filtering/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/temporal-filtering/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/temporal-filtering/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/temporal-filtering/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/temporal-filtering/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/temporal-filtering/"/>
@@ -563,6 +600,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/tracking/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/tracking/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/tracking/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/tracking/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/tracking/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/tracking/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/tracking/"/>
@@ -578,6 +616,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/variables/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/variables/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/variables/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/variables/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/variables/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/variables/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/variables/"/>
@@ -593,6 +632,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/data-format/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/data-format/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/data-format/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/data-format/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/data-format/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/data-format/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/data-format/"/>
@@ -608,6 +648,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/"/>
@@ -623,6 +664,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/api/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/api/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/api/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/api/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/api/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/api/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/api/"/>
@@ -638,6 +680,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/concepts/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/concepts/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/concepts/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/concepts/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/concepts/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/concepts/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/concepts/"/>
@@ -653,6 +696,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/jobs/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/jobs/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/jobs/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/jobs/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/jobs/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/jobs/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/jobs/"/>
@@ -668,6 +712,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/permissions/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/permissions/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/permissions/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/permissions/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/permissions/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/permissions/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/permissions/"/>
@@ -683,6 +728,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/projects/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/projects/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/projects/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/projects/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/projects/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/projects/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/projects/"/>
@@ -698,6 +744,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/sdk/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/sdk/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/sdk/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/sdk/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/sdk/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/sdk/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/sdk/"/>
@@ -713,6 +760,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/secrets/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/secrets/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/secrets/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/secrets/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/secrets/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/secrets/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/secrets/"/>
@@ -728,6 +776,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/specs/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/specs/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/specs/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/specs/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/specs/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/specs/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/specs/"/>
@@ -743,6 +792,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/reference/qfieldcloud/system/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/reference/qfieldcloud/system/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/reference/qfieldcloud/system/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/reference/qfieldcloud/system/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/reference/qfieldcloud/system/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/reference/qfieldcloud/system/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/reference/qfieldcloud/system/"/>
@@ -758,6 +808,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/ecological-surveying/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/ecological-surveying/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/ecological-surveying/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/ecological-surveying/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/ecological-surveying/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/ecological-surveying/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/ecological-surveying/"/>
@@ -773,6 +824,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/geologic-mapping/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/geologic-mapping/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/geologic-mapping/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/geologic-mapping/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/geologic-mapping/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/geologic-mapping/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/geologic-mapping/"/>
@@ -788,6 +840,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/heritage-impact-assessment/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/heritage-impact-assessment/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/heritage-impact-assessment/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/heritage-impact-assessment/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/heritage-impact-assessment/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/heritage-impact-assessment/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/heritage-impact-assessment/"/>
@@ -803,6 +856,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/"/>
@@ -818,6 +872,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/lulc-mapping-fiji/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/lulc-mapping-fiji/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/lulc-mapping-fiji/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/lulc-mapping-fiji/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/lulc-mapping-fiji/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/lulc-mapping-fiji/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/lulc-mapping-fiji/"/>
@@ -833,6 +888,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/mapping-breeding-birds-in-the-Wadden-Sea/"/>
@@ -848,6 +904,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/mosquito-malario-ground-truth-data-collection/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/mosquito-malario-ground-truth-data-collection/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/mosquito-malario-ground-truth-data-collection/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/mosquito-malario-ground-truth-data-collection/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/mosquito-malario-ground-truth-data-collection/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/mosquito-malario-ground-truth-data-collection/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/mosquito-malario-ground-truth-data-collection/"/>
@@ -863,6 +920,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/river-state-survey/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/river-state-survey/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/river-state-survey/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/river-state-survey/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/river-state-survey/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/river-state-survey/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/river-state-survey/"/>
@@ -878,6 +936,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/rwanda-rural-water/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/rwanda-rural-water/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/rwanda-rural-water/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/rwanda-rural-water/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/rwanda-rural-water/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/rwanda-rural-water/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/rwanda-rural-water/"/>
@@ -893,6 +952,7 @@
          <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/success-stories/vanilla-survey/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/success-stories/vanilla-survey/"/>
          <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/success-stories/vanilla-survey/"/>
+         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/success-stories/vanilla-survey/"/>
          <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/success-stories/vanilla-survey/"/>
          <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/success-stories/vanilla-survey/"/>
          <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/success-stories/vanilla-survey/"/>
