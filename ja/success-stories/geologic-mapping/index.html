@@ -43,7 +43,7 @@
     
     
       
-        <title>Geologic Mapping - QField Ecosystem Documentation</title>
+        <title>地質のマッピング - QField Ecosystem Documentation</title>
       
     
     
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Geologic Mapping
+              地質のマッピング
             
           </span>
         </div>
@@ -579,7 +579,7 @@
         
   
   <span class="md-ellipsis">
-    Storage
+    ストレージ
     
   </span>
   
@@ -683,7 +683,7 @@
         
   
   <span class="md-ellipsis">
-    Get Started
+    スタート・ガイド
     
   </span>
   
@@ -705,7 +705,7 @@
         
   
   <span class="md-ellipsis">
-    Advanced Setup
+    高度なセットアップ
     
   </span>
   
@@ -774,7 +774,7 @@
         
   
   <span class="md-ellipsis">
-    Get Started
+    スタート・ガイド
     
   </span>
   
@@ -812,7 +812,7 @@
         
   
   <span class="md-ellipsis">
-    FAQ
+    F＆Q
     
   </span>
   
@@ -834,7 +834,7 @@
         
   
   <span class="md-ellipsis">
-    Sample projects
+    サンプルプロジェクト
     
   </span>
   
@@ -878,7 +878,7 @@
         
   
   <span class="md-ellipsis">
-    Sponsor
+    スポンサー
     
   </span>
   
@@ -922,7 +922,7 @@
         
   
   <span class="md-ellipsis">
-    Contribute
+    コントリビュート
     
   </span>
   
@@ -944,7 +944,7 @@
         
   
   <span class="md-ellipsis">
-    Third-party tutorials
+    サードパーティによるチュートリアル
     
   </span>
   
@@ -2023,7 +2023,7 @@
         
   
   <span class="md-ellipsis">
-    Improving Efficiencies in Ecological Surveying
+    生態学的測量の効率性の改善
     
   </span>
   
@@ -2054,7 +2054,7 @@
           
   
   <span class="md-ellipsis">
-    Geologic Mapping
+    地質のマッピング
     
   </span>
   
@@ -2067,7 +2067,7 @@
         
   
   <span class="md-ellipsis">
-    Geologic Mapping
+    地質のマッピング
     
   </span>
   
@@ -2127,7 +2127,7 @@
         
   
   <span class="md-ellipsis">
-    Ground Truth Data Collection
+    グラウンドトゥルースデータの収集
     
   </span>
   
@@ -2149,7 +2149,7 @@
         
   
   <span class="md-ellipsis">
-    Mapping breeding birds
+    鳥類の繁殖状況をマッピング
     
   </span>
   
@@ -2171,7 +2171,7 @@
         
   
   <span class="md-ellipsis">
-    Data collection of malaria transmitting mosquitoes
+    マラリアを感染させる蚊のデータ収集
     
   </span>
   
@@ -2193,7 +2193,7 @@
         
   
   <span class="md-ellipsis">
-    River State Survey
+    河川の状態の調査
     
   </span>
   
@@ -2215,7 +2215,7 @@
         
   
   <span class="md-ellipsis">
-    Data collection of rural water supply systems
+    地方給水システムのデータ収集
     
   </span>
   
@@ -2237,7 +2237,7 @@
         
   
   <span class="md-ellipsis">
-    Vanilla Surveys
+    バニラの調査
     
   </span>
   
@@ -2345,80 +2345,42 @@
 <h1 id="qfield">QFieldでの地質のマッピング<a class="headerlink" href="#qfield" title="Permanent link">&para;</a></h1>
 <p>Terrane Geoscience社、構造地質学者、Rohanna Gibson著</p>
 <h2 id="_1">目標<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>To collect new data on bedrock geology and view existing geoscience data
-in the field. Geologic mapping is completed using paper maps and/or
-digital devices for data collection. The goal is to improve the geologic
-mapping workflow by entering data directly in the field, create quality
-data with consistent terms, and reference existing geoscience data in
-the field.</p>
+<p>岩盤地質に関する新しいデータを収集し、既存の地質データをフィールドで表示する。地質図の作成には、紙の地図やデジタル機器を使ってデータを収集されます。このプロジェクトの目標は、フィールドで直接データを入力し、一貫した用語で質の高いデータを作成し、フィールドで既存の地質データを参照することで、地質マッピングのワークフローを改善することです。</p>
 <h2 id="_2">プロジェクトの準備<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>Prior to starting in QField, a geologic mapping geopackage was designed
-to collect vector data including point station, structure, photo, and
-sample layers as well as line and polygon layers for contacts, faults,
-alteration, and geology. Attribute fields are customized for ease of
-data entry and data quality assurance using value maps, defaults (value
-or expression), and constraints within the Attributes Form. For example,
-the structural layer includes:</p>
+<p>QFieldを利用するために，点群，構造物，写真，サンプルの各レイヤーに加え，接点，断層，変質，地質のラインおよびポリゴンの各レイヤーを含むベクトルデータを収集するために，地質マッピングに使うGeoPackageをデザインしました．属性フィールドは、データの入力を容易にし、データの品質を保証するために、属性フォーム内のバリューマップ、デフォルト（値または式）、および制約条件を用いてカスタマイズされています。例えば、structuralレイヤーには以下が含まれています。</p>
 <p><strong>Coordinates</strong></p>
 <p>GPSデータか取得したX及びY座標をデフォルト値とするフィールド</p>
 <p><strong>Structure type</strong></p>
-<p>Value map (drop down list) with structural features (e.g., bedding,
-cleavage, lineation), set with a "not null" constraint</p>
+<p>構造的地物（bedding、cleavage、lineationなど）を持つバリューマップ（ドロップダウンリスト）、「非null」制約で設定されています。</p>
 <p><strong>Azimuth and dip</strong></p>
 <p>それぞれ0-360、0-90の範囲で設定された整数値</p>
 <p><strong>Date</strong></p>
 <p>地物が作成された時点での日付と時間がデフォルト値となる</p>
 <p>
-<figure><a data-caption="Figure 1: Structure list" data-fancybox="gallery" href="../../assets/images/geologic_structure_list.png"><img alt="Figure 1: Structure list" src="../../assets/images/geologic_structure_list.png" title="Figure 1: Structure list" width="600px" /></a><figcaption>Figure 1: Structure list</figcaption>
+<figure><a data-caption="図 1: 構造一覧" data-fancybox="gallery" href="../../assets/images/geologic_structure_list.png"><img alt="図 1: 構造一覧" src="../../assets/images/geologic_structure_list.png" title="図 1: 構造一覧" width="600px" /></a><figcaption>図 1: 構造一覧</figcaption>
 </figure>
 </p>
-<p>Symbology and labels are customized for each layer, including embedded
-SVG symbols for structural features that are rotated with the azimuth
-field.</p>
-<p>In addition to field data, base maps and historic data are compiled into
-geopackages for reference. Base maps include vector topographic data and
-raster orthophotos. Raster geophysical data and vector geochemical data
-are included if available, as well as historic geologic mapping. Map
-themes are designed to quickly toggle between geologic mapping,
-geophysics, and geochemistry views.</p>
+<p>シンボルやラベルはレイヤーごとにカスタマイズされており、構造的地物のSVGシンボルはazimuthフィールドに合わせて回転するように埋め込まれています。</p>
+<p>フィールドデータに加えて、ベースマップや歴史的なデータがGeoPackageにまとめられ、参照できるようになっています。ベースマップには、ベクター地形データとラスターのオルソ画像が含まれます。また、歴史的な地質図があれば、ラスターの地球物理学データやベクトルの地球化学データも含まれています。マップテーマは、地質図、地球物理学、および地球化学の表示を素早く切り替えることができるように設計されています。</p>
 <h1 id="_3">データ収集<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h1>
-<p>Field data collection includes adding point data for map stations,
-structures, photos, and samples. Polygons and lines are drawn freehand
-with a stylus or adding vertices manually.</p>
-<p>Location and direction of travel are displayed using internal device GPS
-(or external GPS device linked via Bluetooth), historic vector and
-raster layers can be viewed relative to location. Current and historic
-vector layers can be searched and viewed in QField.</p>
-<p>Field data are synchronized in QGIS followed by a short data clean up
-and verification process. The QGIS project is then exported back to
-QField for additional data collection.</p>
+<p>フィールドデータの収集では、マップステーション、構造物、写真、サンプルなどのポイントデータを追加します。多角形や直線は、スタイラスペンでフリーハンドで描くか、手動で頂点を追加します。</p>
+<p>内蔵デバイスのGPS（またはBluetoothで接続された外部GPSデバイス）を使って位置と進行方向を表示し、過去のベクターレイヤーやラスターレイヤーを位置に応じて表示することができます。現在のベクターレイヤーと過去のベクターレイヤーは、QFieldで検索・表示することができます。</p>
+<p>フィールドデータはQGISで同期され、続いて短いデータのクリーンアップと検証プロセスが行われます。その後、QGIS プロジェクトを QField にエクスポートし、追加のデータ収集を行います。</p>
 <p>
-<figure><a data-caption="Figure 2: Field work" data-fancybox="gallery" href="../../assets/images/geologic_field.png"><img alt="Figure 2: Field work" src="../../assets/images/geologic_field.png" title="Figure 2: Field work" width="600px" /></a><figcaption>Figure 2: Field work</figcaption>
+<figure><a data-caption="図 2: フィールドワーク" data-fancybox="gallery" href="../../assets/images/geologic_field.png"><img alt="図 2: フィールドワーク" src="../../assets/images/geologic_field.png" title="図 2: フィールドワーク" width="600px" /></a><figcaption>図 2: フィールドワーク</figcaption>
 </figure>
 </p>
 <p>
-<figure><a data-caption="Figure 3: QField form" data-fancybox="gallery" href="../../assets/images/geologic_station_qf.jpg"><img alt="Figure 3: QField form" src="../../assets/images/geologic_station_qf.jpg" title="Figure 3: QField form" width="600px" /></a><figcaption>Figure 3: QField form</figcaption>
+<figure><a data-caption="図 3: QFieldフォーム" data-fancybox="gallery" href="../../assets/images/geologic_station_qf.jpg"><img alt="図 3: QFieldフォーム" src="../../assets/images/geologic_station_qf.jpg" title="図 3: QFieldフォーム" width="600px" /></a><figcaption>図 3: QFieldフォーム</figcaption>
 </figure>
 </p>
-<p>Structural data collection may be upgraded with future development of a
-geologic compass feature.
+<p>将来的にコンパス機能が開発されることで、地質の構造データの収集はさらに強化されるでしょう。
 <a href="https://github.com/opengisch/QField/issues/1882">https://github.com/opengisch/QField/issues/1882</a></p>
 <h1 id="_4">結果<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h1>
-<p>Final geologic maps and analysis are prepared directly from field data
-sets with no need to digitize field data. Depending on proficiency and
-type of mapping, the QField geologic mapping workflow takes
-approximately the same amount of field time as manual (paper) mapping
-and drastically reduces office data digitization time. Additionally,
-historic data are easily referred to in the field, allowing for real
-time interpretation and targeted field work. Maps and attribute tables
-can be exported directly from QField or the QGIS project for daily field
-updates or communication between working groups.</p>
-<p>QField allows for data integrity with customizable attribute fields and
-database compatibility. Field data quality assurance can be built in
-during project design, ensuring attributes are consistent between users
-and reducing human error with constraints and default values.</p>
+<p>最終的な地質図や解析は、フィールドデータをデジタル化する必要なく、フィールドデータセットから直接作成されます。マッピングの習熟度や種類にもよりますが、QFieldでの地質図作成ワークフローは、手動（紙）のマッピングとほぼ同じフィールドでの作業時間で済み、オフィスでのデータデジタル化の時間も大幅に削減できます。さらに、過去のデータを現場で簡単に参照することができるため、リアルタイムでの解釈やターゲットを絞ったフィールドワークが可能になります。マップと属性テーブルは、QFieldまたはQGISプロジェクトから直接エクスポートすることができ、日々のフィールドでのデータ更新やワーキンググループ間のコミュニケーションに利用できます。</p>
+<p>QFieldは、カスタマイズ可能な属性フィールドとデータベースとの互換性により、データの整合性を実現します。フィールドデータの品質保証は、プロジェクト設計時に組み込むことができ、ユーザー間で属性の一貫性を確保し、制約やデフォルト値によりヒューマンエラーを減らすことができます。</p>
 <p>
-<figure><a data-caption="Figure 4: Map result" data-fancybox="gallery" href="../../assets/images/geologic_map.jpg"><img alt="Figure 4: Map result" src="../../assets/images/geologic_map.jpg" title="Figure 4: Map result" width="600px" /></a><figcaption>Figure 4: Map result</figcaption>
+<figure><a data-caption="図 4: 地図の結果" data-fancybox="gallery" href="../../assets/images/geologic_map.jpg"><img alt="図 4: 地図の結果" src="../../assets/images/geologic_map.jpg" title="図 4: 地図の結果" width="600px" /></a><figcaption>図 4: 地図の結果</figcaption>
 </figure>
 </p>
 
@@ -2451,7 +2413,7 @@ and reducing human error with constraints and default values.</p>
     <nav class="md-footer__inner md-grid" aria-label="フッター" >
       
         
-        <a href="../ecological-surveying/" class="md-footer__link md-footer__link--prev" aria-label="前: Improving Efficiencies in Ecological Surveying" rel="prev">
+        <a href="../ecological-surveying/" class="md-footer__link md-footer__link--prev" aria-label="前: 生態学的測量の効率性の改善" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -2460,20 +2422,20 @@ and reducing human error with constraints and default values.</p>
               <span class="md-footer__direction">
                 前
               </span>
-              Improving Efficiencies in Ecological Surveying
+              生態学的測量の効率性の改善
             </div>
           </div>
         </a>
       
       
         
-        <a href="../lulc-mapping-fiji/" class="md-footer__link md-footer__link--next" aria-label="次: Ground Truth Data Collection" rel="next">
+        <a href="../lulc-mapping-fiji/" class="md-footer__link md-footer__link--next" aria-label="次: グラウンドトゥルースデータの収集" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Ground Truth Data Collection
+              グラウンドトゥルースデータの収集
             </div>
           </div>
           <div class="md-footer__button md-icon">
