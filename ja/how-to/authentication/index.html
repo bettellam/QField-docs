@@ -1140,7 +1140,7 @@
         
   
   <span class="md-ellipsis">
-    Digitize
+    デジタイズ
     
   </span>
   
@@ -2343,71 +2343,45 @@
 
 
 <h1 id="_1">認証<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>QField supports connecting to OAuth2 protected web services. By using
-OAuth2, it is possible to protect layers and services with a wide
-variety of authentiaction schemes like for example two factor
-authentication.</p>
-<p>To successfully load OAuth2-protected layer(s) in QField, the QGIS
-project must be setup to use OAuth2.</p>
+<p>QField は OAuth2 で保護されたウェブサービスへの接続をサポートしています。OAuth2を利用することで、二要素認証などの多様な認証方式でレイヤーやサービスを保護することができます。</p>
+<p>OAuth2 で保護されたレイヤーを QField で正常に読み込むには、QGIS プロジェクトが OAuth2 を使用できるように設定されている必要があります。</p>
 <h2 id="qgis">QGISでの認証の準備<a class="headerlink" href="#qgis" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> デスクトップの準備</p>
-<p>To setup a WFS with OAuth2 in QGIS follow these steps in the QGIS
-project configuration.</p>
+<p>QGISでOAuth2を使用したWFSの設定をするには、QGISプロジェクトで以下の手順で設定を行います。</p>
 <p>WFSレイヤーの設定で、</p>
 <p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_setup_wfs.png"><img alt="widgets" src="../../assets/images/oauth2_setup_wfs.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
 </p>
-<p>Add a new authentication configuration. Parameters need to be adjusted
-to the OAuth2 server setup:</p>
+<p>新しい認証設定を追加します。パラメータはoauth2サーバーの設定に合わせる必要があります。</p>
 <p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_setup_auth.png"><img alt="widgets" src="../../assets/images/oauth2_setup_auth.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
 </p>
 <h2 id="qgis_1">QGISから認証をエクスポートする<a class="headerlink" href="#qgis_1" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> デスクトップの準備</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Exporting an auth configuration requires at least QGIS 3.20. It is
-possible to only use QGIS 3.20 to prepare the auth config and configure
-the QGIS project itself with an earlier version of QGIS.</p>
+<div class="admonition ご注意ください">
+<p class="admonition-title">ご注意ください</p>
+<p>認証の設定をエクスポートするには、少なくとも QGIS 3.20 が必要です。QGIS 3.20だけが認証とQGISプロジェクトの設定の準備を行えます。それ以前のバージョンのQGISでQGISプロジェクト自体の設定をすることは可能です。</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>It is important that the Configuration ID of the exported configuration
-and the configuration stored in the QGIS project match.</p>
+<div class="admonition ご注意ください">
+<p class="admonition-title">ご注意ください</p>
+<p>エクスポートされた設定の設定IDとQGISプロジェクトに保存されている設定情報が一致していることが重要です。</p>
 </div>
-<p>At this point, verify that you are able to properly connect to the
-service from QGIS. This authentication configuration must first be
-exported from QGIS itself.</p>
-<p>To do so, open the QGIS options dialog and focus on the
-authentication panel. There, you can select the <em>OAuth2 configuration</em>
-used by the project layer(s) by clicking on the appropriate row in the
-configurations table widget. Then, use the lower-right
-utilities button to select the <em>export selected authentication
-configurations to file</em> action.</p>
+<p>この時点で、QGISからサービスに正しく接続できることを確認します。この認証設定は、まずQGIS自身からエクスポートする必要があります。この時点で、QGISからサービスに正しく接続できることを確認します。この認証設定は、まずQGIS自身からエクスポートする必要があります。</p>
+<p>これを行うには、ユーザーは QGIS のオプションダイアログを開き、認証パネルに移動します。そこで、configurations table ウィジェットの適切な行をクリックして、プロジェクトのレイヤーで使用される <em>OAuth2 設定</em>を選択します。次に、右下のユーティリティーボタンを使って、<em>選択した認証の設定をファイルにエクスポートする</em>を選択します。</p>
 <p>
 <figure><a data-caption="widgets" data-fancybox="gallery" href="../../assets/images/oauth2_export_config.png"><img alt="widgets" src="../../assets/images/oauth2_export_config.png" title="widgets" width="600px" /></a><figcaption>widgets</figcaption>
 </figure>
 </p>
-<p>When prompted for a password, leave it blank. You will be warned
-that she might be leaking sensitive information. In the case of
-OAuth2 configurations, it is safe to do so.</p>
-<p>Once you have exported the authentication configuration to an XML
-file, she copies that file onto the device(s) running QField. The
-file has to be copied to the devices <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth/</code> QField directory. The <code>/QField/auth/</code> path is created when first
-launching QField.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Since QField 2 the auth files needs to be stored in the app directory <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth</code> instead of the devices main directory <code>&lt;drive&gt;:/QField/auth</code>.</p>
+<p>パスワードの入力を求められたときは、空欄にしてください。ユーザーは、機密情報を漏らしているかもしれないという警告を受けます。OAuth2の設定の場合は、安全に行えます。</p>
+<p>認証設定を XML ファイルにエクスポートすると、QField はそのファイルを QField が動作するデバイスにコピーします。ファイルにエクスポートすると、QField はそのファイルを QField が動作するデバイスにコピーします。このファイルをデバイスの  <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth/</code> QField ディレクトリにコピーしなければならない。<code>QField/auth/</code> パスは、QField を最初に起動したときに作成されます。パスが作成されます。</p>
+<div class="admonition ご注意ください">
+<p class="admonition-title">ご注意ください</p>
+<p>QField 2 以降、認証ファイルはデバイスのメインディレクトリ <code>&lt;drive&gt;:/QField/auth</code>ではなく、アプリディレクトリ<code>&lt;drive&gt;1:/Android/data/ch.opengis.qfield/files/QField/auth</code> に保存する必要があります。</p>
 </div>
-<p>Once the authentication configuration XML file is copied, you can copy
-the project file containing OAuth2-protected layer(s) onto the device(s)
-and open the project in QField. You will be prompted for the
-user, password, and 2-step-verification authentication code within a
-browser panel that will pop up in QField itself.</p>
-<p>Once authenticated, content will be rendered without the need to
-re-enter user information for the duration of the session.</p>
+<p>認証設定のXMLファイルをコピーした後、ユーザーは OAuth2 で保護されたレイヤーを含むプロジェクトファイルをデバイスにコピーし、QField でプロジェクトを開くことができます。ユーザーは，QField 内に表示されるブラウザパネルで，ユーザー名，パスワード，2段階認証の認証コードの入力を求められます．</p>
+<p>一度認証されると、セッションの間、ユーザー情報を再入力することなくコンテンツがレンダリングされます。</p>
 
   
   
