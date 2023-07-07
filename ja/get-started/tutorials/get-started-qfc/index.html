@@ -805,6 +805,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       クラウドプロジェクトの作成と設定
@@ -2505,6 +2514,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       クラウドプロジェクトの作成と設定
@@ -2667,16 +2685,34 @@
 <figure><a data-caption="Project properties in QFieldCloud" data-fancybox="gallery" href="../../../assets/images/project_properties_settings.png"><img alt="Project properties in QFieldCloud" src="../../../assets/images/project_properties_settings.png" title="Project properties in QFieldCloud" width="600px" /></a><figcaption>Project properties in QFieldCloud</figcaption>
 </figure>
 </p>
+<h3 id="change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync">Change the default QFieldCloud server in QField and QField Sync<a class="headerlink" href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" title="Permanent link">&para;</a></h3>
+<p>QField and QFieldSync connect to the QFieldCloud service on <a href="https://app.qfield.cloud/">app.qfield.cloud</a> by default.</p>
+<p>You can modify the default QFieldCloud server QField and QFieldSync connect to:</p>
+<ol>
+<li>Open the login screen in QField or QFieldSync.</li>
+<li>Double-tap on the Nyuki icon (the blue bee QFieldCloud logo).</li>
+<li>This action will reveal a field where you can enter the preferred QFieldCloud server address.</li>
+<li>Enter the details of the desired server in the provided field.
+(Leaving the field empty will connect to the default QFieldCloud server at app.qfield.cloud.)</li>
+</ol>
+<p>
+<figure><a data-caption="Reveling server in QField Sync" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png"><img alt="Reveling server in QField Sync" src="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png" title="Reveling server in QField Sync" width="250px" /></a><figcaption>Reveling server in QField Sync</figcaption>
+</figure>
+</p>
+<p>
+<figure><a data-caption="Reveling server in QField" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield.png"><img alt="Reveling server in QField" src="../../../assets/images/changing_default_qfieldcloud_server_qfield.png" title="Reveling server in QField" width="250px" /></a><figcaption>Reveling server in QField</figcaption>
+</figure>
+</p>
 <h3 id="_5">クラウドプロジェクトの作成と設定<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <p>左下のクラウドボタンをクリックして新規プロジェクトを作成する。まず、新規プロジェクトの作成方法を以下の中から選択します。</p>
 <ul>
 <li>"現在開いているプロジェクトをクラウドプロジェクトに変換する"
-現在開いている QGIS プロジェクトから新しい QFieldCloud 互換プロジェクトが作成されます。その際、データセットはローカルミラーとして機能するエクスポートディレクトリにコピーされます。ベクトルデータセットは複数のデバイスからのデータ同期を容易にするためにジオパッケージ形式に変換され、その他のデータセットタイプは新しいプロジェクトのロケーションにコピーされます。</li>
+  現在開いている QGIS プロジェクトから新しい QFieldCloud 互換プロジェクトが作成されます。その際、データセットはローカルミラーとして機能するエクスポートディレクトリにコピーされます。ベクトルデータセットは複数のデバイスからのデータ同期を容易にするためにジオパッケージ形式に変換され、その他のデータセットタイプは新しいプロジェクトのロケーションにコピーされます。</li>
 </ul>
 <p>現在のプロジェクトを変換するには、完全に空のディレクトリが必須です。</p>
 <ul>
 <li>"新しい空のQFieldCloudプロジェクトを作成する"
-新しい空のQFieldCloudプロジェクトが作成されます。選択したローカルディレクトリ内に、プロジェクトファイルをルートとして、プロジェクトに関連するすべてのファイルを移動する必要があります。プロジェクトファイルは同期ボタンをクリックしたときのみアップロードされます。選択したディレクトリにQGISプロジェクトファイルが1つ以上含まれていないことを確認してください。</li>
+  新しい空のQFieldCloudプロジェクトが作成されます。選択したローカルディレクトリ内に、プロジェクトファイルをルートとして、プロジェクトに関連するすべてのファイルを移動する必要があります。プロジェクトファイルは同期ボタンをクリックしたときのみアップロードされます。選択したディレクトリにQGISプロジェクトファイルが1つ以上含まれていないことを確認してください。</li>
 </ul>
 <p>
 <figure><a data-caption="Project details" data-fancybox="gallery" href="../../../assets/images/create_project.png"><img alt="Project details" src="../../../assets/images/create_project.png" title="Project details" width="600px" /></a><figcaption>Project details</figcaption>

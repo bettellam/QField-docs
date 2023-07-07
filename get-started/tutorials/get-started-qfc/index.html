@@ -805,6 +805,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#create-and-configure-your-cloud-project" class="md-nav__link">
     <span class="md-ellipsis">
       Create and configure your Cloud project
@@ -2505,6 +2514,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#create-and-configure-your-cloud-project" class="md-nav__link">
     <span class="md-ellipsis">
       Create and configure your Cloud project
@@ -2667,16 +2685,34 @@ Green: status ok —&gt; the project is successfully undestood by the cloud. You
 <figure><a data-caption="Project properties in QFieldCloud" data-fancybox="gallery" href="../../../assets/images/project_properties_settings.png"><img alt="Project properties in QFieldCloud" src="../../../assets/images/project_properties_settings.png" title="Project properties in QFieldCloud" width="600px" /></a><figcaption>Project properties in QFieldCloud</figcaption>
 </figure>
 </p>
+<h3 id="change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync">Change the default QFieldCloud server in QField and QField Sync<a class="headerlink" href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" title="Permanent link">&para;</a></h3>
+<p>QField and QFieldSync connect to the QFieldCloud service on <a href="https://app.qfield.cloud/">app.qfield.cloud</a> by default.</p>
+<p>You can modify the default QFieldCloud server QField and QFieldSync connect to:</p>
+<ol>
+<li>Open the login screen in QField or QFieldSync.</li>
+<li>Double-tap on the Nyuki icon (the blue bee QFieldCloud logo).</li>
+<li>This action will reveal a field where you can enter the preferred QFieldCloud server address.</li>
+<li>Enter the details of the desired server in the provided field.
+(Leaving the field empty will connect to the default QFieldCloud server at app.qfield.cloud.)</li>
+</ol>
+<p>
+<figure><a data-caption="Reveling server in QField Sync" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png"><img alt="Reveling server in QField Sync" src="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png" title="Reveling server in QField Sync" width="250px" /></a><figcaption>Reveling server in QField Sync</figcaption>
+</figure>
+</p>
+<p>
+<figure><a data-caption="Reveling server in QField" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield.png"><img alt="Reveling server in QField" src="../../../assets/images/changing_default_qfieldcloud_server_qfield.png" title="Reveling server in QField" width="250px" /></a><figcaption>Reveling server in QField</figcaption>
+</figure>
+</p>
 <h3 id="create-and-configure-your-cloud-project">Create and configure your Cloud project<a class="headerlink" href="#create-and-configure-your-cloud-project" title="Permanent link">&para;</a></h3>
 <p>Create a new project by clicking the cloud button, down-left. First, you will need to choose how to create the new project between</p>
 <ul>
 <li>"Convert currently open project to cloud project"
-A new QFieldCloud-compatible project is created from the currently opened QGIS project. In order to do so, datasets will be copied into an export directory that will act as your local mirror. Vector datasets will be converted to geopackage format to facilitate data synchronization from multiple devices while other dataset types will be copied to the new project lotation.</li>
+  A new QFieldCloud-compatible project is created from the currently opened QGIS project. In order to do so, datasets will be copied into an export directory that will act as your local mirror. Vector datasets will be converted to geopackage format to facilitate data synchronization from multiple devices while other dataset types will be copied to the new project lotation.</li>
 </ul>
 <p>To convert a current project, a completely empty directory is mandatory.</p>
 <ul>
 <li>"Create a new empty QFieldCloud project"
-A new blank QFieldCloud project will be created. You will be responsible to move all the project-related files within the selected local directory, with the project file at its root. Project files will only be uploaded when you click the synchronize button. Make sure the selected contains no more than one QGIS project file.</li>
+  A new blank QFieldCloud project will be created. You will be responsible to move all the project-related files within the selected local directory, with the project file at its root. Project files will only be uploaded when you click the synchronize button. Make sure the selected contains no more than one QGIS project file.</li>
 </ul>
 <p>
 <figure><a data-caption="Project details" data-fancybox="gallery" href="../../../assets/images/create_project.png"><img alt="Project details" src="../../../assets/images/create_project.png" title="Project details" width="600px" /></a><figcaption>Project details</figcaption>

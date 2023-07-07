@@ -805,6 +805,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       创建和配置云工程
@@ -2505,6 +2514,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change the default QFieldCloud server in QField and QField Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       创建和配置云工程
@@ -2666,16 +2684,34 @@
 <figure><a data-caption="QField云中的工程属性" data-fancybox="gallery" href="../../../assets/images/project_properties_settings.png"><img alt="QField云中的工程属性" src="../../../assets/images/project_properties_settings.png" title="QField云中的工程属性" width="600px" /></a><figcaption>QField云中的工程属性</figcaption>
 </figure>
 </p>
+<h3 id="change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync">Change the default QFieldCloud server in QField and QField Sync<a class="headerlink" href="#change-the-default-qfieldcloud-server-in-qfield-and-qfield-sync" title="Permanent link">&para;</a></h3>
+<p>QField and QFieldSync connect to the QFieldCloud service on <a href="https://app.qfield.cloud/">app.qfield.cloud</a> by default.</p>
+<p>You can modify the default QFieldCloud server QField and QFieldSync connect to:</p>
+<ol>
+<li>Open the login screen in QField or QFieldSync.</li>
+<li>Double-tap on the Nyuki icon (the blue bee QFieldCloud logo).</li>
+<li>This action will reveal a field where you can enter the preferred QFieldCloud server address.</li>
+<li>Enter the details of the desired server in the provided field.
+(Leaving the field empty will connect to the default QFieldCloud server at app.qfield.cloud.)</li>
+</ol>
+<p>
+<figure><a data-caption="Reveling server in QField Sync" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png"><img alt="Reveling server in QField Sync" src="../../../assets/images/changing_default_qfieldcloud_server_qfield_sync.png" title="Reveling server in QField Sync" width="250px" /></a><figcaption>Reveling server in QField Sync</figcaption>
+</figure>
+</p>
+<p>
+<figure><a data-caption="Reveling server in QField" data-fancybox="gallery" href="../../../assets/images/changing_default_qfieldcloud_server_qfield.png"><img alt="Reveling server in QField" src="../../../assets/images/changing_default_qfieldcloud_server_qfield.png" title="Reveling server in QField" width="250px" /></a><figcaption>Reveling server in QField</figcaption>
+</figure>
+</p>
 <h3 id="_5">创建和配置云工程<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <p>通过单击左下方的云按钮创建新工程。首先，您需要选择如何介于如下几点创建新工程：</p>
 <ul>
 <li>"将当前打开的工程转换为云工程"
-从当前打开的QGIS工程创建新的QField云兼容工程。为此，数据集将被复制到一个输出目录中，该目录充当本地镜像。矢量数据集将转换为地理包格式，方便从多个设备进行数据同步，而其他数据集类型将复制到新建工程位置。</li>
+  从当前打开的QGIS工程创建新的QField云兼容工程。为此，数据集将被复制到一个输出目录中，该目录充当本地镜像。矢量数据集将转换为地理包格式，方便从多个设备进行数据同步，而其他数据集类型将复制到新建工程位置。</li>
 </ul>
 <p>要转换当前工程，必须使用完全空的目录。</p>
 <ul>
 <li>"创建新的空QField云工程"
-创建新的空QField云工程。您将负责在选中的本地目录中移动所有与工程相关的文件，工程文件位于其根目录。只有当您单击同步按钮时，才会上传工程文件。请确保选中的目录包含且不超过一个QGIS工程文件。</li>
+  创建新的空QField云工程。您将负责在选中的本地目录中移动所有与工程相关的文件，工程文件位于其根目录。只有当您单击同步按钮时，才会上传工程文件。请确保选中的目录包含且不超过一个QGIS工程文件。</li>
 </ul>
 <p>
 <figure><a data-caption="工程详情" data-fancybox="gallery" href="../../../assets/images/create_project.png"><img alt="工程详情" src="../../../assets/images/create_project.png" title="工程详情" width="600px" /></a><figcaption>工程详情</figcaption>
