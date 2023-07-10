@@ -1161,16 +1161,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#select-identified-features" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Select identified features
+      地物を選択する
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       特定レイヤーを属性情報表示から除外する
     </span>
@@ -1356,7 +1356,7 @@
         
   
   <span class="md-ellipsis">
-    Map themes
+    マップテーマ
     
   </span>
   
@@ -1378,7 +1378,7 @@
         
   
   <span class="md-ellipsis">
-    Positioning (GNSS)
+    衛星測位 (GNSS)
     
   </span>
   
@@ -1576,7 +1576,7 @@
         
   
   <span class="md-ellipsis">
-    Hiding legend nodes
+    凡例のノードを非表示にする
     
   </span>
   
@@ -1598,7 +1598,7 @@
         
   
   <span class="md-ellipsis">
-    Live default value
+    ライブ・デフォルト値
     
   </span>
   
@@ -1620,7 +1620,7 @@
         
   
   <span class="md-ellipsis">
-    Shared local datasets
+    共有のローカルデータセット
     
   </span>
   
@@ -1642,7 +1642,7 @@
         
   
   <span class="md-ellipsis">
-    Portable project
+    ポータブルなプロジェクト
     
   </span>
   
@@ -2348,16 +2348,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#select-identified-features" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Select identified features
+      地物を選択する
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       特定レイヤーを属性情報表示から除外する
     </span>
@@ -2391,63 +2391,56 @@
 
 
 <h1 id="_1">地図の操作<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>Here are described some of the possible interaction with the map possible in QField.</p>
+<p>ここでは、QFieldで可能な地図とのインタラクションのいくつかを説明します。</p>
 <h2 id="_2">地図の凡例<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> フィールドマーク</p>
-<p>Open the <em>Main menu</em> and expend the layers list to display the legend
-of the map.</p>
-<p>On double-tap or long-press on a layer you get offered the following possibilities.</p>
+<p><em>メインメニュー</em> を開いて、レイヤーリストを展開すると、凡例を表示できます。</p>
+<p>レイヤーをダブルタップまたは長押しすると、以下の操作メニューが表示されます。</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/howto_legendoptions.png"><img alt="" src="../../assets/images/howto_legendoptions.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
 <ul>
-<li><em>Show on map</em> to control visibility.</li>
-<li><em>Show labels</em> to control the visibility of the labels.</li>
-<li><em>Expand legend item</em> to show/hide the layer's sub-items.</li>
-<li><em>Zoom to layer</em> to have all the layer items on the map.</li>
-<li><em>Reload data</em> to get the current data of a layer with remote sources.</li>
-<li><em>Show feature list</em> to show all the layer's features in the identification list.</li>
+<li><em>地図に表示</em>で表示非表示をコントロール。</li>
+<li><em>ラベルを表示</em>でラベルの表示非表示をコントロール</li>
+<li><em>凡例アイテムを展開</em>を使用し、レイヤーのサブアイテムの表示/非表示を切り替えます。</li>
+<li><em>レイヤーにズーム</em>すると、すべてのレイヤーアイテムが地図上に表示されます。</li>
+<li><em>データを再読み込み</em>は、リモート・ソースを持つレイヤーの現在のデータを取得します。</li>
+<li><em>地物の一覧を表示</em>はすべてのレイヤーの地物を識別リストに表示します。</li>
 </ul>
 <h2 id="_3">属性情報の表示<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/></svg></span> フィールドマーク</p>
-<p>Tap on a feature on the map to identify it. If several features are
-located where you tapped (either because there are multiple features
-really close one to another, or because several layers are overlapping),
-they will all be listed in the menu that opens on the right of the
-screen.</p>
+<p>地図上の地物をタップすると属性情報を表示できます。もし複数の地物をタップした場合（複数の地物がたがいに近接している場合や複数のレイヤーがオーバーラップしている場合）は、それらすべての地物が画面の右側のメニューにリストアップされます。</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/howto_identification.png"><img alt="" src="../../assets/images/howto_identification.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
 <p>リストアップされた地物の一つをタップして属性情報を表示できます。</p>
 <ol>
-<li>Tap the <em>arrows</em> to scroll through all the identified features.</li>
-<li>Tap the <em>centre button</em> to center the map on the selected feature.</li>
-<li>Tap the <em>edit button</em> to edit the attributes of the selected
-    feature.</li>
-<li>Scroll through the <em>sub-menus</em> to access all the attributes.</li>
+<li><em>矢印</em> をタップして全ての地物の属性情報をスクロールできます。</li>
+<li><em>中央表示ボタン</em>をタップして選択している地物を中央に表示できます。</li>
+<li><em>編集ボタン</em>をタップして選択している地物の属性情報
+    を変更できます。</li>
+<li><em>サブメニュー</em>をスクロールして、すべての属性にアクセスできます。</li>
 </ol>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/howto_featureinfo.png"><img alt="" src="../../assets/images/howto_featureinfo.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<h3 id="select-identified-features">Select identified features<a class="headerlink" href="#select-identified-features" title="Permanent link">&para;</a></h3>
-<p>With long-press you can toggle the feature selection.</p>
+<h3 id="_4">地物を選択する<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>長押しして地物選択を切り替えられます。</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/howto_selection.png"><img alt="" src="../../assets/images/howto_selection.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>When features then are selected, you can perform the actions provided in the three-dot-menu on the top right.</p>
+<p>地物が選択されると、右上の三点メニューからアクションを実行できます。</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/howto_identification_options.png"><img alt="" src="../../assets/images/howto_identification_options.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<h3 id="_4">特定レイヤーを属性情報表示から除外する<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>Often it is not required to be able to query every layer. Some layers
-are only present as basemap and their attributes are not of interest.</p>
-<p>You can manage this layerlist in QGIS desktop in
-<em>Project &gt; Project Properties &gt; Identify Layers</em> and uncheck the base layers.</p>
+<h3 id="_5">特定レイヤーを属性情報表示から除外する<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>全てのレイヤーが属性情報を表示する必要があるとは限りません。例えばベースマップとして表示されているレイヤーなどは属性情報の表示は不要です。</p>
+<p>QGISデスクトップの<em>プロジェクト &gt; プロパティ &gt; 情報表示可能</em>からベースマップのレイヤーのチェックを外すことで、情報表示対象レイヤーリストを管理できます。</p>
 
   
   
