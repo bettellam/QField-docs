@@ -310,7 +310,7 @@
       <a href="../../../" class="md-tabs__link">
         
   
-  Home
+  Inicio
 
       </a>
     </li>
@@ -465,7 +465,7 @@
         
   
   <span class="md-ellipsis">
-    Home
+    Inicio
     
   </span>
   
@@ -2485,26 +2485,26 @@
 
 
 <h1 id="complemento-qfieldsync">Complemento QFieldSync<a class="headerlink" href="#complemento-qfieldsync" title="Permanent link">&para;</a></h1>
-<p>El complemento QFieldSync ayuda a preparar y empaquetar proyectos QGIS para
-QField.</p>
+<p>El complemento QFieldSync ayuda a preparar y empaquetar proyectos de QGIS
+para QField.</p>
 <p>QFieldSync apoya la preparación de su proyecto con la automatización de lo
 siguiente:</p>
 <ul>
 <li>Pasos necesarios para la configuración del proyecto (por ejemplo
-    <code>portable_project</code>)</li>
-<li>Creación de mapas base a partir de una sola capa de trama o de un estilo definido
+    <code>proyecto_portátil</code>)</li>
+<li>Creación de mapas base a partir de una sola capa ráster o de un estilo definido
     en un tema de mapa.</li>
 <li>Configuración de la funcionalidad de edición fuera de línea y sincronización
-    cambia de nuevo.</li>
+    de los cambios realizados.</li>
 </ul>
 <h2 id="flujo-de-trabajo">Flujo de trabajo<a class="headerlink" href="#flujo-de-trabajo" title="Permanent link">&para;</a></h2>
 <p>Para obtener una visión general rápida del proceso, aquí tiene una lista de pasos habituales:</p>
 <ol>
-<li>Crear un paquete QField. Se trata de una copia de trabajo en un
-    carpeta.</li>
-<li>Copar el paquete QField en el dispositivo de destino.</li>
+<li>Crear un paquete QField. Se trata de una copia de trabajo en una
+    carpeta separada.</li>
+<li>Copiar el paquete QField en el dispositivo de destino.</li>
 <li>Salir y recopilar los datos.</li>
-<li>Copiar los datos modificados en su ordenador de escritorio.</li>
+<li>Copiar los datos modificados de vuelta a su ordenador de escritorio.</li>
 <li>Sincronizar la información modificada con su base de datos o ficheros.</li>
 </ol>
 <h2 id="instalacion">Instalación<a class="headerlink" href="#instalacion" title="Permanent link">&para;</a></h2>
@@ -2524,32 +2524,32 @@ repetidamente.</p>
 </p>
 <h3 id="configuracion-de-capas">Configuración de capas<a class="headerlink" href="#configuracion-de-capas" title="Permanent link">&para;</a></h3>
 <p>
-<figure><a data-caption="Configurar las capas de proyecto" data-fancybox="gallery" href="../../../assets/images/qfield-sync_config.png"><img alt="Configurar las capas de proyecto" src="../../../assets/images/qfield-sync_config.png" title="Configurar las capas de proyecto" width="600px" /></a><figcaption>Configurar las capas de proyecto</figcaption>
+<figure><a data-caption="Configurar las capas del proyecto" data-fancybox="gallery" href="../../../assets/images/qfield-sync_config.png"><img alt="Configurar las capas del proyecto" src="../../../assets/images/qfield-sync_config.png" title="Configurar las capas del proyecto" width="600px" /></a><figcaption>Configurar las capas del proyecto</figcaption>
 </figure>
 </p>
 <p>En el diálogo de configuración del proyecto, se puede definir una <em>acción</em> para cada
-capa individualmente. Dependiendo del tipo de capa, diferentes tipos de
-acciones están disponibles.</p>
+capa individualmente. Dependiendo del tipo de capa, hay disponibles diferentes tipos de
+acciones.</p>
 <dl>
 <dt>Copiar</dt>
 <dd>
-<p>La capa se copiará en la carpeta del paquete. Esto es sólo está
+<p>La capa se copiará en la carpeta del paquete. Esto sólo está
 disponible para las capas basadas en archivos.</p>
 </dd>
 <dt>Ninguna acción</dt>
 <dd>
 <p>La fuente de la capa se dejará sin tocar. Esto sólo está disponible para
-capas no basadas en archivos como WMS, WFS, Postgis...</p>
+capas no basadas en archivos, como WMS, WFS, Postgis...</p>
 </dd>
-<dt>Edición offline</dt>
+<dt>Edición fuera de línea</dt>
 <dd>
-<p>Se copia una copia de trabajo de la capa en la carpeta del paquete. Cada cambio de
-  cambio que se realiza en el proyecto empaquetado durante el trabajo se registra
+<p>Se crea una copia de trabajo de la capa en la carpeta del paquete. Cada cambio
+  que se realiza en el proyecto empaquetado durante el trabajo se registra
   en un registro de cambios. Al sincronizar los cambios más tarde, este
   registro será reproducido y todos los cambios se aplicarán también a la
   base de datos principal. No hay gestión de conflictos.</p>
 </dd>
-<dt>Borrar</dt>
+<dt>Eliminar</dt>
 <dd>
 <p>La capa se eliminará de la copia de trabajo. Esto es útil si una
 capa se utiliza en el mapa base y no estará disponible en el
@@ -2562,45 +2562,45 @@ proyecto empaquetado.</p>
 </dl>
 <ol>
 <li>Bloquear geometrías: no permitir cambiar las geometrías y solo permitir cambiar los atributos de esta capa.</li>
-<li>Set up the attachment default naming, please refer to the <a href="../../../how-to/pictures/#configurable-attachment-path">Configurable picture path</a></li>
-<li>Set up the maximum number of items shown in the relation editor widget</li>
+<li>Configurar la denominación predeterminada de los adjuntos. Por favor, consulte la <a href="../../../how-to/pictures/#configurable-attachment-path">ruta configurable de imágenes</a></li>
+<li>Establecer el número máximo de elementos mostrados en el control editor de relaciones</li>
 </ol>
 <p>
-<figure><a data-caption="QFieldSync Layer Properties" data-fancybox="gallery" href="../../../assets/images/qfield-sync-properties.png"><img alt="QFieldSync Layer Properties" src="../../../assets/images/qfield-sync-properties.png" title="QFieldSync Layer Properties" width="600px" /></a><figcaption>QFieldSync Layer Properties</figcaption>
+<figure><a data-caption="Propiedades de capas de QFieldSync" data-fancybox="gallery" href="../../../assets/images/qfield-sync-properties.png"><img alt="Propiedades de capas de QFieldSync" src="../../../assets/images/qfield-sync-properties.png" title="Propiedades de capas de QFieldSync" width="600px" /></a><figcaption>Propiedades de capas de QFieldSync</figcaption>
 </figure>
 </p>
 <h3 id="configuracion-de-mapas-base">Configuración de mapas base<a class="headerlink" href="#configuracion-de-mapas-base" title="Permanent link">&para;</a></h3>
-<p>Un mapa base es una capa ráster que se añade como capa inferior a
-el archivo del proyecto empaquetado.</p>
+<p>Un mapa base es una capa ráster que se añade como la capa inferior al
+archivo del proyecto empaquetado.</p>
 <p>Si la opción de mapa base está activada, se representará un mapa base, siempre que
 el proyecto esté empaquetado. El área de interés - la extensión que será
-representada -será elegida al mmomento de empaquetar.</p>
-<p>Existen dos posibles orígenes para un mapa base:</p>
+representada - será elegida al momento de empaquetar.</p>
+<p>Existen dos orígenes posibles para un mapa base:</p>
 <dl>
 <dt>Capa</dt>
 <dd>
-<p>Una capa ráster. Esto es útil para tomar una copia fuera de línea de una
-capa como un WMS o para tomar una copia de trabajo de un formato no soportado
-como una capa ECW o MrSID.</p>
+<p>Una capa ráster. Esto es útil para crear una copia fuera de línea de una
+capa online, como un WMS, o para tomar una copia de trabajo de un formato</p>
 </dd>
 </dl>
+<p>no soportado, como una capa ECW o MrSID.</p>
 <div class="admonition nota">
 <p class="admonition-title">Nota</p>
-<p>En los dispositivos iOS, los conjuntos de datos ráster JPEG (incluidos los mbtiles codificados en JPEG)</p>
+<p>Actualmente los conjuntos de datos ráster JPEG (incluidos los mbtiles codificados</p>
 </div>
-<p>no son compatibles actualmente.</p>
+<p>en JPEG) no son compatibles en los dispositivos iOS.</p>
 <dl>
 <dt>Tema de mapa</dt>
 <dd>
 <p>Un tema de mapa. Esto es útil para crear un mapa base basado en una
-combinación de varias capas con estilo. Estas capas pueden entonces ser
-quitadas del paquete de trabajo y no es necesario representarlo en
+combinación de varias capas con estilo. Estas capas se pueden entonces
+quitar del paquete de trabajo y no es necesario representarlas en
 el dispositivo. Esto puede ahorrar algo de espacio en disco y batería en el dispositivo.</p>
 </dd>
 </dl>
-<p>El tamaño de la tesela define la resolución espacial. Determina el número
-de unidades de mapa por píxel. Si el lienzo del mapa CRS tiene metros como unidades y
-el tamaño de la tesela se define en 1, cada píxel del ráster tendrá una extensión espacial de
+<p>El tamaño de tesela define la resolución espacial. Esto determina el número
+de unidades de mapa por píxel. Si el SRC del lienzo del mapa tiene metros como unidades y
+el tamaño de tesela se define como 1, cada píxel del ráster tendrá una extensión espacial de
 1x1 m, si se establece en 1000, cada píxel de la trama tendrá una extensión
 de 1 kilómetro cuadrado.</p>
 <h3 id="configuracion-de-edicion-offline">Configuración de edición offline<a class="headerlink" href="#configuracion-de-edicion-offline" title="Permanent link">&para;</a></h3>

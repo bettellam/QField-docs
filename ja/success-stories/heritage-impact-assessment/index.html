@@ -43,7 +43,7 @@
     
     
       
-        <title>遺産への影響評価 - QField Ecosystem Documentation</title>
+        <title>遺跡影響評価 - QField Ecosystem Documentation</title>
       
     
     
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              遺産への影響評価
+              遺跡影響評価
             
           </span>
         </div>
@@ -310,7 +310,7 @@
       <a href="../../" class="md-tabs__link">
         
   
-  Home
+  ホーム
 
       </a>
     </li>
@@ -465,7 +465,7 @@
         
   
   <span class="md-ellipsis">
-    Home
+    ホーム
     
   </span>
   
@@ -2208,7 +2208,7 @@
           
   
   <span class="md-ellipsis">
-    遺産への影響評価
+    遺跡影響評価
     
   </span>
   
@@ -2221,7 +2221,7 @@
         
   
   <span class="md-ellipsis">
-    遺産への影響評価
+    遺跡影響評価
     
   </span>
   
@@ -2414,7 +2414,7 @@
   </a>
 
 
-<h1 id="qfield">QFieldを利用した遺産への影響評価<a class="headerlink" href="#qfield" title="Permanent link">&para;</a></h1>
+<h1 id="qfield">QFieldを利用した遺跡影響評価<a class="headerlink" href="#qfield" title="Permanent link">&para;</a></h1>
 <p>QGISからQFieldへ、そしてその逆も：新しいアンドロイド・アプリケーションがフィールドでの考古学者の作業をいかに促進するか</p>
 <p><strong>Roberto Montagnetti<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> と Giuseppe Guarino<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></strong></p>
 <p><small>† ArcheoFOSS XIII Workshop-Open Software, Hardware, Processes, Data and Formats in Archaeological Researchで発表。Archaeological Research, Padova, Italy, 20-22 February 2019.</small></p>
@@ -2422,383 +2422,168 @@
 <p><small><strong>キーワード:</strong> QField; archeology; VIARCH; HIA; QGIS</small></p>
 <hr />
 <h3 id="1">1. イントロダクション<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
-<p>The aim of this paper is to highlight the main benefits of using the QField app. An
-App that can be installed on an Android device for all archaeologists working in the field.</p>
-<p>The main feature of this new application will allow the archaeologist to upload to
-his/her smartphone or tablet the .qgs project of the excavation based on the general
-information concerning the site that is already available to you. At this point, it is possible
-to implement the collection of data directly on site, maintaining constant updates to your
-system, thus allowing you to review the project throughout the excavation process.</p>
-<p>The “pocket-GIS” with QField is finally a reality!</p>
-<p>Working with QField in the field allows us to significantly reduce registration and
-computerisation time of inputting data into the database system, eliminating the digiti-
-sation of field registers and all related paperwork. The advantage of entrusting all of the
-information to the main GIS platform of the project (master), which is stored inside the
-PC, means this leaves only the task of checking the collected data, along with the bonus of
-in-depth topographical and geospatial analysis.</p>
-<p>In this article, we will show a practical example of integrated use of QGIS and QField,
-which relates to an open area excavation.</p>
-<p>The intervention methodology proposed in this article was constructed by the per-
-sonal experience of the authors; this specifically refers to open area excavation works in
-commercial archaeology projects.</p>
+<p>本稿の目的は、QFieldアプリを使用する主な利点を強調することである。現場で働くすべての考古学者がアンドロイド端末にインストールできるアプリである。</p>
+<p>この新しいアプリケーションの主な特徴は、考古学者が、すでに入手可能な遺跡に関する一般的な情報に基づいて、発掘調査の.qgsプロジェクトをスマートフォンやタブレットにアップロードできることです。この時点で、現場で直接データ収集を実施することが可能になり、システムの更新が常に維持されるため、発掘プロセス全体を通してプロジェクトを確認することができる。</p>
+<p>QFieldによる "ポケットGIS "がついに現実のものとなったのである！</p>
+<p>現場でQFieldを使用することで、データベースシステムにデータを入力するための登録とコンピュータ化の時間を大幅に短縮することができ、現場台帳の作成とそれに関連する書類作成の手間を省くことができます。また、すべての情報をPCに保存されているプロジェクトのメインGISプラットフォーム（マスター）に任せたことで、収集したデータをチェックする作業と、詳細な地形・地理空間分析が可能になりました。</p>
+<p>この記事では、QGISとQFieldを統合して使用する実践的な例として、オープンエリアの掘削に関連するものを紹介する。</p>
+<p>この論文で提案する導入方法は、著者らの実地経験によって構築されたもので、特に商業的な考古学プロジェクトにおける野外発掘作業について言及している。</p>
 <h3 id="2-qfield">2. QFieldの主な機能<a class="headerlink" href="#2-qfield" title="Permanent link">&para;</a></h3>
-<p>QField is an Android app that can be downloaded from Google Play.
-This application, although it presents itself with a very simple interface, is rich in
-functions such as:</p>
+<p>QFieldはGoogle PlayからダウンロードできるAndroidアプリです。このアプリケーションは、非常にシンプルなインターフェイスで表示されますが、次のような豊富な機能を備えています：</p>
 <ol>
-<li>Tools for digitalisation in the field;</li>
-<li>Geometry and attribute editing;</li>
+<li>現場でのデジタル化のためのツール；</li>
+<li>ジオメトリと属性の編集；</li>
 <li>GPS;</li>
-<li>Possibility to upload custom base maps;</li>
-<li>Integration of smartphone/tablet’s camera;</li>
-<li>Many other functions.</li>
+<li>カスタム・ベースマップのアップロードが可能；</li>
+<li>スマートフォン/タブレットのカメラの統合；</li>
+<li>その他の多くの機能。</li>
 </ol>
-<p>QField can be considered a “mobile” extension for QGIS. In fact, it allows us to view and
-manage a GIS project created with QGIS on an Android smartphone or tablet. Permitting
-the user to keep all set themes, labels and styles that are in the original project (Figure 1).</p>
+<p>QFieldはQGISの "モバイル "エクステンションと言える。実際、QFieldを使えば、QGISで作成したGISプロジェクトをAndroidスマートフォンやタブレットで表示・管理できる。ユーザーは、元のプロジェクトに設定されているテーマ、ラベル、スタイルをすべて維持することができる（図1）。</p>
 <p>
-<figure><a data-caption="Figure 1 - An example of the same Survey GIS platform project in QGIS (below) and in QField (above). Image by Giuseppe
-Guarino 2019." data-fancybox="gallery" href="../../assets/images/heritage_impact_figure1.png"><img alt="Figure 1 - An example of the same Survey GIS platform project in QGIS (below) and in QField (above). Image by Giuseppe
-Guarino 2019." src="../../assets/images/heritage_impact_figure1.png" title="Figure 1 - An example of the same Survey GIS platform project in QGIS (below) and in QField (above). Image by Giuseppe
-Guarino 2019." width="600px" /></a><figcaption>Figure 1 - An example of the same Survey GIS platform project in QGIS (below) and in QField (above). Image by Giuseppe
-Guarino 2019.</figcaption>
+<figure><a data-caption="図1 - QGIS（下）とQField（上）での同じSurvey GISプラットフォームプロジェクトの例。画像：Giuseppe Guarino 2019。" data-fancybox="gallery" href="../../assets/images/heritage_impact_figure1.png"><img alt="図1 - QGIS（下）とQField（上）での同じSurvey GISプラットフォームプロジェクトの例。画像：Giuseppe Guarino 2019。" src="../../assets/images/heritage_impact_figure1.png" title="図1 - QGIS（下）とQField（上）での同じSurvey GISプラットフォームプロジェクトの例。画像：Giuseppe Guarino 2019。" width="600px" /></a><figcaption>図1 - QGIS（下）とQField（上）での同じSurvey GISプラットフォームプロジェクトの例。画像：Giuseppe Guarino 2019。</figcaption>
 </figure>
 </p>
-<p>Furthermore, similar to QGIS, we can query each layer within QField by obtaining
-the respective information contained in its attribute table (however, there are also other
-GIS applications for mobile such as ArcGis, LiPAD, Bentley Map Mobile, GVSig Mobile,
-Geopaparazzi and others).</p>
-<p>In order to work with a QGIS project within QField, the first step is to configure the
-properties of that project created in QGIS as “save relative paths”.</p>
-<p>You will need to create a folder “folder_name” on your desktop and save in this path
-the .qgs file that you want to transfer to the smartphone or tablet; similarly, in the same
-folder, you have to enter all the data (vectors, raster and database) that make up this .QGIS
-project.</p>
-<p>These data can also be divided into further subfolders.</p>
-<p>Finally, you need to copy the entire folder ‘folder_name’ to the tablet, following two
-possible paths:</p>
+<p>さらに、QGISと同様に、QField内の各レイヤーの属性テーブルに含まれるそれぞれの情報を取得することで、各レイヤーに問い合わせることができる（ただし、モバイル用のGISアプリケーションは、ArcGIS、LiPAD、Bentley Map Mobile、GVSig Mobile、Geopaparazziなど他にもある）。</p>
+<p>QFieldでQGISプロジェクトを扱うには、まず、QGISで作成されたプロジェクトのプロパティを「相対パスを保存」として設定します。</p>
+<p>デスクトップに "folder_name "というフォルダを作成し、スマートフォンやタブレットに転送したい.qgsファイルをこのパスに保存する必要があります。同様に、同じフォルダに、この.QGISプロジェクトを構成するすべてのデータ（ベクター、ラスター、データベース）を入力する必要があります。</p>
+<p>これらのデータはさらにサブフォルダーに分けることもできる。</p>
+<p>最後に、「folder_name」フォルダ全体をタブレットにコピーする必要がある。それには以下の二通りの方法がある：</p>
 <ol>
-<li>In the internal memory: Android &gt; data &gt; ch.opengis.QField &gt; files &gt; share;</li>
-<li>In the external SD: Android &gt; data &gt; ch.opengis.QField &gt; files.</li>
+<li>内部メモリーの Android &gt; data &gt; ch.opengis.QField &gt; files &gt; shareに保存する；</li>
+<li>外部SDのAndroid &gt; data &gt; ch.opengis.QField &gt; filesに保存する。</li>
 </ol>
 <h3 id="3-qfield">3. 考古学的調査および考古学的リスク評価プロジェクトにおけるQFieldの活用<a class="headerlink" href="#3-qfield" title="Permanent link">&para;</a></h3>
-<p>Until recently, paper maps were the only way of recording archaeological features and
-the fields’ visibility in an archaeological survey work. Such data were digitised into a CAD
-or GIS software creating the individual site sheets separately on a simple digital document
-afterwards.</p>
-<p>Today, QField, thanks to its compatibility with QGIS, allows you to skip the transition
-from paper to digital or from different software, reducing time and costs.</p>
-<p>The archaeological survey (for a comprehensive account of methods of the Archaeological
-survey, see Cambi, Terrenato 1994, pp. 117–143, and Renfrew, Bahn 2016 [1,2]) must
-be preceded by the construction of a GIS platform that takes into consideration both the
-data acquired during the field survey phase and the bibliographic ones. For this reason, it
-will be necessary to work on two tables: one is spatial, which is useful in the field, and the
-other is alphanumeric. Both will be joined in a single spatial table, useful for consultation
-on the GIS desktop. This process is possible through the use of a relational geo-database
-such as SpatiaLite and PostGIS or, alternatively, through the creation of a join between the
-tables and the geometries.</p>
-<p>However, the big advantage of using a geo-database is the ability to create queries
-capable of merging information from two or more tables into a single table (view) (for
-more in-depth information on the use of GIS and Geodatabases in archaeology, see Fronza,
-Nardini, Valenti 2009 [3]).</p>
-<p>This process further speeds up field work by minimising the data to be stored during
-archaeological survey.</p>
-<p>The data collected in the field during the survey will be recorded and digitised through
-three different layers (point, line and polygon). The attribute tables connected to the three
-layers record the following information: Project Name (String), Municipality (String),
-Location (String), Feature Number (Integer), Place Name (String), Location (String), Date
-(Date), Site Definition (String), Visibility (String) and Photos (String).</p>
-<p>The attribute values, “Project name” and “Feature Number”, between the two tables
-must be Unique Constraint in order to identify only one unique “Project name” and only
-one “Feature Number”.</p>
-<p>The GIS platform must also have base maps such as Google Satellite, Open Street Map,
-Orthophotos and so on. In this case, we used the following maps: Carta Tecnica Regionale
-(1:10.000), Open Street Map e Google Satellite. To make these maps lighter, we created first
-overviews (pyramids) in QGIS.</p>
-<p>The positioning of the archaeological features identified can be recorded through the
-GPS internal device. However, for a greater accuracy, QField can be connected to a GNSS
-antenna.</p>
-<p>In archaeological consultancy and archaeological risk assessment jobs, it is recommended
-to upload into the GIS project an infrastructure layer containing the infrastructure’s
-geometric information, measurements and others, besides a buffer of itself.</p>
-<p>After setting the basics of our project on QGIS, we need to export the project through
-the use of the QField Sync plugin within QField. Alternatively, we can carry this out by
-simply copying the folder containing the project file with the * .QGIS extension, the database
-and the rasters (or the geopackage containing our rasters: IGM, Basemap and so on) into
-our smartphone or tablet.</p>
-<p>By default, QField creates a folder where you can save projects (Android/data/
-ch.opengis.QField/files), but it is always better to store them on an external SSD, since
-if you were to uninstall QField from your device, all the folders and files contained in them
-will be removed running the risk of deleting the data.</p>
-<p>After we set up the bases of the GIS project in QGIS, we need to export it into QField
-through a suitable plug-in called QField-Sync.</p>
-<p>However, we can perform that task even by simply transferring (copy and paste) the
-QGIS project and the related dataset to our Android device. The QGIS project must be saved
-as .QGIS.</p>
+<p>最近まで、考古学的調査作業において、遺跡の特徴やフィールドの見え方を記録する唯一の方法は紙の地図であった。このようなデータは、CADやGISソフトウェアにデジタル化され、その後、簡単なデジタル文書上に個々のサイトシートを個別に作成した。</p>
+<p>今日、QFieldはQGISとの互換性のおかげで、紙からデジタルへの移行や異なるソフトウェアからの移行を省略することができ、時間とコストを削減することができるようになった。</p>
+<p>考古学的調査（考古学的調査の方法については、Cambi, Terrenato 1994, pp.117-143、およびRenfrew, Bahn 2016 [1,2]を参照）は、現地調査段階で取得したデータと文献的データの両方を考慮したGISプラットフォームの構築を先行させなければならない。このため、2つのテーブルを作成する必要がある。1つはフィールドで役立つ空間的なテーブルで、もう1つは英数字のテーブルである。この2つの表は、GISのデスクトップで参照するのに便利な1つの空間的な表に結合される。このプロセスは、SpatiaLiteやPostGISのようなリレーショナルジオデータベースを使用するか、あるいはテーブルとジオメトリ間の結合を作成することで可能となる。</p>
+<p>しかし、ジオデータベースを使用する大きな利点は、2つ以上のテーブルの情報を1つのテーブル（ビュー）に統合できるクエリを作成できることである（考古学におけるGISとジオデータベースの使用に関する詳細な情報については、Fronza, Nardini, Valenti 2009 [3]を参照）。</p>
+<p>このプロセスは、考古学的調査中に保存するデータを最小限にすることで、現地作業をさらにスピードアップする。</p>
+<p>調査中に現地で収集されたデータは、3つの異なるレイヤー（点、線、ポリゴン）を通して記録され、デジタル化される。3つのレイヤーに接続された属性テーブルには、以下の情報が記録される： プロジェクト名（文字列）、市町村名（文字列）、位置（文字列）、地物番号（整数）、地名（文字列）、場所（文字列）、日付（日付）、サイト定義（文字列）、視認性（文字列）、写真（文字列）。</p>
+<p>2つのテーブル間の "プロジェクト名 "と "地物番号 "の属性値は、一意な "プロジェクト名 "と一意な "地物番号 "を識別するために、一意制約でなければならない。</p>
+<p>GISプラットフォームは、Google Satellite、Open Street Map、Orthophotosなどのベースマップも持っていなければならない。今回は以下の地図を使用した： Carta Tecnica Regionale (1:10.000)、Open Street Map、Google Satellite。これらの地図を軽くするために、まずQGISで概観図（ピラミッド）を作成した。</p>
+<p>特定された考古学的特徴の位置は、GPS内蔵装置を通して記録することができる。しかし、より高い精度を得るために、QFieldをGNSSアンテナに接続することも可能です。</p>
+<p>考古学コンサルタントや考古学的リスクアセスメントの仕事では、GISプロジェクトにインフラストラクチャーの幾何学的情報や測定値などを含むインフラストラクチャーレイヤーを、それ自体のバッファーの他にアップロードすることが推奨される。</p>
+<p>QGIS 上でプロジェクトの基本を設定した後、QField の QField Sync プラグインを使用してプロジェクトをエクスポートする必要があります。あるいは、拡張子が * .QGISのプロジェクトファイル、データベース、ラスター（またはラスターを含むジオパッケージ：IGM、Basemapなど）を含むフォルダをスマートフォンやタブレットにコピーするだけでも、プロジェクトを実行できます。</p>
+<p>デフォルトでは、QFieldはプロジェクトを保存するフォルダ（Android/data/ch.opengis.QField/files）を作成しますが、QFieldをデバイスからアンインストールすると、フォルダとファイルがすべて削除され、データが削除される危険性があるため、常に外付けSSDに保存することをお勧めします。</p>
+<p>QGISでGISプロジェクトのベースを設定した後、QField-Syncという適切なプラグインを使ってQFieldにエクスポートする必要がある。</p>
+<p>しかし、QGISプロジェクトと関連するデータセットをAndroid端末に転送（コピー＆ペースト）するだけでも、このタスクを実行することができる。QGISプロジェクトは.QGSとして保存する必要があります。</p>
 <h3 id="4-qfield">4. 考古学的調査および考古学的リスク評価におけるQField使用の利点と欠点<a class="headerlink" href="#4-qfield" title="Permanent link">&para;</a></h3>
-<p>QField, similar to all the cutting-edge tools, has some limits related the the use of the
-devices; the main one of these might be caused by the poor bandwidth or lack of internet. In
-this case, we cannot have a good accuracy in the registration of our archaeological features
-by using the GNSS. At the same time, we would not to be able to upload WMS services
-such as Google Satellite, Open Street Map and others. Another disadvantage is related to
-the battery life: keeping the screen, data connection and GPS always active will drastically
-reduce the battery life of our device, even if we might bring with us portable powerbanks.
-On the other hand, the benefits of using QField are a lot; in fact, it allows us to reduce many
-procedures we were to carry out had we registered the archaeological features identified
-during the survey on a paper map or had we filled up their related information manually
-on paper sheets. Furthermore, another benefit constitutes the possibility of using QField
-for integrating the device camera or a GNSS antenna. All of this makes the collection of
-data easier and increases their accuracy while at the same time reducing time, costs and
-workforce.</p>
+<p>QFieldは、他の最先端ツールと同様に、機器の使用に関連するいくつかの制限があります。その主なものは、帯域幅が狭いか、インターネットがないことに起因するかもしれません。このような場合、GNSSを使用しても、遺跡の地物を精度よく登録することはできません。同時に、Google SatelliteやOpen Street MapなどのWMSサービスをアップロードすることもできません。画面、データ接続、GPSを常にアクティブにしておくと、たとえ携帯用パワーバンクを持参したとしても、デバイスのバッテリー寿命が極端に短くなります。一方、QFieldを使用するメリットはたくさんある。実際、調査中に確認された遺跡を紙の地図に登録したり、関連情報を紙のシートに手書きで記入したりしていた場合、QFieldを使用することで多くの手順を減らすことができる。さらに、もうひとつの利点は、QFieldを使ってカメラやGNSSアンテナを統合できることである。これらにより、データの収集が容易になり、精度が向上すると同時に、時間、コスト、労働力が削減される。</p>
 <p>G.G.</p>
 <h3 id="5-qfield">5. オープンエリア掘削でのQFieldの作業<a class="headerlink" href="#5-qfield" title="Permanent link">&para;</a></h3>
-<p>In  an  open  area  excavation  scenario,  the  advantages  and  convenience  of  using  an
-App  such  as  QField  are  innumerable.  This  is  true  especially  in  commercial  archaeology
-sites, where very often the deadlines to carry out the work and the budgets available for
-the archaeological investigation are very tight. This forces you to work with the maximum
-optimisation of the timing and assets, despite the fact that the weather and visibility conditions
-in the field are often poor (Figure 2).</p>
+<p>オープンエリアでの発掘調査のシナリオでは、QFieldのようなアプリを使用する利点と利便性は数え切れません。これは特に商業的な考古学の現場において言えることで、作業の実施期限や考古学的調査に使える予算が非常に厳しい場合が非常に多いのです。そのため、現場の天候や視界が悪いことが多いにもかかわらず、タイミングや資産を最大限に最適化して作業を行わなければなりません（図2）。</p>
 <p>
-<figure><a data-caption="Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti
-2019." data-fancybox="gallery" href="../../assets/images/heritage_impact_figure2.png"><img alt="Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti
-2019." src="../../assets/images/heritage_impact_figure2.png" title="Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti
-2019." width="600px" /></a><figcaption>Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti
-2019.</figcaption>
+<figure><a data-caption="図2 - 現場の天候と視界条件が悪い場合の例。画像：Roberto Montagnetti 2019年。" data-fancybox="gallery" href="../../assets/images/heritage_impact_figure2.png"><img alt="図2 - 現場の天候と視界条件が悪い場合の例。画像：Roberto Montagnetti 2019年。" src="../../assets/images/heritage_impact_figure2.png" title="図2 - 現場の天候と視界条件が悪い場合の例。画像：Roberto Montagnetti 2019年。" width="600px" /></a><figcaption>図2 - 現場の天候と視界条件が悪い場合の例。画像：Roberto Montagnetti 2019年。</figcaption>
 </figure>
 </p>
-<p>Now, let us see why the use of QField facilitates the reduction of working times and,
-at the same time, guarantees the saving of resources to be invested in the archaeological
-investigation, providing a practical example of using the GIS App for Android.</p>
-<p>In this kind of work, the first step is to strip the area to be investigated with the use of
-machinery, aiming to remove the topsoil and then eventually the subsoil.</p>
-<p>The subsequent step involves the identification of archaeological features both directly
-in the field and by comparing the results of the aerial remote sensing and geophysical
-analysis when this type of technology is used.</p>
-<p>The archaeological features identified are then digitally detected by GPS or Total
-Station.</p>
-<p>Finally, all the excavation interventions that need to be completed in the investigation
-area (slots) are outlined, where it is more relevant in terms of understanding the
-stratigraphic relationship between the archaeological features identified.</p>
-<p>This phase of the work is called “Pre-Ex”.</p>
-<p>The Pre-Ex survey will be the topographical base for the creation of the GIS platform
-of the project in QGIS, together with the base map of the area, the TBM’s and any aerial
-orthophotos of the site. Within the same platform, we will also upload a geodatabase
-containing the layers necessary for the digitisation of the following:</p>
-<p>a. The archaeological features identified in the field;</p>
-<p>b The slots planned;</p>
-<p>c. The contexts investigated and their related levels;</p>
-<p>d. The plan and section lines used for the manual drawings;</p>
-<p>e. All the elements that we may need to detect during the archaeological investigation
-of the site.</p>
-<p>However, in the same database, there will also be tables related to the paperwork
-sheets.</p>
-<p>Thus, they are comparable to the digital version of the paper registers and other related
-paperwork that are commonly used on construction sites for excavation documentation.</p>
-<p>This database (what comes next is just an example of database structure. Tables and
-geometries can be different according to the characteristics of the sites and the topology of
-investigations that must be carried out. In any case, tables and vectors must be related to
-each other in order to interact. QField recognises the project relations set in QGIS.) is made
-of:</p>
+<p>では、なぜQFieldを使用することで作業時間が短縮され、同時に考古学的調査に投入される資源の節約が保証されるのか、Android用GISアプリを使用した実践的な例を挙げて説明しよう。</p>
+<p>この種の作業では、まず機械を使って調査対象地域をはぎ取り、表土を除去し、最終的には下層土を除去する。</p>
+<p>その後、現地で直接、あるいは航空リモートセンシングや物理探査の結果と比較しながら、考古学的地物を特定する。</p>
+<p>特定された考古学的地物は、次にGPSまたはトータルステーションによってデジタル検出される。</p>
+<p>最後に、確認された考古学的な地物間の層序的関係を理解する上でより関連性の高い、調査区域（スロット）内で完了させる必要のあるすべての発掘調査介入を概説する。</p>
+<p>この作業段階は「事前調査」と呼ばれる。</p>
+<p>事前調査は、QGISでプロジェクトのGISプラットフォームを作成するための地形ベースとなるもので、この地域のベースマップ、TBM、遺跡の航空正射写真とともに作成されます。同じプラットフォーム内に、以下のデジタル化に必要なレイヤーを含むジオデータベースもアップロードする：</p>
+<p>a. 現地で確認された考古学的地物；</p>
+<p>b 計画していたスロット；</p>
+<p>c. 調査したコンテクストとその関連レベル；</p>
+<p>d. マニュアル図面に使用された平面および断面線；</p>
+<p>e. 遺跡の考古学的調査中に検出する必要があると思われるすべての要素。</p>
+<p>しかし、同じデータベースには、事務処理シートに関連するテーブルも存在する。</p>
+<p>したがって、建設現場で発掘調査の記録としてよく使われる紙の台帳やその他の関連書類のデジタル版に匹敵する。</p>
+<p>このデータベース（次に出てくるのはデータベース構造の一例である。テーブルやジオメトリは、現場の特徴や実施すべき調査のトポロジーによって異なることがある。いずれにせよ、テーブルとベクトルは、相互作用するために、互いに関連していなければならない。QFieldは、QGISで設定されたプロジェクト関係を認識する）は以下のような要素で構築される：</p>
 <ol>
-<li>Sites (Vector): Contains the list and description of all the sites on which the company
-is working.</li>
-<li>Context_Layer (Vector): This layer graphically represents all the contexts identified
-and excavated during the excavation project.</li>
-<li>Slots (Vector): This layer graphically represents all the slots excavated and contains
-the information of the paper slot register.</li>
-<li>Level_Layer (Vector): This layer graphically represents all the levels taken during the
-excavation of each slot.</li>
-<li>Drawings_Vector (Vector): This layer graphically represents the plan and section lines
-used for the manual drawings.</li>
-<li>Drawing_Point (Vector): This layer graphically represents the points through which
-the plan and section lines pass.</li>
-<li>Context_Register (No geometry): digital register, which contains all the investigated
-contexts.</li>
-<li>Drawings_Register (No geometry): digital register of all the drawings.</li>
-<li>Permatrace_Register (No geometry): digital register of the permatrace sheets.</li>
-<li>Sample_Register (No geometry): digital register of the samples collected.</li>
-<li>Photo_Register (No geometry): digital register of all photos taken.</li>
-<li>Small_Find_Register (No geometry): digital register of all small finds collected.</li>
-<li>Finds_Bag_Register (No geometry): digital register of all finds bags collected during
-the excavation.</li>
-<li>Context_Sheets (No geometry): This layer is the digital version of the context sheets
-register and contains all the information related to each context investigated.</li>
+<li>Sites（ベクター）： 企業が取り組んでいるすべてのサイトのリストと説明
+が含まれます。</li>
+<li>Context_Layer (ベクター)： このレイヤーは、発掘プロジェクトで確認され、
+発掘されたすべてのコンテクストをグラフィカルに表している。</li>
+<li>Slots（ベクター）： このレイヤーは、発掘されたすべてのスロットをグラフィカルに表し、
+紙のスロット登録の情報を含む。</li>
+<li>Level_Layer (ベクター)： このレイヤーは、各スロットの掘削中に取得されたすべてのレベルを
+グラフィカルに表します。</li>
+<li>Drawings_Vector（ベクトル）： このレイヤーは、手動図面に使用される平面線と断面線を
+グラフィカルに表します。</li>
+<li>Drawing_Point（ベクトル）： このレイヤーは、平面線と断面線が通過する点を
+グラフィカルに表します。</li>
+<li>Context_Register (ジオメトリなし): 調査されたすべてのコンテクストを含む
+デジタルレジスタ。</li>
+<li>Drawings_Register (ジオメトリなし): すべての図面のデジタルレジスタ。</li>
+<li>Permatrace_Register (ジオメトリなし): パーマトレースシートのデジタルレジスタ。</li>
+<li>Sample_Register (ジオメトリなし): 採取したサンプルのデジタル登録。</li>
+<li>Photo_Register (ジオメトリなし): 撮影されたすべての写真のデジタル登録。</li>
+<li>Small_Find_Register (ジオメトリなし）: 収集された小発見物のデジタル登録。</li>
+<li>Finds_Bag_Register (ジオメトリなし): 発掘中に収集されたすべての出土品袋の
+デジタル登録。</li>
+<li>Context_Sheets（ジオメトリなし）： この層はコンテクストシート登録のデジタル版であり、
+調査された各コンテクストに関連するすべての情報を含む。</li>
 </ol>
-<p>At this point, we need to simply transfer the master project created in QGIS with all
-the “project relation” and “widgets” to the tablet or the smartphone and manage it directly
-on site with QField to immediately appreciate its advantages and convenience (Figure 3).</p>
+<p>この時点で、QGISで作成したマスタープロジェクトとすべての「プロジェクト関係」と「ウィジェット」をタブレットやスマートフォンに転送し、現場でQFieldを使って直接管理するだけで、その利点と利便性をすぐに理解することができる（図3）。</p>
 <p>
-<figure><a data-caption="Figure 3 - An example of the same open area excavation GIS platform project in QGIS (above) and in QField (below). Image
-by Roberto Montagnetti 2019." data-fancybox="gallery" href="../../assets/images/heritage_impact_figure3.png"><img alt="Figure 3 - An example of the same open area excavation GIS platform project in QGIS (above) and in QField (below). Image
-by Roberto Montagnetti 2019." src="../../assets/images/heritage_impact_figure3.png" title="Figure 3 - An example of the same open area excavation GIS platform project in QGIS (above) and in QField (below). Image
-by Roberto Montagnetti 2019." width="600px" /></a><figcaption>Figure 3 - An example of the same open area excavation GIS platform project in QGIS (above) and in QField (below). Image
-by Roberto Montagnetti 2019.</figcaption>
+<figure><a data-caption="図3 - QGIS（上）とQField（下）での同じオープンエリア発掘GISプラットフォームプロジェクトの例。画像：Roberto Montagnetti 2019。" data-fancybox="gallery" href="../../assets/images/heritage_impact_figure3.png"><img alt="図3 - QGIS（上）とQField（下）での同じオープンエリア発掘GISプラットフォームプロジェクトの例。画像：Roberto Montagnetti 2019。" src="../../assets/images/heritage_impact_figure3.png" title="図3 - QGIS（上）とQField（下）での同じオープンエリア発掘GISプラットフォームプロジェクトの例。画像：Roberto Montagnetti 2019。" width="600px" /></a><figcaption>図3 - QGIS（上）とQField（下）での同じオープンエリア発掘GISプラットフォームプロジェクトの例。画像：Roberto Montagnetti 2019。</figcaption>
 </figure>
 </p>
-<p>In fact, primarily, by using this system, archaeologists who are working in the field
-will be able to directly register the context numbers identified during the excavation within
-QField, in the appropriate “context register” table in the QField database.</p>
-<p>This aspect already speeds up on-site operations by saving the time generally taken to
-go back and forth from the site to the compound or from the site to the car/van and vice
-versa, for the compilation of paper registers; especially, if we take into consideration the
-fact that, on a regular basis, cars and compounds are located at a considerable distance
-away from the excavation area.</p>
-<p>Additionally, since generally there is only one device on site and this is usually held
-by the site manager or by the supervisors, this would make it easier for them to check that
-the field archaeologists are assigning the right numbers to the identified contexts.</p>
-<p>Very often, on a location tend to become confused,
-especially when the excavation area of the site is poor due to
-adverse weather conditions. Along with the above issues, they can also encounter errors
-such as registering the same feature with different cut numbers or by assigning the same
-context numbers to different features.</p>
-<p>This occurs even more frequently when the field team is composed of numerous
-archaeologists who work in separate excavation slots from each other. These slots can be
-spread around the excavation area, making interaction and communication between them
-more challenging.</p>
-<p>This issue is also linked to another problem, which means, for those who work in
-the field, it is impossible to have a constant overview of the investigation area and the
-archaeological features identified, which often causes confusion and making mistakes
-during the registration of the context numbers.</p>
-<p>Therefore, from this point of view, QField represents a real breakthrough by giving the
-following possibilities to the people working on site, at any time:</p>
-<p>i. To have a general overview of the excavation area;</p>
-<p>ii. To query the surveyed archaeological features;</p>
-<p>iii. To check the shape and the orientation of the archaeological features identified in
-the Pre-Ex phase, which must be dug even when the site conditions are poor.</p>
-<p>QField aids with various challenges encountered in the field: time wasted due to
-inclement, wet weather and perpetually sodden and muddy soil churned up by people and
-vehicles continually accessing the site. These cause the identified archaeological features to
-become unrecognisable after several days of the site being stripped (Figure 2).</p>
-<p>By using the device’s GPS, as it allows the user to navigate within the excavation area
-and to find, albeit with a certain margin of error, the archaeological features that need to be
-excavated, even when the visibility on site is poor.</p>
-<p>Similarly, by doing so, when visibility conditions are bad, it is easier to centre with
-the slots in the archaeological features that have previously been identified in the Pre-Ex
-phase, which prevents the miscalculation of digging into the natural sites.</p>
-<p>A typical example of this is when there are furrows running across the field, and it
-becomes increasingly difficult to see their entire length with the naked eye.</p>
-<p>Typically, in order to remedy this type of problem, archaeologists use printed maps in
-the excavation area; however, although this can certainly be a help, in practice, they are in
-no way comparable to the convenience of digital maps and consequently to QField for a
-number of reasons:</p>
+<p>実際、主にこのシステムを使うことで、現場で作業している考古学者は、発掘中に特定されたコンテクスト番号をQField内のQFieldデータベースの適切な「コンテクスト登録」テーブルに直接登録できるようになる。</p>
+<p>この側面は、紙の台帳を編集するために、現場から屋敷、あるいは現場から車やバン、あるいはその逆を行ったり来たりする時間を節約することによって、現場での作業をすでにスピードアップしている。特に、日常的に、車や屋敷が発掘現場からかなり離れた場所にあるという事実を考慮すれば、なおさらである。</p>
+<p>さらに、通常、現場には装置が1台しかなく、これは通常、現場管理者か監督者が持っているため、現場考古学者が特定されたコンテクストに正しい番号を割り当てているかどうかをチェックすることが容易になる。</p>
+<p>特に、悪天候のために発掘現場が劣悪であった場合、現場が混乱してしまうことがよくある。また、上記のような問題だけでなく、同じ地物を異なるカット番号で登録したり、異なる地物に同じコンテクスト番号を割り当ててしまうなどのエラーに遭遇することもある。</p>
+<p>このようなことは、フィールドチームが多数の考古学者で構成され、互いに別々の発掘枠で作業する場合に、さらに頻繁に発生する。これらのスロットは発掘調査区域のあちこちに散らばっているため、チーム間の交流や意思疎通が難しくなる。</p>
+<p>この問題はまた別の問題とも関連している。つまり、現場で作業する者にとって、調査エリアや確認された考古学的地物を常に俯瞰することは不可能であり、コンテキスト番号の登録時に混乱やミスを引き起こすことが多いのである。</p>
+<p>このような観点から、QFieldは、現場で作業する人々に、いつでも、次のような可能性を提供することで、真のブレークスルーを意味します：</p>
+<p>i. 掘削エリアの全体像を把握すること；</p>
+<p>ii. 調査された考古学的地物を問い合わせること；</p>
+<p>iii. 遺跡の条件が悪くても掘らなければならない事前調査段階で確認された考古学的特徴の形状と方向を確認する。</p>
+<p>QFieldは、悪天候や雨天による時間の浪費、継続的に現場に入る人々や車両によってかき回される、常にぬかるんだ泥土など、現場で遭遇するさまざまな難題を解決してくれる。こういった問題は、数日後に遺跡が剥ぎ取られると、確認された考古学的地物が分からなくしてしまう（図2）。</p>
+<p>GPSを利用することで、現場の視界が悪くても、ある程度の誤差はあるものの、発掘エリア内を移動し、発掘すべき遺跡を見つけることができる。</p>
+<p>同様に、そうすることで、視界が悪いときでも、事前調査段階で事前に特定された考古学的地物のスロットを中心に据えることが容易になり、自然遺跡を掘るという誤算を防ぐことができる。</p>
+<p>この典型的な例は、圃場を横切る溝があり、その全長を肉眼で確認することが難しくなってきた場合である。</p>
+<p>一般的に、この種の問題を解決するために、考古学者は発掘現場で印刷された地図を使用する。しかし、これは確かに助けにはなるが、実際には、デジタル地図の利便性、ひいてはQFieldの利便性には、いくつかの理由で及ばない：</p>
 <ol>
-<li>Printed maps deteriorate very quickly due to wind, humidity and especially when
-handled by human hands.</li>
-<li>To contain the entire excavation area, they must often be printed in very large formats,
-which requires particular plotters, which incurs considerable costs and makes them
-difficult to use.</li>
-<li>Paper maps are not interactive, which means that you cannot ask them questions.</li>
-<li>They do not solve the problem of having to precisely centre the archaeological features,
-which need to be investigated with the slots when the visibility conditions on the site
-are poor.</li>
+<li>印刷された地図は、風や湿気、特に人の手によって扱われることによって
+非常に早く劣化する。</li>
+<li>発掘調査エリア全体を網羅するためには、しばしば非常に大きなフォーマットで印刷する必要があり、
+そのためには高価で扱いが困難な特殊なプロッタ
+が必要になる。</li>
+<li>紙の地図はインタラクティブではないので、問い合わせることができない。</li>
+<li>また、遺跡の位置を正確に把握する必要があるため、
+現場の視界が悪いときにスロットを使って調査しなければならないという問題
+も解決できない。</li>
 </ol>
-<p>Notably, the use of QField on site simplifies the workload of managers and supervisors
-in the planning of the excavation interventions, allowing them to easily instruct field
-archaeologists directly in the excavation area. By doing so, they will be able to train the
-field team efficiently with accurate information regarding the features that they will have to
-dig, supporting their explanation with the graphic aid of the tablet and with details related
-to what has already been investigated and uploaded into the database of the project.</p>
-<p>Apart from the fieldwork, QField makes the job easier for archaeologists even in the
-recording phase, simplifying their work in the production of the paperwork. As we already
-mentioned, they can continuously query the tablet to obtain the necessary information
-that needs to be included in their paper documentation sheets, such as the section or plan
-numbers of the contexts that they have excavated, along with the photo numbers of the
-same contexts, or any other related information.</p>
-<p>Furthermore, it will be much easier for them to draw the location plans that are
-generally required in the context sheets, as they will have much more pieces of information
-available to provide an interpretation of what they have dug.</p>
-<p>Another very important aspect to take into consideration when working with QField
-is that there is a possibility of completely removing the manual registration process of the
-slot numbers, context numbers, drawing numbers, sample numbers, photo numbers and
-so on. Simultaneously, by using this system, we can also avoid issues such as:</p>
+<p>特に、現場でQFieldを使用することで、発掘調査の計画における管理者や監督者の作業が簡素化され、現場の考古学者に発掘現場で直接指示することが容易になります。そうすることで、現場チームは、掘削しなければならない遺構に関する正確な情報を、タブレットのグラフィック補助を使った説明や、すでに調査され、プロジェクトのデータベースにアップロードされた遺構に関する詳細でサポートしながら、効率的にトレーニングすることができる。</p>
+<p>現地調査とは別に、QFieldは記録段階でも考古学者の仕事を容易にし、書類作成の作業を簡素化します。すでに述べたように、発掘したコンテクストのセクション番号やプラン番号、同じコンテクストの写真番号、その他の関連情報など、紙の記録用紙に記載する必要がある必要な情報を、タブレットに継続的に問い合わせることができます。</p>
+<p>さらに、一般的にコンテクスト・シートに必要とされる位置図も、自分が掘ったものの解釈を提供するために利用できる情報が格段に増えるため、より簡単に描くことができるようになる。</p>
+<p>QFieldを使用する際に考慮すべきもう一つの非常に重要な点は、スロット番号、コンテクスト番号、抽選番号、サンプル番号、写真番号などの手動登録プロセスを完全に削除できる可能性があるということです。同時に、このシステムを使うことで、以下のような問題も避けることができる：</p>
 <ol>
-<li>The manual data-entry of the paper registers into the database of the project;</li>
-<li>The problem of deciphering incomprehensible calligraphies, which greatly increase
-the possibility of making transcription mistakes.</li>
+<li>手作業による紙台帳のデータベースへのデータ入力；</li>
+<li>理解しがたいカリグラフィーを解読する問題は、
+転記ミスの可能性を大きくする。</li>
 </ol>
-<p>In fact, unclear calligraphies are a recurring problem related to the manual recording of
-the excavation documentation and in particular of the registers. This is also going to affect
-the accuracy of the information that must be put into the database during computerisation.</p>
-<p>Additionally, the archaeologist involved in the paperwork must include in his documentation
-context numbers, drawing numbers and other types of information related
-to the archaeological features and in relation to his own, which have been excavated and
-recorded by other colleagues. In this circumstance, to confuse one number for another,
-perhaps due to the unclear handwriting of the colleague, is a very common mistake.</p>
-<p>Worst-case scenario means that:</p>
+<p>実際、不鮮明なカリグラフィは、発掘記録、特に台帳の手作業による記録に関する繰り返し起こる問題である。このことは、コンピュータ化の際にデータベースに登録しなければならない情報の正確さにも影響する。</p>
+<p>さらに、書類作成に携わる考古学者は、コンテクスト番号や図面番号など、他の同僚によって発掘され記録された考古学的地物や自分自身の地物に関連する他の種類の情報を文書に含めなければならない。このような状況において、おそらく同僚の筆跡が不明瞭であるために、ある番号と別の番号を混同してしまうことは、非常によくある間違いである。</p>
+<p>最悪のシナリオとは次のようなものだ：</p>
 <ol>
-<li>There will no longer be a match between digital registers of the database and paper
-registers;</li>
-<li>The information on various context sheets will not be reliable;</li>
-<li>Both cases (as mentioned above).</li>
+<li>データベースのデジタル登録簿と紙の登録簿の間に
+一致するものがなくなる；</li>
+<li>各種コンテクストシートの情報が信頼できなくなる；</li>
+<li>両方のケース（前述の通り）。</li>
 </ol>
-<p>Therefore, we will have to spend a lot of time and effort tracking down the error and
-correcting it.</p>
-<p>Instead, the use of a digital recording eliminates this problem and facilitates the
-checking of errors.</p>
-<p>The main benefit of the GIS tools is that they enable us to query the features by giving
-us the possibility to cross-check data, which speeds up the checking process.</p>
-<p>To give a practical example, if you need to adjust the number of a context, or a drawing
-or anything else within a digital register by a number, with the QGIS “field calculator”, it
-becomes an easy task taking only a few seconds.</p>
-<p>Just think how long it would take to perform the same task using registers and paperonly
-documentation, especially when working with considerable amounts of data collected
-within an extensive excavation.</p>
-<p>In this case, you must first trace the folder containing the numerical series of the
-number to be revised, then browse one-by-one all the registers until you find the number
-that needs to be amended and finally corrected, along with all the subsequent numbers.
-This will not only need to be corrected in the registers, but also within the specific sections
-of the context sheets.</p>
-<p>In other words, if a context, drawing or photo number has been registered incorrectly,
-it is not enough to correct only the register but also all the paperwork that relates to the
-number that has been mentioned.</p>
-<p>Therefore, by using a digital register (table), the operation will only take a few minutes;
-however, if you were working on the paper documentation by hand, it could take numerous
-hours of hard work.</p>
-<p>One final significantly important aspect to take into consideration is the saving of
-paper and consequently the amount of money involved. The use of QField and digital
-documentation allows us to efficiently manage the excavation data. By working in this
-way, it is no longer necessary to print out the survey plans, the registers and the paperwork
-sheets.</p>
-<p>However, if the competent authority (county archaeology) or the customer explicitly
-requests a paper version of all the documentation produced on site, it will be possible to
-print out everything at the end of the project, only once all of the amendments have been
-made. This helps to avoid unnecessary waste of paper, along with all the other problems
-that were previously mentioned.</p>
-<p>Even in this case, the QGIS “print composer” allows us to develop customised layouts
-that can be saved and used at any time.</p>
+<p>そのため、エラーを追跡して修正するのに多くの時間と労力を費やすことになる。</p>
+<p>その代わり、デジタル記録を使用することで、この問題が解消され、エラーのチェックが容易になる。</p>
+<p>GISツールの主な利点は、データのクロスチェックが可能なため、地物の照会が可能になり、チェックプロセスがスピードアップすることです。</p>
+<p>具体的な例を挙げると、デジタル登記簿のコンテクスト番号や図面番号、その他の番号を調整する必要がある場合、QGISの "フィールド計算機 "を使用すれば、わずか数秒の簡単な作業で済みます。</p>
+<p>台帳や紙だけの文書を使って同じ作業をする場合、特に大規模な発掘調査で収集された膨大な量のデータを扱う場合、どれだけの時間がかかるか考えてみてほしい。</p>
+<p>この場合、まず修正すべき番号の数字列を含むフォルダをたどり、修正すべき番号を見つけるまですべての台帳を一つ一つ閲覧し、最終的に修正する必要がある番号を、それに続くすべての番号とともに見つけなければならない。これは、登録簿だけでなく、コンテクスト・シートの特定のセクション内でも修正する必要がある。</p>
+<p>つまり、コンテクスト番号、図面番号、写真番号が誤って登録された場合、登録簿だけを修正すればよいわけではなく、記載された番号に関連するすべての書類を修正しなければならない。</p>
+<p>そのため、デジタル登記簿（表）を使用することで、作業は数分で済むが、紙の書類を手作業で作業していた場合、何時間も苦労することになる。</p>
+<p>最後に考慮すべき非常に重要な点は、紙の節約と、それに伴う金額の節約である。QFieldとデジタル・ドキュメンテーションを使用することで、発掘データを効率的に管理することができる。この方法で作業することで、調査図面、台帳、事務処理シートを印刷する必要がなくなる。</p>
+<p>しかし、所轄官庁（郡考古学）または顧客から、現場で作成されたすべての文書の紙版を明確に要求された場合は、プロジェクト終了時に、すべての修正が行われた時点で、すべてを印刷することが可能になります。これにより、先に述べたような他の問題とともに、不必要な紙の無駄遣いを避けることができる。</p>
+<p>この場合でも、QGISの "プリントコンポージャ"を使用すれば、カスタマイズしたレイアウトを作成し、保存していつでも使用することができます。</p>
 <h3 id="6">6. 結論<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
-<p>In an increasingly digital world, it is unacceptable to continue working on paper
-especially because, at the end of the process, all paper documentation must be digitised for
-archiving needs. Today, in fact, both the museums and the warehouses of the archaeological
-companies have less space available for the storage of paper folders. At this point, it would
-be beneficial to manage the data in a digital format at the beginning of the excavation
-process, immediately saving time and resources.</p>
-<p>Scanning the PDF documents of registers, context sheets and, in general, all documentation
-produced on site is not a practical and sustainable solution. As previously
-mentioned, often, this documentation in extensive excavation projects is made up of thousands
-of paperwork sheets; I challenge anyone to reconstruct an excavation matrix by
-checking all the stratigraphic reports on the paperwork PDF scan. This kind of job forces
-you to continually scroll up and down the PDF document in search of the relationships
-between the various contexts, resulting in a significant waste of time and energy; without
-any regards to the costs that are involved when scanning in thousands of sheets.</p>
-<p>Archaeological excavations are constantly driven by strict and increasingly shorter
-deadlines. The use of GIS for the management of excavation data can no longer be ignored.
-Currently, the possibility of an “Open Source” and a “pocket” GIS platform, such as QField,
-truly represents a unique opportunity to make the work of archaeologists on site easier,
-faster and more accurate.</p>
-<p>As previously mentioned, it is much easier to build the matrix and compile the phasing
-of the archaeological features identified working with a digital system during the Post-Ex
-phase. Thus, only an instrument such as GIS, which gives us the possibility of launching
-queries and continuously cross-referencing data, allows us to perform this type of work
-quickly and efficiently.</p>
-<p>At the same time, the GIS allows us to have a continuous overview of the data
-produced on site and to further implement information regarding the investigation by
-using geospatial analysis, which helps to facilitate the final interpretative reconstruction.</p>
-<p>In short, the principle of paper lasting forever cannot be accepted any more. Primarily,
-because it is not true, and secondly, it deteriorates over time, especially when, as in most
-cases, it is kept in the basements of archives, museums or sites of archaeological companies.</p>
-<p>In addition, paper documents entail enormous logistical difficulties in terms of sharing
-and consulting data, in comparison to digital documentation, which can be easily shared.</p>
+<p>デジタル化が進む世界では、紙で作業を続けることは許されない。特に、作業の最後には、アーカイブの必要性から、すべての紙文書をデジタル化しなければならないからだ。実際、今日、博物館も考古学会社の倉庫も、紙のフォルダーを保管するためのスペースが少なくなっている。この時点で、発掘プロセスの初期段階でデータをデジタル形式で管理し、時間と資源を即座に節約することは有益である。</p>
+<p>台帳、コンテクストシート、そして一般的に、現場で作成されたすべての文書のPDF文書をスキャンすることは、現実的かつ持続可能な解決策ではない。前述したように、大規模な発掘プロジェクトでは、このような文書が何千枚もの書類で構成されていることが多い。私は、PDFスキャンした書類ですべての層序レポートをチェックし、発掘マトリックスを再構築することに挑戦したい。このような作業では、様々なコンテクスト間の関係を探すためにPDF文書を上下にスクロールし続けなければならず、時間とエネルギーの大きな無駄となる。</p>
+<p>考古学的発掘調査は、常に厳しい、そしてますます短くなる期限に追われている。発掘データの管理にGISを使うことは、もはや必要不可欠である。現在、QFieldのような "オープンソース "で "ポケット"のGISプラットフォームの可能性は、現場での考古学者の作業をより簡単に、より速く、より正確にするまたとない機会となっている。</p>
+<p>前述したように、ポスト調査段階において、デジタル・システムを使用することで、マトリクスを構築し、確認された考古学的特徴の位相分類をコンパイルすることがはるかに容易になる。したがって、GISのようなクエリーを起動し、データを継続的に相互参照できる機器でなければ、この種の作業を迅速かつ効率的に行うことはできない。</p>
+<p>同時にGISは、現場で作成されたデータを継続的に概観し、地理空間分析を用いて調査に関する情報をさらに実施することを可能にし、最終的な解釈の再構築を促進するのに役立つ。</p>
+<p>要するに、紙が永遠に残るという原則は、もはや受け入れられないのである。なぜなら、それは真実ではないからであり、第二に、特に多くの場合、文書館や博物館、あるいは考古学会社のサイトの地下に保管されている場合、時間の経過とともに劣化していくからである。</p>
+<p>加えて、紙の文書は、データの共有や参照という点で、簡単に共有できるデジタル文書と比較して、多大な流通上の困難を伴う。</p>
 <p>R.M.</p>
 <p><strong>施設審査委員会の声明:</strong>該当なし。</p>
 <p><strong>インフォームド・コンセントに関する声明：</strong>該当なし。</p>
