@@ -904,7 +904,7 @@
         
   
   <span class="md-ellipsis">
-    Patrocinar
+    Patrocinio
     
   </span>
   
@@ -1441,9 +1441,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#trazado-dirigido-por-sensores" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Trazado dirigido por sensores
     </span>
   </a>
   
@@ -2340,9 +2340,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sensor-driven-tracking" class="md-nav__link">
+  <a href="#trazado-dirigido-por-sensores" class="md-nav__link">
     <span class="md-ellipsis">
-      Sensor-Driven Tracking
+      Trazado dirigido por sensores
     </span>
   </a>
   
@@ -2369,35 +2369,36 @@
 
 
 <h1 id="sensores">Sensores<a class="headerlink" href="#sensores" title="Permanent link">&para;</a></h1>
-<p>QField offers a range of sensor functionalities that allow you to passively collect sensor data in the background,
-display the collected data, and save it into newly-digitized feature attributes.</p>
+<p>QField ofrece diversas funcionalidades de sensores que le permiten recopilar datos de los sensores en segundo plano de forma pasiva,
+mostrar los datos recopilados y guardarlos en los atributos de los objetos recién digitalizados.</p>
 <h2 id="activando-sensores">Activando sensores<a class="headerlink" href="#activando-sensores" title="Permanent link">&para;</a></h2>
-<p>In QField, registered sensors are listed within the currently opened project file in a sub-menu thatcan be
-accessed via the side dashboard's main menu.</p>
+<p>En QField, los sensores registrados se listan en el archivo del proyecto que se encuentre abierto en un
+submenú al que se puede acceder a través del menú principal lateral.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/main_menu_sensors.png"><img alt="" src="../../assets/images/main_menu_sensors.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>To toggle the passive collection of sensor data, simply click on a sensor name in the sub-menu. When active,
-a sensor icon will appear next to the sensor name, while when inactive, a dot icon will be shown.</p>
+<p>Para activar la recolección pasiva de datos de los sensores, simplemente pulse en el nombre de un sensor en el submenú.
+Cuando se encuentre activo, aparecerá un icono de sensor junto al nombre del sensor, mientras que cuando esté inactivo se mostrará un icono de un punto.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_menu.png"><img alt="" src="../../assets/images/sensors_menu.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<p>All active sensors that are collecting data will be listed in a sensors information table located at the bottom
-of QField's map canvas.</p>
+<p>Todos los sensores activos que estén recopilando datos se listarán en una tabla de información de sensores
+situada en la parte baja del lienzo de mapas de QField.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_information_panel.png"><img alt="" src="../../assets/images/sensors_information_panel.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
 </p>
-<h2 id="sensor-driven-tracking">Sensor-Driven Tracking<a class="headerlink" href="#sensor-driven-tracking" title="Permanent link">&para;</a></h2>
-<p>QField enables you to initiate tracking sessions against a point layer, saving collected sensor data linked to
-your current position. To do this, you'll need to prepare the attribute default value for the point layer in QGIS by
-using the default value sensor_data('abc'), where 'abc' is replaced with the name of the sensor registered in the
-project file. Visit the attributes form documentation page to learn more about default values.</p>
-<p>Once this configuration is done, you can start tracking your position against the point layer. When starting the
-tracking session, a sensor constraint can be activated to ensure that added points occur every time a sensor has
-captured new data.</p>
+<h2 id="trazado-dirigido-por-sensores">Trazado dirigido por sensores<a class="headerlink" href="#trazado-dirigido-por-sensores" title="Permanent link">&para;</a></h2>
+<p>QField le permite iniciar sesiones de trazado contra una capa de puntos, guardando los datos recogidos
+por los sensores enlazados a su posición actual. Para hacer esto, necesitará preparar el valor predeterminado
+de los atributos para la capa de puntos en QGIS usando el valor predeterminado sensor_data('abc'),
+donde 'abc' es sustituido por el nombre del sensor registrado en el archivo del proyecto. Visite la página de
+documentación de los formularios de atributos para aprender más sobre los valores predeterminados.</p>
+<p>Una vez que esta configuración está hecha, puede comenzar a trazar su posición contra la capa de puntos.
+Cuando empiece la sesión de trazado se puede activar una restricción del sensor para asegurarse de que se
+añaden puntos cada vez que el sensor captura nuevos datos.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../assets/images/sensors_tracker_constraint.png"><img alt="" src="../../assets/images/sensors_tracker_constraint.png" title="" width="600px" /></a><figcaption></figcaption>
 </figure>
