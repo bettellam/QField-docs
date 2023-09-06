@@ -1356,7 +1356,7 @@
         
   
   <span class="md-ellipsis">
-    Conjuntos de datos autónomos
+    Conjuntos de datos independientes
     
   </span>
   
@@ -2468,31 +2468,43 @@ de tres caracteres para comenzar la búsqueda.</p>
 <figure><a data-caption="imagen" data-fancybox="gallery" href="../../../assets/images/search-bar.png"><img alt="imagen" src="../../../assets/images/search-bar.png" title="imagen" width="600px" /></a><figcaption>imagen</figcaption>
 </figure>
 </p>
-<p>Los objetos que coincidan se mostrarán en la lista de resultados ofreciendo
+<p>De forma adicional, tiene la opción de emplear la funcionalidad de escaneo de código para este propósito.</p>
+<p>Al pulsar sobre "Escanear código" activará el lector de código de QField, comenzando el proceso de escaneo para decodificar el código.</p>
+<p>
+<figure><a data-caption="imagen" data-fancybox="gallery" href="../../../assets/images/search-bar-code-reader-1-scanning.png"><img alt="imagen" src="../../../assets/images/search-bar-code-reader-1-scanning.png" title="imagen" width="600px" /></a><figcaption>imagen</figcaption>
+</figure>
+</p>
+<p>Una vez que esté satisfecho con la información escaneada, puede simplemente pulsar en el botón OK de la casilla de verificación (✔️) para iniciar una búsqueda de una cadena específica (en este ejemple, el código corresponde a un identificador de usuario que está asociado con varios objetos en el conjunto de datos de un proyecto).</p>
+<p>
+<figure><a data-caption="imagen" data-fancybox="gallery" href="../../../assets/images/search-bar-code-reader-2-results.png"><img alt="imagen" src="../../../assets/images/search-bar-code-reader-2-results.png" title="imagen" width="600px" /></a><figcaption>imagen</figcaption>
+</figure>
+</p>
+<p>Para distintas salidas, se recomiendo codificar las UUID de sus objetos espaciales. Esto nos permitirá localizar rápidamente los elementos relevantes.</p>
+<p>Los objetos que coincidan se mostrarán en la lista de resultados, ofreciendo
 dos acciones posibles:</p>
 <ol>
-<li>Pulse sobre el <em>nombre</em> en el resultado para desplazar el mapa sobre el objeto espacial (el
-    objeto espacial `se resalta en amarillo).</li>
+<li>Pulse sobre el <em>nombre</em> en el resultado para desplazar el mapa al objeto espacial (el
+    objeto espacial se resalta en amarillo).</li>
 <li>Pulse sobre el botón <em>atributos</em> para abrir sus atributos.</li>
 </ol>
 <h3 id="ir-a-coordenadas">Ir a coordenadas<a class="headerlink" href="#ir-a-coordenadas" title="Permanent link">&para;</a></h3>
 <p>Es posible ir a unas coordenadas dadas mediante la barra de búsqueda
 introduciendo <em>latitud, longitud</em> (en WGS84). También podrá introducir
 las coordenadas en el SRC del proyecto abierto.</p>
-<p>Una vez que QField identifica el valor introducido como una coordenada, toque en
+<p>Una vez que QField identifique el valor introducido como una coordenada, toque en
 las <em>coordenadas</em> en el resultado para mover el lienzo del mapa a ese punto.</p>
 <h3 id="ir-a-marcador-espacial">Ir a marcador espacial<a class="headerlink" href="#ir-a-marcador-espacial" title="Permanent link">&para;</a></h3>
 <p>La barra de búsqueda también busca coincidencias en los marcadores espaciales
 guardados. El texto introducido se comparará con marcadores guardados por el
 usuario, así como con marcadores empotrados con el proyecto abierto actualmente.</p>
-<p>Los marcadores que coincidan aparecerán el la lista de resultados. Tocar en un
+<p>Los marcadores que coincidan aparecerán en la lista de resultados. Tocar en un
 marcador centrará el lienzo del mapa para ajustarlo a la extensión del marcador.</p>
 <h3 id="calculadora-de-expresiones">Calculadora de expresiones<a class="headerlink" href="#calculadora-de-expresiones" title="Permanent link">&para;</a></h3>
 <p>La barra de búsqueda de QField también actúa como una ingeniosa calculadora,
 en la que el texto introducido puede ser tratado como una expresión, cuyo valor
 resultante es mostrado en la lista de resultados, con la posibilidad de copiar el 
 valor al portapapeles.</p>
-<p>Para lanzar la calculadora, se necesita un prefijo <em>= * (esto es, signo igual
+<p>Para lanzar la calculadora, se necesita un prefijo <em>= * (esto es, el signo igual
 seguido de un espacio). Por ejemplo, </em>= 20 + 5* devolverá un valor de 25.</p>
 <p>Consejo Pro: utilice la función de expresión aggregate() para calcular estadísticas
 de capas vectoriales. Por ejemplo, calcular el área total cubierta por una capa
@@ -2550,13 +2562,13 @@ donde se le presentará una tabla de capacidades de las capas. Ahí, use la casi
       
       
         
-        <a href="../standalone-datasets/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Conjuntos de datos autónomos" rel="next">
+        <a href="../standalone-datasets/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Conjuntos de datos independientes" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Siguiente
               </span>
-              Conjuntos de datos autónomos
+              Conjuntos de datos independientes
             </div>
           </div>
           <div class="md-footer__button md-icon">

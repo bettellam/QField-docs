@@ -1301,9 +1301,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configurare-il-widget-allegatofoto" class="md-nav__link">
+  <a href="#configure-attachment-widget" class="md-nav__link">
     <span class="md-ellipsis">
-      Configurare il Widget Allegato/Foto
+      Configure Attachment Widget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configurable-attachment-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurable attachment path
     </span>
   </a>
   
@@ -2560,9 +2569,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configurare-il-widget-allegatofoto" class="md-nav__link">
+  <a href="#configure-attachment-widget" class="md-nav__link">
     <span class="md-ellipsis">
-      Configurare il Widget Allegato/Foto
+      Configure Attachment Widget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configurable-attachment-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurable attachment path
     </span>
   </a>
   
@@ -2804,32 +2822,56 @@ aggiuntive (es. percentuale) nella tabella di collegamento.</p>
 </figure>
 </p>
 <p>In caso di cardinalità molti-a-uno su relazioni molti-a-molti il <em>Mostra Espressione</em> deve essere impostato sulla tabella di collegamento.</p>
-<h2 id="configurare-il-widget-allegatofoto">Configurare il Widget Allegato/Foto<a class="headerlink" href="#configurare-il-widget-allegatofoto" title="Permanent link">&para;</a></h2>
+<h2 id="configure-attachment-widget">Configure Attachment Widget<a class="headerlink" href="#configure-attachment-widget" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Desktop preparation</p>
 <p>Il widget di tipo <em>Allegato</em> viene utilizzato con i campi che memorizzano il percorso
 ai file.</p>
 <p>Può essere utilizzato per:</p>
 <ul>
-<li>mostrare e scattare foto</li>
-<li>mostrare collegamenti a file esterni come PDF o documenti</li>
+<li>show and take photos or add pictures from the gallery</li>
+<li>listen and record sound clips</li>
+<li>show and record videos</li>
+<li>show links to external files like PDFs or documents</li>
 </ul>
 <p>
-<figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/attachement-setting.png"><img alt="" src="../../../assets/images/attachement-setting.png" title="" width="600px" /></a><figcaption></figcaption>
+<figure><a data-caption="Form attachment picture" data-fancybox="gallery" href="../../../assets/images/attachement-setting-picture.png"><img alt="Form attachment picture" src="../../../assets/images/attachement-setting-picture.png" title="Form attachment picture" width="600px" /></a><figcaption>Form attachment picture</figcaption>
 </figure>
 </p>
-<p>Il percorso deve essere impostato su relativo. Immagini, pdf e documenti sono 
-quindi archiviati in una sottocartella del progetto, alla quale sta puntanto il link memorizzato nel
-campo di testo (textfield).</p>
-<p>In QField viene visualizzata l'immagine. Facendo clic sul simbolo della fotocamera, la
-fotocamera viene avviata per aggiornare l'immagine con una nuova foto.</p>
 <p>
-<figure><a data-caption="immagini" data-fancybox="gallery" href="../../../assets/images/qfield_picture.png"><img alt="immagini" src="../../../assets/images/qfield_picture.png" title="immagini" width="600px" /></a><figcaption>immagini</figcaption>
+<figure><a data-caption="Form attachment audio" data-fancybox="gallery" href="../../../assets/images/attachement-setting-audio.png"><img alt="Form attachment audio" src="../../../assets/images/attachement-setting-audio.png" title="Form attachment audio" width="600px" /></a><figcaption>Form attachment audio</figcaption>
 </figure>
 </p>
-<p>Al momento della sincronizzazione deve essere copiata anche la sottodirectory con le immagini, i pdf e i documenti.</p>
+<p>
+<figure><a data-caption="Form attachment video" data-fancybox="gallery" href="../../../assets/images/attachement-setting-video.png"><img alt="Form attachment video" src="../../../assets/images/attachement-setting-video.png" title="Form attachment video" width="600px" /></a><figcaption>Form attachment video</figcaption>
+</figure>
+</p>
+<p>The path should be set to relative. The pictures, audios, videos, pdf and docs are
+stored then in a sub-directory of the project, where the link stored in
+the textfield is pointing to.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>QGIS 3.30 or newer is required for the audio and video functionality</p>
+</div>
+<p>In QField the attachments are displayed. By clicking the icons symbol the camera or audio record is started to update the pictures, videos or audios with a new media.</p>
+<p>
+<figure><a data-caption="Media" data-fancybox="gallery" href="../../../assets/images/attachments-qfield-media.png"><img alt="Media" src="../../../assets/images/attachments-qfield-media.png" title="Media" width="600px" /></a><figcaption>Media</figcaption>
+</figure>
+</p>
+<p>On synchronization the sub-directory with the pictures, videos audios, pdf and docs has to be copied as well.</p>
 <p>L'opzione <em>hyperlink</em> sul widget degli allegati disabilita la funzionalità della fotocamera e abilita un collegamento ipertestuale per aprire un documento (pdf,
 doc, ...).</p>
 <p><img alt="" src="../../../assets/images/hyperlink_option.png" /></p>
+<h2 id="configurable-attachment-path">Configurable attachment path<a class="headerlink" href="#configurable-attachment-path" title="Permanent link">&para;</a></h2>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Desktop preparation</p>
+<p>QFieldSync provides the possibility to configure the path of attachments.</p>
+<ul>
+<li>Go to <em>QFieldSync plugin &gt; Layers Properties</em></li>
+</ul>
+<p>Use expressions to specify the path of the attachments. By default, pictures are saved into the "DCIM" folder, audio recordings are saved into the "audio" folder and videos are saved into "video" with a timestamp as name.</p>
+<p>
+<figure><a data-caption="Paths" data-fancybox="gallery" href="../../../assets/images/paths-saving-media.png"><img alt="Paths" src="../../../assets/images/paths-saving-media.png" title="Paths" width="600px" /></a><figcaption>Paths</figcaption>
+</figure>
+</p>
 <h2 id="configurare-un-widget-di-relazione-dei-valori">Configurare un Widget di Relazione dei Valori<a class="headerlink" href="#configurare-un-widget-di-relazione-dei-valori" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> Desktop preparation</p>
 <p>Il widget <em>Value Relation</em> offre i valori di una tabella correlata in una casella combinata. Puoi selezionare <em>layer</em>, <em>colonna chiave</em> e <em>colonna valore</em>. Sono disponibili diverse opzioni per modificare i comportamenti standard: <em>consenti valore nullo</em>, <em>ordina per valore</em> e <em>consenti selezioni multiple</em>. Il widget

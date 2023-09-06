@@ -1303,9 +1303,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configure-attachment-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure Attachment Widget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
-      配置附件/图片控件
+      配置附件路径
     </span>
   </a>
   
@@ -2562,9 +2571,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configure-attachment-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure Attachment Widget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
-      配置附件/图片控件
+      配置附件路径
     </span>
   </a>
   
@@ -2798,27 +2816,54 @@
 </figure>
 </p>
 <p>在多对多关系上存在多对一基数的情况下，需要在链接表设置 <em>显示表达式</em> 。</p>
-<h2 id="_9">配置附件/图片控件<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<h2 id="configure-attachment-widget">Configure Attachment Widget<a class="headerlink" href="#configure-attachment-widget" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> 桌面端筹备工作</p>
 <p>控件类型 <em>附件</em> 与存储路径文件的字段一起使用。</p>
 <p>可用于：</p>
 <ul>
-<li>显示和拍照</li>
-<li>显示指向外部文件 (如pdf或文档) 的链接</li>
+<li>show and take photos or add pictures from the gallery</li>
+<li>收听并录制声音片段</li>
+<li>显示和录制视频</li>
+<li>显示指向外部文件 (如PDF或文档) 的链接</li>
 </ul>
 <p>
-<figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/attachement-setting.png"><img alt="" src="../../../assets/images/attachement-setting.png" title="" width="600px" /></a><figcaption></figcaption>
+<figure><a data-caption="Form attachment picture" data-fancybox="gallery" href="../../../assets/images/attachement-setting-picture.png"><img alt="Form attachment picture" src="../../../assets/images/attachement-setting-picture.png" title="Form attachment picture" width="600px" /></a><figcaption>Form attachment picture</figcaption>
 </figure>
 </p>
-<p>应设置为相对路径。图片、pdf和文档存储在工程的子目录中，存储在文本字段中的链接指向该子目录。</p>
-<p>在QField中显示图片。通过单击相机符号，相机开始使用新照片更新图片。</p>
 <p>
-<figure><a data-caption="图片" data-fancybox="gallery" href="../../../assets/images/qfield_picture.png"><img alt="图片" src="../../../assets/images/qfield_picture.png" title="图片" width="600px" /></a><figcaption>图片</figcaption>
+<figure><a data-caption="Form attachment audio" data-fancybox="gallery" href="../../../assets/images/attachement-setting-audio.png"><img alt="Form attachment audio" src="../../../assets/images/attachement-setting-audio.png" title="Form attachment audio" width="600px" /></a><figcaption>Form attachment audio</figcaption>
 </figure>
 </p>
-<p>同步时，还必须复制带有图片、pdf和文档的子目录。</p>
+<p>
+<figure><a data-caption="Form attachment video" data-fancybox="gallery" href="../../../assets/images/attachement-setting-video.png"><img alt="Form attachment video" src="../../../assets/images/attachement-setting-video.png" title="Form attachment video" width="600px" /></a><figcaption>Form attachment video</figcaption>
+</figure>
+</p>
+<p>The path should be set to relative. The pictures, audios, videos, pdf and docs are
+stored then in a sub-directory of the project, where the link stored in
+the textfield is pointing to.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>QGIS 3.30 or newer is required for the audio and video functionality</p>
+</div>
+<p>In QField the attachments are displayed. By clicking the icons symbol the camera or audio record is started to update the pictures, videos or audios with a new media.</p>
+<p>
+<figure><a data-caption="Media" data-fancybox="gallery" href="../../../assets/images/attachments-qfield-media.png"><img alt="Media" src="../../../assets/images/attachments-qfield-media.png" title="Media" width="600px" /></a><figcaption>Media</figcaption>
+</figure>
+</p>
+<p>On synchronization the sub-directory with the pictures, videos audios, pdf and docs has to be copied as well.</p>
 <p>附件控件上的选项 <em>超链接</em> 将禁用相机功能，并启用超链接以打开文档 (pdf, doc, ...)。</p>
 <p><img alt="" src="../../../assets/images/hyperlink_option.png" /></p>
+<h2 id="_9">配置附件路径<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> 桌面端筹备工作</p>
+<p>QFieldSync provides the possibility to configure the path of attachments.</p>
+<ul>
+<li>Go to <em>QFieldSync plugin &gt; Layers Properties</em></li>
+</ul>
+<p>Use expressions to specify the path of the attachments. By default, pictures are saved into the "DCIM" folder, audio recordings are saved into the "audio" folder and videos are saved into "video" with a timestamp as name.</p>
+<p>
+<figure><a data-caption="Paths" data-fancybox="gallery" href="../../../assets/images/paths-saving-media.png"><img alt="Paths" src="../../../assets/images/paths-saving-media.png" title="Paths" width="600px" /></a><figcaption>Paths</figcaption>
+</figure>
+</p>
 <h2 id="_10">配置值关系控件<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/></svg></span> 桌面端筹备工作</p>
 <p>控件 <em>值关系</em> 在组合框中提供关联表的值。可以选择 <em>图层</em>、 <em>键列</em>和 <em>值列</em>。有几个选项可用于更改标准行为: <em>允许空值</em>、<em>按值排序</em> 和 <em>允许多选</em> 。控件将显示被引用要素的下拉列表或多选列表。</p>
