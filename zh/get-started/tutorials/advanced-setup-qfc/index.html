@@ -2046,7 +2046,7 @@
         
   
   <span class="md-ellipsis">
-    官方 QField云 SDK 和 CLI
+    官方 QFieldCloud SDK 和 CLI
     
   </span>
   
@@ -2456,7 +2456,7 @@
 <p>我们有个 <a href="https://github.com/opengisch/qfield/discussions">社区讨论平台</a> 来对您的问题、疑惑和观念进行讨论。不要犹豫，去浏览吧。</p>
 </div>
 <h2 id="_2">支持矢量数据<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>目前，QField云支持地理包和PostGIS图层进行协同编辑。QGIS支持的其他格式应该也可以工作，但不是QField官方所支持的。</p>
+<p>目前，QFieldCloud支持地理包和PostGIS图层进行协同编辑。QGIS支持的其他格式应该也可以工作，但不是QField官方所支持的。</p>
 <h2 id="_3">使用地理包<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>使用地理包通常是简单设置的最佳选择，可将QField用户收集的数据集中到一个文件中。</p>
 <p>如果要设置关系，建议在表中添加UUID字段，并将其用作外键，而不是地理包的 <code>fid</code> 。因为它们可能会改变，避免在两个用户同时创建新记录时发生冲突。</p>
@@ -2466,11 +2466,11 @@
 <li>创建新工程。</li>
 <li>创建地理包图层，将其保存在与QGIS工程相同的文件夹中。</li>
 <li>在QField同步插件中将地理包设置为 "离线编辑" 。</li>
-<li>将工程上传到QField云。</li>
+<li>将工程上传到QFieldCloud。</li>
 </ol>
 </li>
 <li>使用QField在设备上收集数据：<ol>
-<li>打开QField云并导入工程。</li>
+<li>打开QFieldCloud并导入工程。</li>
 <li>收集一些数据并上传更改内容。</li>
 </ol>
 </li>
@@ -2481,10 +2481,10 @@
 </ol>
 <div class="admonition 注意">
 <p class="admonition-title">注意</p>
-<p>此工作流程不支持在桌面端更改地理包，因为作为文件库，整个地理包将被替换。这意味着数据只能使用QField云进行数字化。</p>
+<p>此工作流程不支持在桌面端更改地理包，因为作为文件库，整个地理包将被替换。这意味着数据只能使用QFieldCloud进行数字化。</p>
 </div>
 <h2 id="postgis">PostGIS<a class="headerlink" href="#postgis" title="Permanent link">&para;</a></h2>
-<p>如果您希望QField用户的数据在他们同步工作时由QField云直接更新到数据库，而无需进一步操作，那么使用PostGIS图层是一个不错的选择。</p>
+<p>如果您希望QField用户的数据在他们同步工作时由QFieldCloud直接更新到数据库，而无需进一步操作，那么使用PostGIS图层是一个不错的选择。</p>
 <p>它要求您的数据库可以公开访问，并且必须在QGIS工程中未加密保存网络凭证。请注意此类要求的安全影响，并做好备份。</p>
 <h3 id="postgis_1">工作流程示例 (PostGIS)<a class="headerlink" href="#postgis_1" title="Permanent link">&para;</a></h3>
 <ol>
@@ -2497,7 +2497,7 @@
 </ol>
 </li>
 <li>使用QField在设备上收集数据：<ol>
-<li>打开QField云并导入工程。</li>
+<li>打开QFieldCloud并导入工程。</li>
 <li>收集一些数据 (如果您使用 <code>离线编辑</code> ，请将更改上传回办公室)。</li>
 </ol>
 </li>
@@ -2508,13 +2508,13 @@
 </ol>
 <div class="admonition 笔记">
 <p class="admonition-title">笔记</p>
-<p>当使用 <code>直接数据库访问</code> 时，QField云将直接编辑PostGIS数据库的数据。这只适用于外业可靠的互联网连接，但其优点是所有用户都可以直接看到所有数据，并允许使用任何PostGIS特定设置 (触发器、生成的字段等)。</p>
+<p>当使用 <code>直接数据库访问</code> 时，QFieldCloud将直接编辑PostGIS数据库的数据。这只适用于外业可靠的互联网连接，但其优点是所有用户都可以直接看到所有数据，并允许使用任何PostGIS特定设置 (触发器、生成的字段等)。</p>
 </div>
 <div class="admonition 笔记">
 <p class="admonition-title">笔记</p>
-<p>当使用 <code>离线编辑</code> 时，QField将在地理包中处理数据库的本地副本，该副本将由QField云同步到原始数据库。如果外业连接不可靠，这是最佳选择。只有用户同步到QField云后，才能看到更改。创建本地副本后，QField将无法使用高级PostGIS功能。与常规地理包一样，如果定义关系，建议使用UUID而不是整数主键，以避免多个用户同时创建数据时发生冲突。</p>
+<p>当使用 <code>离线编辑</code> 时，QField将在地理包中处理数据库的本地副本，该副本将由QFieldCloud同步到原始数据库。如果外业连接不可靠，这是最佳选择。只有用户同步到QFieldCloud后，才能看到更改。创建本地副本后，QField将无法使用高级PostGIS功能。与常规地理包一样，如果定义关系，建议使用UUID而不是整数主键，以避免多个用户同时创建数据时发生冲突。</p>
 </div>
-<p>您可以在 <a href="../../../reference/qfieldcloud/concepts/">QField云技术参考</a> 中找到更多信息。</p>
+<p>您可以在 <a href="../../../reference/qfieldcloud/concepts/">QFieldCloud技术参考</a> 中找到更多信息。</p>
 
   
   

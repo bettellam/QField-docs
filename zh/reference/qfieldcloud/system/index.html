@@ -125,7 +125,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#qfield" class="md-skip">
+        <a href="#qfieldcloud" class="md-skip">
           跳转至
         </a>
       
@@ -1988,9 +1988,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#qfield_1" class="md-nav__link">
+  <a href="#qfieldcloud_1" class="md-nav__link">
     <span class="md-ellipsis">
-      QField云工程
+      QFieldCloud工程
     </span>
   </a>
   
@@ -2053,7 +2053,7 @@
         
   
   <span class="md-ellipsis">
-    官方 QField云 SDK 和 CLI
+    官方 QFieldCloud SDK 和 CLI
     
   </span>
   
@@ -2400,9 +2400,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#qfield_1" class="md-nav__link">
+  <a href="#qfieldcloud_1" class="md-nav__link">
     <span class="md-ellipsis">
-      QField云工程
+      QFieldCloud工程
     </span>
   </a>
   
@@ -2466,11 +2466,11 @@
   </a>
 
 
-<h1 id="qfield">QField云系统文档<a class="headerlink" href="#qfield" title="Permanent link">&para;</a></h1>
-<p>本文档的目的是提供QField云系统概述，便于了解底层逻辑和技术。</p>
+<h1 id="qfieldcloud">QFieldCloud系统文档<a class="headerlink" href="#qfieldcloud" title="Permanent link">&para;</a></h1>
+<p>本文档的目的是提供QFieldCloud系统概述，便于了解底层逻辑和技术。</p>
 <h2 id="_1">主体和概念<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <h3 id="qgis">QGIS工程<a class="headerlink" href="#qgis" title="Permanent link">&para;</a></h3>
-<p>QGIS工程是 <em>.qgs</em> 或 <em>.qgz</em> 文件。在QGIS桌面端创建一个工程，并使用QGIS插件 (QField同步) 上传到QField云。在QGIS工程上传之前，QGIS工程的每一图层都需要一个 "动作" 来决定QField同步和QField应该如何处理该图层。可以设置两种类型的动作 - 一种用于QField云，另一种用于传统数据线的导出。</p>
+<p>QGIS工程是 <em>.qgs</em> 或 <em>.qgz</em> 文件。在QGIS桌面端创建一个工程，并使用QGIS插件 (QField同步) 上传到QField云。在QGIS工程上传之前，QGIS工程的每一图层都需要一个 "动作" 来决定QFieldSync和QField应该如何处理该图层。可以设置两种类型的动作 - 一种用于QFieldCloud，另一种用于传统数据线的导出。</p>
 <p>此信息保存在QGS工程中，作为图层的 <em>customProperty</em> ，并带有 <em>QFieldSync/action</em> 键。</p>
 <p>可用的动作包括：</p>
 <table>
@@ -2540,7 +2540,7 @@
 </tr>
 </tbody>
 </table>
-<p>这是QField云 (<code>libqfieldsync</code>) 与以下图层的行为：</p>
+<p>这是 QFieldCloud (<code>libqfieldsync</code>) 与以下图层的行为：</p>
 <table>
 <thead>
 <tr>
@@ -2614,7 +2614,7 @@
 </tr>
 </tbody>
 </table>
-<p>总之，对于QField云而言：</p>
+<p>总之，对于QFieldCloud而言：</p>
 <ul>
 <li><em>NO_ACTION</em> 用于位于服务器上的在线图层
   可通过互联网访问，并直接修改由
@@ -2623,14 +2623,14 @@
   服务器 (或直接在桌面端为基于文件的图层)，并
   由客户端下载。客户端将生成更改的增量文件。</li>
 <li><em>OFFLINE</em> 用于如处理
-  QField云不可见的本地数据库，
+  QFieldCloud不可见的本地数据库，
   这些数据库在从桌面端加载到服务器之前被合并，
-  并且QField云不与原始数据同步。</li>
+  并且QFieldCloud不与原始数据同步。</li>
 <li><em>REMOVE</em> 仅仅是从工程中移除图层。</li>
-<li><em>KEEP_EXISTENT</em> 不会用于QField云同步。</li>
+<li><em>KEEP_EXISTENT</em> 不会用于QFieldCloud同步。</li>
 </ul>
-<p>使用QField同步插件，可以更新QField云端已加载的工程。如果更改仅涉及样式、表单等，而不涉及图层的构造，只需更新服务器端的工程即可。如果图层结构发生更改，工程将在服务器端重置 (增量文件将被删除)，并且对于每个客户端，在能够推送新的更改之前，都需要下载工程的更新版本。</p>
-<h3 id="qfield_1">QField云工程<a class="headerlink" href="#qfield_1" title="Permanent link">&para;</a></h3>
+<p>使用QFieldSync插件，可以更新QFieldCloud已加载的工程。如果更改仅涉及样式、表单等，而不涉及图层的构造，只需更新服务器端的工程即可。如果图层结构发生更改，工程将在服务器端重置 (增量文件将被删除)，并且对于每个客户端，在能够推送新的更改之前，都需要下载工程的更新版本。</p>
+<h3 id="qfieldcloud_1">QFieldCloud工程<a class="headerlink" href="#qfieldcloud_1" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>由一个且仅有一个QGIS工程和合适的附属文件 (如地理包、图像等) 组成，包括离线或混合数据包。
 </code></pre></div>
 <h2 id="_2">使用案例<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -2692,13 +2692,13 @@
       
       
         
-        <a href="../sdk/" class="md-footer__link md-footer__link--next" aria-label="下一页: 官方 QField云 SDK 和 CLI" rel="next">
+        <a href="../sdk/" class="md-footer__link md-footer__link--next" aria-label="下一页: 官方 QFieldCloud SDK 和 CLI" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              官方 QField云 SDK 和 CLI
+              官方 QFieldCloud SDK 和 CLI
             </div>
           </div>
           <div class="md-footer__button md-icon">
