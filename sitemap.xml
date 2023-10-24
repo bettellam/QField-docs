@@ -316,6 +316,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/how-to/live-default-value/</loc>
         <lastmod>2023-10-24</lastmod>
         <changefreq>daily</changefreq>
@@ -1214,6 +1229,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/de/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/de/how-to/live-default-value/</loc>
@@ -2116,6 +2146,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/fr/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/fr/how-to/live-default-value/</loc>
         <lastmod>2023-10-24</lastmod>
         <changefreq>daily</changefreq>
@@ -3014,6 +3059,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/it/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/it/how-to/live-default-value/</loc>
@@ -3916,6 +3976,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/ja/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/ja/how-to/live-default-value/</loc>
         <lastmod>2023-10-24</lastmod>
         <changefreq>daily</changefreq>
@@ -4814,6 +4889,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/pt/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/pt/how-to/live-default-value/</loc>
@@ -5716,6 +5806,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/es/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/es/how-to/live-default-value/</loc>
         <lastmod>2023-10-24</lastmod>
         <changefreq>daily</changefreq>
@@ -6614,6 +6719,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/zh/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/zh/how-to/live-default-value/</loc>
@@ -7516,6 +7636,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/fi/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/fi/how-to/live-default-value/</loc>
         <lastmod>2023-10-24</lastmod>
         <changefreq>daily</changefreq>
@@ -8414,6 +8549,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/ro/how-to/itinerary/</loc>
+        <lastmod>2023-10-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/how-to/itinerary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/how-to/itinerary/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/ro/how-to/live-default-value/</loc>
