@@ -22,7 +22,7 @@
     
     
       
-        <title>External routing - QField生态系统文档</title>
+        <title>外置路径 - QField生态系统文档</title>
       
     
     
@@ -63,7 +63,7 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="External routing - QField生态系统文档" >
+        <meta  property="og:title"  content="外置路径 - QField生态系统文档" >
       
         <meta  property="og:description"  content="欢迎访问QField生态系统文档--一套旨在使野外工作无缝、高效的产品。在本网页中，我们为所有产品提供了全面且易于理解的文档。无论您是新用户还是经验丰富的专家，您都会找到使用QField及其相关工具所需的一切信息。" >
       
@@ -79,7 +79,7 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="External routing - QField生态系统文档" >
+        <meta  name="twitter:title"  content="外置路径 - QField生态系统文档" >
       
         <meta  name="twitter:description"  content="欢迎访问QField生态系统文档--一套旨在使野外工作无缝、高效的产品。在本网页中，我们为所有产品提供了全面且易于理解的文档。无论您是新用户还是经验丰富的专家，您都会找到使用QField及其相关工具所需的一切信息。" >
       
@@ -109,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#external-routing" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -142,7 +142,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              External routing
+              外置路径
             
           </span>
         </div>
@@ -2177,7 +2177,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     用法
   </a>
   
@@ -2201,14 +2201,14 @@
   
 
 
-<div><h1 id="external-routing">External routing<a class="headerlink" href="#external-routing" title="Permanent link">¶</a></h1>
-<p>It can come in handy to calculate an itinerary to one of your features in the field.
-By an easy configuration of your attribute form in QGIS, you can quickly access the navigation tools from Google Maps via a hyperlink when working on the field.</p>
+<div><h1 id="_1">外置路径<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p>可以方便地计算您在外业某个要素的行程。
+通过在QGIS中简单配置属性表单，可以在外业工作时通过超链接快速访问谷歌地图中的导航工具。</p>
 <h2 id="qgis">在QGIS中配置属性表单控件<a class="headerlink" href="#qgis" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> 桌面端筹备工作</p>
 <p>此处是一个导航到点图层要素的示例。</p>
-<p>Create a new field in your data table (type text). In the attribute form settings, select "attachment" as widget type. Tick "Display a hyperlink for document path (read-only)".
-Then enter the following expression as default value:</p>
+<p>在数据表创建一个新字段 (键入文本)。在属性表单设置中，选择 "附件" 作为控件类型。勾选 "文件路径使用超链接 (只读)"。
+然后输入以下表达式作为默认值：</p>
 <div class="highlight"><pre><span></span><code><span class="n">concat</span><span class="p">(</span>
 <span class="w">  </span><span class="s1">'https://www.google.com/maps/dir/?api=1&amp;destination='</span><span class="p">,</span>
 <span class="w">  </span><span class="n">y</span><span class="p">(</span><span class="k">transform</span><span class="p">(</span><span class="err">$</span><span class="n">geometry</span><span class="p">,</span><span class="w"> </span><span class="n">layer_property</span><span class="p">(</span><span class="o">@</span><span class="n">layer</span><span class="p">,</span><span class="w"> </span><span class="s1">'crs'</span><span class="p">),</span><span class="w"> </span><span class="s1">'EPSG:4326'</span><span class="p">)),</span>
@@ -2217,12 +2217,12 @@ Then enter the following expression as default value:</p>
 <span class="w">  </span><span class="s1">'&amp;travelmode=driving'</span>
 <span class="p">)</span>
 </code></pre></div>
-<p>And tick "Apply default value on update" in case you make changes to your geometry.</p>
-<p>If you simply want to show your feature location in Google Maps, you can use the following expression:
-<em>concat( 'https://maps.google.com?q=  ',y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')), '%2C', x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')), '&amp;zoom=19&amp;t=h')</em></p>
-<h2 id="_1">用法<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
+<p>如果要对几何图形进行修改，请勾选 "更新时应用默认值"。</p>
+<p>如果只是想在谷歌地图中显示您的要素位置，可以使用以下表达式:
+<em>concat( 'https://maps.google.com?q= ',y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')), '%2C', x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')), '&amp;zoom=19&amp;t=h')</em></p>
+<h2 id="_2">用法<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> QField界面</p>
-<p>Click on the feature on the map where you want navigation to or that you want to open in Google Maps. In the attribute form, click on the link towards Google Maps.</p></div>
+<p>单击地图上想要导航到或在谷歌地图中打开的要素。在属性表单中，单击指向谷歌地图的链接。</p></div>
 
 
 
