@@ -121,6 +121,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/get-started/storage/</loc>
         <lastmod>2023-11-03</lastmod>
         <changefreq>daily</changefreq>
@@ -1034,6 +1049,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/de/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/de/get-started/storage/</loc>
@@ -1951,6 +1981,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/fr/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/fr/get-started/storage/</loc>
         <lastmod>2023-11-03</lastmod>
         <changefreq>daily</changefreq>
@@ -2864,6 +2909,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/it/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/it/get-started/storage/</loc>
@@ -3781,6 +3841,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/ja/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/ja/get-started/storage/</loc>
         <lastmod>2023-11-03</lastmod>
         <changefreq>daily</changefreq>
@@ -4694,6 +4769,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/pt/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/pt/get-started/storage/</loc>
@@ -5611,6 +5701,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/es/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/es/get-started/storage/</loc>
         <lastmod>2023-11-03</lastmod>
         <changefreq>daily</changefreq>
@@ -6524,6 +6629,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/sponsor/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/zh/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/zh/get-started/storage/</loc>
@@ -7441,6 +7561,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
     </url>
     <url>
+        <loc>https://docs.qfield.org/fi/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
+    </url>
+    <url>
         <loc>https://docs.qfield.org/fi/get-started/storage/</loc>
         <lastmod>2023-11-03</lastmod>
         <changefreq>daily</changefreq>
@@ -8354,6 +8489,21 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/sponsor/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/sponsor/"/>
+    </url>
+    <url>
+        <loc>https://docs.qfield.org/ro/get-started/storage-qfc/</loc>
+        <lastmod>2023-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://docs.qfield.org/ro/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.qfield.org/de/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.qfield.org/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.qfield.org/es/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://docs.qfield.org/fi/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.qfield.org/fr/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.qfield.org/it/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs.qfield.org/ja/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.qfield.org/pt/get-started/storage-qfc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://docs.qfield.org/zh/get-started/storage-qfc/"/>
     </url>
     <url>
         <loc>https://docs.qfield.org/ro/get-started/storage/</loc>
