@@ -2670,7 +2670,7 @@
 </div>
 <p>在QField中显示附件。通过单击图标符号，相机或音频记录将开始使用新媒介更新图片、视频或音频。</p>
 <p>
-<figure><a data-caption="媒介" data-fancybox="gallery" href="../../../assets/images/attachments-qfield-media.png"><img alt="媒介" src="../../../assets/images/attachments-qfield-media.png" title="媒介" width="600px"></a><figcaption>媒介</figcaption>
+<figure><a data-caption="Media" data-fancybox="gallery" href="../../../assets/images/attachments-qfield-media.png"><img alt="Media" src="../../../assets/images/attachments-qfield-media.png" title="Media" width="300px"></a><figcaption>Media</figcaption>
 </figure>
 </p>
 <p>同步时，还必须复制含有图片、视频、音频、PDF和文档的子目录。</p>
@@ -2753,17 +2753,17 @@
 如果要在绘制线后使用捕捉结果，可以使用 [\@snapping_results]{.title-ref} 变量。下面的代码提取线的第一个点的捕捉匹配的属性 [id]{.title-ref} 的值。
 :::</p>
 <div class="highlight"><pre><span></span><code><span class="n">with_variable</span><span class="p">(</span>
-<span class="s1">'first_snapped_point'</span><span class="p">,</span>
-<span class="n">array_first</span><span class="p">(</span><span class="w"> </span><span class="o">@</span><span class="n">snapping_results</span><span class="w"> </span><span class="p">),</span>
-<span class="n">attribute</span><span class="p">(</span>
-<span class="n">get_feature_by_id</span><span class="p">(</span>
-<span class="o">@</span><span class="n">first_snapped_point</span><span class="p">[</span><span class="s1">'layer'</span><span class="p">],</span>
-<span class="o">@</span><span class="n">first_snapped_point</span><span class="p">[</span><span class="s1">'feature_id'</span><span class="p">]</span>
-<span class="p">),</span>
-<span class="s1">'id'</span>
+<span class="w">  </span><span class="s1">'first_snapped_point'</span><span class="p">,</span>
+<span class="w">  </span><span class="n">array_first</span><span class="p">(</span><span class="w"> </span><span class="o">@</span><span class="n">snapping_results</span><span class="w"> </span><span class="p">),</span>
+<span class="w">  </span><span class="n">attribute</span><span class="p">(</span>
+<span class="w">    </span><span class="n">get_feature_by_id</span><span class="p">(</span>
+<span class="w">      </span><span class="o">@</span><span class="n">first_snapped_point</span><span class="p">[</span><span class="s1">'layer'</span><span class="p">],</span>
+<span class="w">      </span><span class="o">@</span><span class="n">first_snapped_point</span><span class="p">[</span><span class="s1">'feature_id'</span><span class="p">]</span>
+<span class="w">    </span><span class="p">),</span>
+<span class="w">    </span><span class="s1">'id'</span>
+<span class="w">  </span><span class="p">)</span>
 <span class="p">)</span>
 </code></pre></div>
-<p>)</p>
 <h2 id="_18">在值关系和关系参照控件中搜索<a class="headerlink" href="#_18" title="Permanent link">¶</a></h2>
 <p>可以使用字段旁边的放大镜在 <em>值关系</em> 或 <em>关系参照</em> 控件中搜索值。</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/604661919" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
