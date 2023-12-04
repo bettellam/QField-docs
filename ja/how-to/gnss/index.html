@@ -2647,6 +2647,10 @@
 <p>I: 内部の測位情報 E: 外部 (NMEA) の測位情報</p>
 </div>
 <p>すべての <code>@position_*</code>変数には対応する<code>@gnss_*</code>変数があります。gnss 変数は、十字線がスナップされていない場合でも、常に GNSSセンサーの値を取得します。</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Variables that contain <code>satellites</code> are not available on iOS</p>
+</div>
 <p>例：</p>
 <p>十字線がセンサーにスナップされる場合 - <code>@gnss_horizontal_accuracy</code> --&gt; センサーによって取得した座標の水平精度（メートル単位） - <code>@position_horizontal_accuracy</code> --&gt; センサーによって取得した座標の水平精度（メートル単位） - <code>@position_source_name</code> --&gt; センサー名
 十字線が手動で移動された場合 - <code>@gnss_horizontal_accuracy</code> --&gt; センサーによって取得した座標の水平精度（メートル単位）。 - <code>@position_horizontal_accuracy</code> --&gt; 値は<code>NULL</code>になる。 - <code>@position_source_name</code> --&gt; 値は<code>manual</code>になる。</p>
