@@ -1299,8 +1299,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" class="md-nav__link">
-    Fetching Geotags (EXIF) from the image file into the attribute table
+  <a href="#exif" class="md-nav__link">
+    将图像文件中的地理标签 (EXIF) 提取到属性表
   </a>
   
 </li>
@@ -2399,8 +2399,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" class="md-nav__link">
-    Fetching Geotags (EXIF) from the image file into the attribute table
+  <a href="#exif" class="md-nav__link">
+    将图像文件中的地理标签 (EXIF) 提取到属性表
   </a>
   
 </li>
@@ -2546,21 +2546,21 @@
     在您的移动设备</li>
 <li>非常好！现在QField将在拍照时使用基于QML的相机</li>
 </ol>
-<h2 id="fetching-geotags-exif-from-the-image-file-into-the-attribute-table">Fetching Geotags (EXIF) from the image file into the attribute table<a class="headerlink" href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" title="Permanent link">¶</a></h2>
+<h2 id="exif">将图像文件中的地理标签 (EXIF) 提取到属性表<a class="headerlink" href="#exif" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> 桌面端筹备工作</p>
-<p>Sometimes you might be interested in automatically storing Geotags such as the latitude, longitude, orientation, etc. This information is also known as EXIF tags.</p>
-<p>To store the EXIF information, follow these steps:</p>
+<p>有时，您可能对自动存储地理标签感兴趣，如纬度、经度、方向等。这些信息也称为EXIF标签。</p>
+<p>要存储EXIF信息，请执行以下步骤：</p>
 <ol>
-<li>Add an attribute per EXIF tag in the table that contains the pictures.</li>
-<li>In the pictures form, configure the default value of each attribute to the corresponding
-   <em>EXIF</em> expression <figure><a data-caption="See QGIS EXIF function" data-fancybox="gallery" href="https://docs.qgis.org/3.28/en/docs/user_manual/expressions/functions_list.html?highlight=exif#exif"><img alt="See QGIS EXIF function" src="https://docs.qgis.org/3.28/en/docs/user_manual/expressions/functions_list.html?highlight=exif#exif" title="See QGIS EXIF function" width="600px"></a><figcaption>See QGIS EXIF function</figcaption>
-</figure>,
-    and make sure <em>Apply on update</em> is activated.</li>
-<li>The EXIF tags that QField can capture are listed in the QGIS documentation (link above).
-    However, this list might slightly varies depending on the mobile characteristics.</li>
-<li>Capturing EXIF tags requires accessing the full physical path of the picture. Be sure to reflect this in the QGIS expression.
-   For example, the expression * exif(@project_folder + '/' + "path", 'Exif.Image.Orientation')<em> retrieves the orientation of the picture stored in </em>path*.</li>
-<li>Completed! QField's now capture and store the EXIF tags in the pictures table while taking pictures.</li>
+<li>在包含图片的表中为每个EXIF标签添加属性。</li>
+<li>在图片表单中，将每个属性的默认值配置为相应的
+   <em>EXIF</em>表达式 <figure><a data-caption="参见 QGIS EXIF 函数" data-fancybox="gallery" href="https://docs.qgis.org/3.28/en/docs/user_manual/expressions/functions_list.html?highlight=exif#exif"><img alt="参见 QGIS EXIF 函数" src="https://docs.qgis.org/3.28/en/docs/user_manual/expressions/functions_list.html?highlight=exif#exif" title="参见 QGIS EXIF 函数" width="600px"></a><figcaption>参见 QGIS EXIF 函数</figcaption>
+</figure>, 
+    并确保 <em>更新时应用</em> 已激活。</li>
+<li>QGIS文档列出了QField可以捕获的EXIF标签 (上面的链接)。
+    但是，此列表可能会根据移动设备的特性而略有不同。</li>
+<li>捕获EXIF标签需要访问图片的完整物理路径。请确保在QGIS表达式中反映这一点。
+   例如，表达式 * exif(@project_folder + '/' + "path", 'Exif.Image.Orientation')<em> 检索存储在 </em>路径* 中图片的方向。</li>
+<li>完成！QField现在可以在拍照时捕获EXIF标签并将其存储在图片表中。</li>
 </ol>
 <h2 id="_7">最大图片尺寸<a class="headerlink" href="#_7" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> 桌面端筹备工作</p>
