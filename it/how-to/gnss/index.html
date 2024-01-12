@@ -2647,8 +2647,10 @@ When active, holding the add vertex button is not required, a short tap on the b
 <p>You can get access to positioning information through additional
 expression variables accessible in the attribute form. These will
 only be available when positioning is enabled.</p>
-<p>These variables are commonly used as part of<a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">default values expressions</a>
+<p>These variables are commonly used as part of <a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">default values expressions</a>
 for fields to keep track of the quality of individual measured points.</p>
+<p>All <code>@position_*</code> variables have a corresponding <code>@gnss_*</code> variable.
+The gnss variables always report the gnss sensor values, even when the crosshair is not snapped.</p>
 <ul>
 <li><code>@position_source_name</code> - il nome del dispositivo che ha dato informazioni sulla posizione come
     riportato dal sensore. Per differenziare tra sensore interno e
@@ -2707,16 +2709,12 @@ for fields to keep track of the quality of individual measured points.</p>
         "A" = Automatico, 3D/2D) come riportato dal sensore. È disponibile
         solamente quando il mirino è agganciato al sensore. - E</li>
 </ul>
-<div class="admonition informazione">
-<p class="admonition-title">Informazione</p>
-<p>I: sorgente di posizione Interna E: sorgente di posizione Esterna (NMEA)</p>
-</div>
-<p>Tutte le variabili <code>@position_*</code> hanno una variabile <code>@gnss_*</code> corrispondente.
-Le variabili gnss riportano sempre i valori del sensore gnss, anche quando il
-il mirino non è agganciato.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Variables that contain <code>satellites</code> are not available on iOS</p>
+<ul>
+<li>I: Internal position source E: External (NMEA) position source.</li>
+<li>Variables that contain <code>satellites</code> are not available on iOS.</li>
+</ul>
 </div>
 <dl>
 <dt>Esempi:</dt>

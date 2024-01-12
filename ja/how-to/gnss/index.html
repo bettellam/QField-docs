@@ -2615,7 +2615,10 @@
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> デスクトップの準備</p>
 <h3 id="_11">測位に使用する変数<a class="headerlink" href="#_11" title="Permanent link">¶</a></h3>
 <p>属性フォームで追加の式の変数を使用して、測位情報にアクセスすることができます。これらは、GNSS測位が有効になっている場合にのみ利用可能になります。</p>
-<p>これらの変数は、個々の即位点の品質を追跡するためのフィールドの<a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">デフォルト値式</a>の一部として一般的に使用されます。</p>
+<p>These variables are commonly used as part of <a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">default values expressions</a>
+for fields to keep track of the quality of individual measured points.</p>
+<p>All <code>@position_*</code> variables have a corresponding <code>@gnss_*</code> variable.
+The gnss variables always report the gnss sensor values, even when the crosshair is not snapped.</p>
 <ul>
 <li><code>@position_source_name</code> - センサーが報告した位置情報を与えたデバイスの名前。
     内部センサーと外部センサーを区別する。
@@ -2642,14 +2645,12 @@
 <li><code>@position_fix_status_description</code> - センサーから取得されたGPS固定のステータス 「NoData」、「NoFix」、「Fix2D」もしくは「Fix3D」これは十字線がセンサーにスナップされた時のみ有効である。- E</li>
 <li><code>@position_fix_mode</code> - 固定モード ('M' = 手動、2Dか3D、もしくはもしくは 'A' = 自動, 3D/2D) に操作で強制される。 これは十字線がセンサーにスナップされた時のみ有効である。- E</li>
 </ul>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
-<p>I: 内部の測位情報 E: 外部 (NMEA) の測位情報</p>
-</div>
-<p>すべての <code>@position_*</code>変数には対応する<code>@gnss_*</code>変数があります。gnss 変数は、十字線がスナップされていない場合でも、常に GNSSセンサーの値を取得します。</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Variables that contain <code>satellites</code> are not available on iOS</p>
+<ul>
+<li>I: Internal position source E: External (NMEA) position source.</li>
+<li>Variables that contain <code>satellites</code> are not available on iOS.</li>
+</ul>
 </div>
 <p>例：</p>
 <p>十字線がセンサーにスナップされる場合 - <code>@gnss_horizontal_accuracy</code> --&gt; センサーによって取得した座標の水平精度（メートル単位） - <code>@position_horizontal_accuracy</code> --&gt; センサーによって取得した座標の水平精度（メートル単位） - <code>@position_source_name</code> --&gt; センサー名
