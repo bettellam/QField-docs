@@ -2512,8 +2512,8 @@
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/positioning-menu.png"><img alt="" src="../../../assets/images/positioning-menu.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>プロジェクトの座標系ではなくWGS84の経度/緯度が表示される場合は、まだGNSS信号を受信できていない可能性があります。</p>
 </div>
 <h2 id="gnss_1">外付けのGNSS受信機を使用する<a class="headerlink" href="#gnss_1" title="Permanent link">¶</a></h2>
@@ -2573,8 +2573,8 @@
 </table>
 <p><em>(*) WindowsでのBluetoothサポートは、GNSSデバイスに接続する際にオペレーティングシステムが自動的に作成する仮想シリアルポートを介して行われます。</em></p>
 <p>現在サポートされているNMEAセンテンスは、GGA、RMC、GSA、GSV、VTG、HDTです。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>モック位置情報プロバイダーのような他のアプリが同じ接続を使用していないことを確認してください。</p>
 </div>
 <h3 id="_7">外部受信機ログ<a class="headerlink" href="#_7" title="Permanent link">¶</a></h3>
@@ -2584,8 +2584,8 @@
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/external_receiver_log.png"><img alt="" src="../../../assets/images/external_receiver_log.png" title="" width="250px"></a><figcaption></figcaption>
 </figure>
 </p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>ログが常にオンになっていると、ストレージがいっぱいになってしまうので注意してください。</p>
 </div>
 <h2 id="_8">擬似ロケーション<a class="headerlink" href="#_8" title="Permanent link">¶</a></h2>
@@ -2594,8 +2594,8 @@
 <p>これを行うには <a href="https://www.youtube.com/watch?v=v1eRHmMiRJQ">アンドロイド端末で疑似ロケーションを有効</a>にする必要があります。</p>
 <h2 id="_9">平均測位機能<a class="headerlink" href="#_9" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> フィールドマーク</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>座標カーソルは<a href="../digitize/#adding-point-features">位置を固定するボタン</a>で現在位置にロックする必要があります。</p>
 </div>
 <p>平均化された座標を使ってデジタル化する機能があります。</p>
@@ -2615,10 +2615,8 @@
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> デスクトップの準備</p>
 <h3 id="_11">測位に使用する変数<a class="headerlink" href="#_11" title="Permanent link">¶</a></h3>
 <p>属性フォームで追加の式の変数を使用して、測位情報にアクセスすることができます。これらは、GNSS測位が有効になっている場合にのみ利用可能になります。</p>
-<p>These variables are commonly used as part of <a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">default values expressions</a>
-for fields to keep track of the quality of individual measured points.</p>
-<p>All <code>@position_*</code> variables have a corresponding <code>@gnss_*</code> variable.
-The gnss variables always report the gnss sensor values, even when the crosshair is not snapped.</p>
+<p>これらの変数は、個々の即位点の品質を追跡するためのフィールドの<a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">デフォルト値式</a>の一部として一般的に使用されます。</p>
+<p>すべての <code>@position_*</code>変数には対応する<code>@gnss_*</code>変数があります。gnss 変数は、十字線がスナップされていない場合でも、常に GNSSセンサーの値を取得します。</p>
 <ul>
 <li><code>@position_source_name</code> - センサーが報告した位置情報を与えたデバイスの名前。
     内部センサーと外部センサーを区別する。
@@ -2645,11 +2643,11 @@ The gnss variables always report the gnss sensor values, even when the crosshair
 <li><code>@position_fix_status_description</code> - センサーから取得されたGPS固定のステータス 「NoData」、「NoFix」、「Fix2D」もしくは「Fix3D」これは十字線がセンサーにスナップされた時のみ有効である。- E</li>
 <li><code>@position_fix_mode</code> - 固定モード ('M' = 手動、2Dか3D、もしくはもしくは 'A' = 自動, 3D/2D) に操作で強制される。 これは十字線がセンサーにスナップされた時のみ有効である。- E</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
+<div class="admonition インフォメーション">
+<p class="admonition-title">インフォメーション</p>
 <ul>
-<li>I: Internal position source E: External (NMEA) position source.</li>
-<li>Variables that contain <code>satellites</code> are not available on iOS.</li>
+<li>I：内臓測位デバイス E：外部（NMEA）測位デバイス。</li>
+<li><code>satellites</code>を含む変数はiOSでは利用できません。</li>
 </ul>
 </div>
 <p>例：</p>

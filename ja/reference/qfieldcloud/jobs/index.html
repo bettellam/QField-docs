@@ -1889,8 +1889,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#re-apply-changes-in-qfieldcloud" class="md-nav__link">
-    Re-apply changes in QFieldCloud
+  <a href="#qfieldcloud" class="md-nav__link">
+    QFieldCloudで変更を再適用する
   </a>
   
 </li>
@@ -2441,8 +2441,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#re-apply-changes-in-qfieldcloud" class="md-nav__link">
-    Re-apply changes in QFieldCloud
+  <a href="#qfieldcloud" class="md-nav__link">
+    QFieldCloudで変更を再適用する
   </a>
   
 </li>
@@ -2518,8 +2518,8 @@
 <p>各ジョブは1つまたは複数のステップで構成され、各ステップはプロジェクト上の1つの自己完結したタスクを担当します。QFieldCloudは3つの定義済みジョブワークフローをサポートしています： <code>process_projectfile</code>、<code>package</code>、<code>delta_apply</code>です。</p>
 <p>ジョブが実行されている間、ジョブは最終ステータス <code>FINISHED</code> または <code>FAILED</code> に達したジョブのログメッセージをプロジェクトのジョブページに書き込みます。</p>
 <p>ジョブは<a href="../projects/#secrets">プロジェクトのシークレット</a>にアクセスできます。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>すべてのジョブはQFieldCloud APIを使用してトリガーできます。</p>
 </div>
 <div class="admonition 警告">
@@ -2545,8 +2545,8 @@
 <li>アップロードされたQGISプロジェクトファイル(<code>.qgs</code>/<code>.qgz</code>)が読めない、不完全、壊れている、または間違っています。QGISプロジェクトファイルを再アップロードしてみてください。</li>
 <li>プロジェクトファイルを開くとQGISがクラッシュします。プロジェクトからレイヤーを1つずつ削除し、QGISプロジェクトファイルを再アップロードして、クラッシュの原因となっているレイヤーを特定してください。</li>
 </ul>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>たとえ <code>process_projectfile</code> ジョブの結果が <code>SUCCESS</code> ステータスになったとしても、プロジェ クトが正しく設定されたことにはなりません。<code>SUCCESS</code> ステータスは、プロジェクトが正常にオープンされ、必要な情報がすべて抽出されたことを示すだけです。</p>
 </div>
 <h3 id="package">パッケージ (<code>package</code>) ジョブ<a class="headerlink" href="#package" title="Permanent link">¶</a></h3>
@@ -2579,21 +2579,21 @@
 <li>プロジェクトが大きすぎて、ジョブが失敗しました。</li>
 <li>プロジェクト内に、QFieldCloudの正常な動作を妨げている隠しファイルや隠しディレクトリがあります。隠しファイルや隠しディレクトリとは、先頭がドット(<code>.</code>)で始まるファイルやディレクトリのことです。</li>
 </ul>
-<h3 id="re-apply-changes-in-qfieldcloud">Re-apply changes in QFieldCloud<a class="headerlink" href="#re-apply-changes-in-qfieldcloud" title="Permanent link">¶</a></h3>
+<h3 id="qfieldcloud">QFieldCloudで変更を再適用する<a class="headerlink" href="#qfieldcloud" title="Permanent link">¶</a></h3>
 <ol>
-<li>Click on the project's name under <em>My projects</em>.</li>
-<li>Go to the <em>Changes</em> section. (Changes are sorted from latest to oldest)</li>
-<li>Find the specific changes you want to reapply.</li>
-<li>In the <em>Action</em> column on the right, click on the dropdown list.</li>
+<li>_My projects_の下にあるプロジェクト名をクリックします。.</li>
+<li>_Changes_セクションに移動してください。(変更点は新しいものから古いものへとソートされています)</li>
+<li>再適用したい特定の変更箇所を見つけます。</li>
+<li>右側の_Action_列で、ドロップダウンリストをクリックします。</li>
 <li>
-<p>Choose the desired action to reapply the changes.</p>
+<p>変更を再適用するために必要なアクションを選択します。</p>
 <ul>
-<li>Re-apply Specific Changes: If you need to reapply specific changes, select each change you want to re-apply and click <strong>Re-apply</strong>.</li>
-<li>Re-apply Recent Changes: If you prefer to reapply the most recent modifications made to the project, identify the initial change you want to restore, then select <strong>Re-apply this and newer changes</strong>.</li>
+<li>特定の変更を再適用する： 特定の変更を再適用する必要がある場合は、再適用する各変更を選択し、__Re-apply__をクリックします。</li>
+<li>最近の変更を再適用します： プロジェクトに加えられた最新の変更を再適用したい場合は、復元したい最初の変更を特定し、__Re-apply this and newer changes__を選択します。</li>
 </ul>
 </li>
 </ol>
-<p>Finally, click the <strong>Save all</strong> button.</p>
+<p>最後に、__Save all__ボタンをクリックします。</p>
 <p>
 <figure><a data-caption="変更の再適用" data-fancybox="gallery" href="../../../../assets/images/re-apply-changes-in-qfieldcloud.png"><img alt="変更の再適用" src="../../../../assets/images/re-apply-changes-in-qfieldcloud.png" title="変更の再適用" width="600px"></a><figcaption>変更の再適用</figcaption>
 </figure>

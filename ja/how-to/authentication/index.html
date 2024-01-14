@@ -2279,12 +2279,12 @@
 </p>
 <h2 id="qgis_1">QGISから認証をエクスポートする<a class="headerlink" href="#qgis_1" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> デスクトップの準備</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>認証の設定をエクスポートするには、少なくとも QGIS 3.20 が必要です。QGIS 3.20だけが認証とQGISプロジェクトの設定の準備を行えます。それ以前のバージョンのQGISでQGISプロジェクト自体の設定をすることは可能です。</p>
 </div>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>エクスポートされた設定の設定IDとQGISプロジェクトに保存されている設定情報が一致していることが重要です。</p>
 </div>
 <p>この時点で、QGISからサービスに正しく接続できることを確認します。この認証設定は、まずQGIS自身からエクスポートする必要があります。この時点で、QGISからサービスに正しく接続できることを確認します。この認証設定は、まずQGIS自身からエクスポートする必要があります。</p>
@@ -2295,8 +2295,8 @@
 </p>
 <p>パスワードの入力を求められたときは、空欄にしてください。ユーザーは、機密情報を漏らしているかもしれないという警告を受けます。OAuth2の設定の場合は、安全に行えます。</p>
 <p>認証設定を XML ファイルにエクスポートすると、QField はそのファイルを QField が動作するデバイスにコピーします。ファイルにエクスポートすると、QField はそのファイルを QField が動作するデバイスにコピーします。このファイルをデバイスの  <code>&lt;drive&gt;:/Android/data/ch.opengis.qfield/files/QField/auth/</code> QField ディレクトリにコピーしなければならない。<code>QField/auth/</code> パスは、QField を最初に起動したときに作成されます。パスが作成されます。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>QField 2 以降、認証ファイルはデバイスのメインディレクトリ <code>&lt;drive&gt;:/QField/auth</code>ではなく、アプリディレクトリ<code>&lt;drive&gt;1:/Android/data/ch.opengis.qfield/files/QField/auth</code> に保存する必要があります。</p>
 </div>
 <p>認証設定のXMLファイルをコピーした後、ユーザーは OAuth2 で保護されたレイヤーを含むプロジェクトファイルをデバイスにコピーし、QField でプロジェクトを開くことができます。ユーザーは，QField 内に表示されるブラウザパネルで，ユーザー名，パスワード，2段階認証の認証コードの入力を求められます．</p>

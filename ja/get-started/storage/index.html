@@ -2439,8 +2439,8 @@
 
 <div><h1 id="qfield">QFieldのストレージアクセス<a class="headerlink" href="#qfield" title="Permanent link">¶</a></h1>
 <p>以下は、QFieldでプロジェクトや個々のデータセットにアクセスする方法について、OSごとに説明したものです。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>既存のQFieldユーザーの皆様へ: セキュリティ上の理由から、Googleは2021年11月より新しいストレージアクセスルールを導入しました。ほとんどのアプリケーションは、デバイスの内部および外部ストレージのほとんどの場所にあるファイルに直接アクセスすることができません。この新しい制限の中で QFieldは、プロジェクトとデータセットをGoogle指定のストレージにインポートしなければなりません。 ストレージにインポートする必要があります。以下の説明をご参照ください。</p>
 </div>
 <h2 id="androidios">AndroidとiOSでプロジェクトとデータセットを開く<a class="headerlink" href="#androidios" title="Permanent link">¶</a></h2>
@@ -2466,8 +2466,8 @@
 <h3 id="_1">プロジェクトフォルダーをインポートする<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
 <p>「フォルダからプロジェクトをインポート」アクションでプロジェクトをインポートする場合、QFieldがフォルダー上の指定されたフォルダーの内容を読み込む許可をユーザーに要求します。フォルダーを選択すると、QFieldはそのフォルダーをコピーします。フォルダが選択されると、QFieldはそのフォルダの内容（サブフォルダを含む）を「インポートされたプロジェクト」フォルダにコピーします。ユーザーはそこからプロジェクトを開いて操作することができます。</p>
 <p>ドロップダウン・メニューから指定したフォルダを再インポートすると、同じフォルダ名の既存のプロジェクトは上書きされます。これにより、ユーザーはプロジェクトを更新することができます。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>フィーチャーの編集、追加、削除は、インポート処理中に選択された元のフォルダではなく、インポートされたプロジェクトのデータセットに保存されます。編集したプロジェクトやデータセットを送信/エクスポートする方法については、以下のセクションを参照してください。</p>
 </div>
 <h3 id="_2">圧縮されたプロジェクトをインポートする<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
@@ -2475,8 +2475,8 @@
 <p>これにより、単一のファイルをユーザーに送信できるため、プロジェクトのリモート展開が大幅に容易になります。</p>
 <h3 id="_3">個別のデータセットをインポートする<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
 <p>「データセットをインポートする」アクションでは、Androidシステムのファイル選択ダイアログを使って、1つ以上のデータセットを選択することができます。データセットを選択すると、QFieldはそれらのデータセットを「インポートされた」フォルダにコピーし、ユーザーはそのフォルダを開いて内容を変更することができます。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>データセットをインポートする際、ユーザーはすべてのサブファイルが選択されていることを確認する必要があります（例えば、シェープファイルの場合、ユーザーは.shp、.shx、.dbf、.prj、.cpgファイルを選択する必要があります）。</p>
 </div>
 <h2 id="android">Androidで修正したプロジェクトとデータセットをエクスポートする<a class="headerlink" href="#android" title="Permanent link">¶</a></h2>
@@ -2495,8 +2495,8 @@
 <h3 id="_4">プロジェクトフォルダまたは個々のデータセットをエクスポートする<a class="headerlink" href="#_4" title="Permanent link">¶</a></h3>
 <p>「フォルダにエクスポート」アクションを選択すると、ユーザーは、Androidシステムのフォルダ選択画面を使って、選択したプロジェクトフォルダまたは個々のデータセットのコンテンツをコピーする場所を選択するよう求められます。</p>
 <p>このアクションは、変更したプロジェクトやデータセットのコンテンツを、Syncthingのようなサードパーティの同期アプリがアクセスできるデバイス上のフォルダにコピーしたり、Androidのスコープストレージディレクトリプロバイダをサポートするプロバイダのクラウドアカウントにコンテンツを直接コピーしたりするために使用できます（執筆時点では、NextCloudアプリのみがサポートしています）。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>フォルダにエクスポートすると、既存のコンテンツは上書きされます。</p>
 </div>
 <h3 id="_5">圧縮されたプロジェクトを送信する<a class="headerlink" href="#_5" title="Permanent link">¶</a></h3>
@@ -2505,16 +2505,16 @@
 <h3 id="_6">個別のデータセットを送信する<a class="headerlink" href="#_6" title="Permanent link">¶</a></h3>
 <p>ユーザーは個々のデータセットに対して「送信先」アクションを選択することができ、編集したデータセットをGmail、Drive、Dropbox、Nextcloudなどのサードパーティアプリに直接送信することができます、
 <insert your favourite messenger app>など。</insert></p>
-<p>To export the layers from a synchronized QFieldCloud project, either on your device or a preferred cloud provider. To do this, within your project:</p>
+<p>同期されたQFieldCloudプロジェクトからレイヤーをエクスポートします。これを行うには、プロジェクト内で:</p>
 <ol>
-<li>Click on the 'Gear icon' located within your project.</li>
+<li>プロジェクト内の「歯車アイコン」をクリックします。</li>
 </ol>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/export-qfieldcloud-files-from-qfield-1-gear-icon.png"><img alt="" src="../../../assets/images/export-qfieldcloud-files-from-qfield-1-gear-icon.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
 <ol>
-<li>Select 'Open Project Folder' action.</li>
+<li>「プロジェクトフォルダを開く」を選択します。</li>
 </ol>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/export-qfieldcloud-files-from-qfield-2-open-folder-project.png"><img alt="" src="../../../assets/images/export-qfieldcloud-files-from-qfield-2-open-folder-project.png" title="" width="600px"></a><figcaption></figcaption>
@@ -2522,10 +2522,10 @@
 </p>
 <ol>
 <li>
-<p>Inside this project folder, you will find your project files. Offline layers will be stored in a file named 'data.gpkg'. You can also export your attached files (Photos, Audio, Video, etc).</p>
+<p>このプロジェクトフォルダの中に、プロジェクトファイルがあります。オフラインレイヤーは'data.gpkg'という名前のファイルに保存されます。また、添付ファイル（写真、オーディオ、ビデオなど）をエクスポートすることもできます。</p>
 </li>
 <li>
-<p>Now, click on the three dots (⋮) located on the right side of the file or folder.</p>
+<p>次に、ファイルまたはフォルダの右側にある3つの点（⋮）をクリックします。</p>
 </li>
 </ol>
 <p>
@@ -2533,15 +2533,15 @@
 </figure>
 </p>
 <ol>
-<li>Choose between the actions 'Send to...' or 'Export to folder...' based on your preference and follow the prompts accordingly.</li>
+<li>'送信先...'または'フォルダにエクスポート...'アクションのいずれかを選択し、お好みに応じてプロンプトに従ってください。</li>
 </ol>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/export-qfieldcloud-files-from-qfield-4-options-to-send.png"><img alt="" src="../../../assets/images/export-qfieldcloud-files-from-qfield-4-options-to-send.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This functionality is available on Android only.</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
+<p>この機能はアンドロイドでのみ利用可能です。</p>
 </div>
 <h2 id="usb">USBケーブルを使ってインポートされたコンテンツに直接アクセスする<a class="headerlink" href="#usb" title="Permanent link">¶</a></h2>
 <h3 id="android_1">Android<a class="headerlink" href="#android_1" title="Permanent link">¶</a></h3>

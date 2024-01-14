@@ -2612,8 +2612,8 @@
 <h3 id="qfieldsync">QFieldSyncのインストール<a class="headerlink" href="#qfieldsync" title="Permanent link">¶</a></h3>
 <p><code>プラグイン -&gt; プラグインの管理とインストール...</code>メニューからQGISプラグインマネージャーを開きます。</p>
 <p>プラグインの一覧からQFieldSyncを探し、<code>プラグインをインストール</code>ボタンをクリックして最新版をインストールしてください。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>QFieldCloudはまだベータ段階であるため、頻繁に更新と修正が行われます。QFieldSyncプラグインを頻繁にアップグレードしてください。問題が発生した場合は、報告する前に最新のリリースにアップグレードしてみてください。</p>
 </div>
 <p>
@@ -2630,8 +2630,8 @@
 </figure>
 </p>
 <p>アカウント登録時に作成した認証情報を入力してください。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>QGISで初めてパスワードを使用する場合、QGISで使用する他のすべてのパスワードを管理するマスターパスワードの設定を求められます。マスターパスワードの詳細については、こちらをご覧ください： <a href="https://docs.qgis.org/3.4/en/docs/user_manual/auth_system/auth_overview.html#master-password">QGISドキュメント</a></p>
 </div>
 <p>プロジェクト一覧画面では、現在のユーザーが青い下線で表示され、左下にはログアウトボタン、右側には新しいプロジェクトを作成するためのクラウドボタン、そして最も新しいプロジェクトリストを取得するための更新ボタンがあります。新規登録ユーザーには空のテーブルが表示され、新しいプロジェクトを作成するとすぐにリストが増えます。プロジェクト一覧画面はこのようになっています：</p>
@@ -2671,9 +2671,9 @@
 <figure><a data-caption="QFieldのレベリングサーバー" data-fancybox="gallery" href="../../../../assets/images/changing_default_qfieldcloud_server_qfield.png"><img alt="QFieldのレベリングサーバー" src="../../../../assets/images/changing_default_qfieldcloud_server_qfield.png" title="QFieldのレベリングサーバー" width="250px"></a><figcaption>QFieldのレベリングサーバー</figcaption>
 </figure>
 </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>It's important to note that QFieldSync does not support the same cloud project in multiple QGIS profiles. As a recommendation use a single QGIS profile for your QFieldCloud projects to avoid synchronization issues.</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
+<p>QFieldSyncは複数のQGISプロファイルで同じクラウドプロジェクトをサポートしないことに留意することが重要です。同期の問題を避けるために、QFieldCloudプロジェクトには単一のQGISプロファイルを使用することをお勧めします。</p>
 </div>
 <h3 id="_6">クラウドプロジェクトの作成と設定<a class="headerlink" href="#_6" title="Permanent link">¶</a></h3>
 <p>左下のクラウドボタンをクリックして新規プロジェクトを作成する。まず、新規プロジェクトの作成方法を以下の中から選択します。</p>
@@ -2701,26 +2701,26 @@
 <li>ディレクトリに複数のプロジェクトファイルが見つかりました。ルートディレクトリにQGISプロジェクトを1つだけ残してください。</li>
 </ul>
 <h3 id="_7">組織内にプロジェクトを作成する<a class="headerlink" href="#_7" title="Permanent link">¶</a></h3>
-<p>How to create a project in an organization:</p>
-<p><strong>Option 1: Directly convert your local project to an Organization QFieldCloud project:</strong></p>
+<p>組織におけるプロジェクトの作り方：</p>
+<p><strong>オプション1：ローカルプロジェクトを組織QFieldCloudプロジェクトに直接変換します：</strong></p>
 <ol>
 <li>
-<p>Follow the steps <a href="#create-and-configure-your-cloud-project">configure your cloud project</a>, ultil you get the "Project details".</p>
+<p><a href="#create-and-configure-your-cloud-project">クラウドプロジェクトの設定</a>の手順に従って、"プロジェクトの詳細 "を表示します。</p>
 </li>
 <li>
-<p>Change the owner of the project to your Organization.</p>
+<p>プロジェクトの所有者を自分の組織に変更する。</p>
 <p><img alt="QFieldCloudのプロジェクトファイル一覧" src="../../../../assets/images/converting-project-to-organization-01.png"></p>
 </li>
 <li>
-<p>Click on "Create" to start the conversion and synchronization. When finish you will see the project is in your Organization in QFieldCloud.</p>
+<p>"作成"をクリックして変換と同期を開始します。完了すると、プロジェクトがQFieldCloudの組織にあることが確認できます。</p>
 <p><img alt="QFieldCloudのプロジェクトファイル一覧" src="../../../../assets/images/converting-project-to-organization-02.png"></p>
 </li>
 </ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>QField Sync 4.6 or newer is required for this functionality</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
+<p>この機能を使用するには、QField Sync 4.6以降が必要です。</p>
 </div>
-<p><strong>Option 2: Uploading directly to the organization:</strong></p>
+<p><strong>オプション2：組織へ直接アップロードする：</strong></p>
 <ol>
 <li>
 <p>組織を選択する。</p>
@@ -2763,7 +2763,7 @@
 <p><img alt="QFieldCloudでのプロジェクトファイルの一覧" src="../../../../assets/images/project_organization_10_files_overview_in_cloud.png"></p>
 </li>
 </ol>
-<p><strong>Option 3: Moving the project from your own account to the Organizations:</strong></p>
+<p><strong>オプション3：自分のアカウントから組織にプロジェクトを移動する：</strong></p>
 <ol>
 <li>
 <p>QFieldCloudに既にプロジェクトがある場合（<a href="#create-and-configure-your-cloud-project">クラウドプロジェクトの設定</a>を参照）。プロジェクトで「設定」をクリックし、<em>このプロジェクトの所有権を譲渡する</em>を選択して、転送する組織を選択します。</p>
@@ -2777,8 +2777,8 @@
 <h3 id="qfield">QField用にプロジェクトレイヤーを設定する<a class="headerlink" href="#qfield" title="Permanent link">¶</a></h3>
 <p>QFieldSyncツールバーの5番目のアイコンをクリックしてプロジェクトレイヤーを設定します <img width="20px" alt="" src="../../../../assets/images/project_properties.svg">. ここでQFieldCloudのレイヤーアクションを設定できます。ほとんどの場合、オンラインレイヤーかオフラインレイヤーかを設定する必要があります。よりきめ細かい制御を行うには、詳細設定でレイヤーごとにアクションを設定できます。レイヤーの設定方法については、<a href="../get-started-qfs/">Get Started guide for QFieldSync</a> を参照してください。</p>
 <p>共同編集には GeoPackage レイヤーを使用することをお勧めします。ベクターフォーマットのサポートについては、<a href="../advanced-setup-qfc/">advanced setup guide</a>を参照してください。</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>主キーフィールドのない実験的データソース（Shapefile、GeoJSONなど）を使用する場合は、各フィーチャーを一意に識別する主キーとして使用する小文字の<code>fid</code>フィールドを用意する必要があります。</p>
 </div>
 <p>QFieldがサポートしているラスターおよびベクター・レイヤー・フォーマットはすべて、読み取り専用データとして使用できます。</p>
@@ -2818,8 +2818,8 @@
 <h3 id="qfield_1">QFieldのインストール<a class="headerlink" href="#qfield_1" title="Permanent link">¶</a></h3>
 <p>Playストアから<a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev">QField</a>の最新バージョンをダウンロードしてインストールしてください。一番下までスクロールし、ベータテストを有効にしてください。
 このバージョンを本番で使用しないでください！</p>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p>QField 2.0はまだベータ段階なので、定期的な更新と修正が少なくとも毎週あります。少なくとも週に一度は実験的なQFieldをアップグレードしてください。問題が発生した場合、報告する前に最新のリリースで再現してみてください。</p>
 </div>
 <h3 id="_10">プロジェクトに取り掛かる<a class="headerlink" href="#_10" title="Permanent link">¶</a></h3>

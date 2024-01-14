@@ -2383,12 +2383,12 @@
 </ol>
 </li>
 </ol>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p><code>ダイレクトデータベースアクセス</code>を使用する場合、QFieldCloudはPostGISデータベース上のデータを直接編集します。これは現場での信頼できるインターネット接続でのみ動作しますが、すべてのデータがすべてのユーザーから直接見えるという利点があり、PostGIS特有の設定（トリガー、生成されたフィールドなど）を使用することができます。</p>
 </div>
-<div class="admonition ご注意ください">
-<p class="admonition-title">ご注意ください</p>
+<div class="admonition 備考">
+<p class="admonition-title">備考</p>
 <p><code>オフライン編集</code>を使用する場合、QFieldはGeoPackage内のデータベースのローカルコピーで作業し、QFieldCloudによって元のデータベースと同期されます。これは現場での接続が信頼できない場合に最適な選択です。変更は、QFieldCloud に同期されて初めてユーザーに表示されます。ローカルコピーが作成されるため、高度な PostGIS 機能は QField では利用できません。通常の GeoPackages と同様に、リレーションシップを定義する場合は、複数のユーザーが同時にデータを作成した場合の競合を避けるため、整数の主キーの代わりに UUID を使用することをお勧めします。</p>
 </div>
 <p><a href="../../../reference/qfieldcloud/concepts/">QFieldCloud技術参考情報</a>でさらに情報を見つけられるでしょう。</p></div>
