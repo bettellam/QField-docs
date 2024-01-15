@@ -22,7 +22,7 @@
     
     
       
-        <title>Manage Conflicts - QFieldエコシステムドキュメント</title>
+        <title>コンフリクト - 競合の管理 - QFieldエコシステムドキュメント</title>
       
     
     
@@ -63,7 +63,7 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Manage Conflicts - QFieldエコシステムドキュメント" >
+        <meta  property="og:title"  content="コンフリクト - 競合の管理 - QFieldエコシステムドキュメント" >
       
         <meta  property="og:description"  content="QFieldエコシステムのドキュメントへようこそ。QFieldエコシステムは、フィールドワークをシームレスかつ効率的にするために設計された製品群です。このページでは、QField のすべての製品について、包括的でわかりやすいドキュメントを提供しています。初めてお使いになる方でも、経験豊富なプロの方でも、QFieldとその関連ツールの使用に関して知っておくべきことが全て網羅されています。" >
       
@@ -79,7 +79,7 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Manage Conflicts - QFieldエコシステムドキュメント" >
+        <meta  name="twitter:title"  content="コンフリクト - 競合の管理 - QFieldエコシステムドキュメント" >
       
         <meta  name="twitter:description"  content="QFieldエコシステムのドキュメントへようこそ。QFieldエコシステムは、フィールドワークをシームレスかつ効率的にするために設計された製品群です。このページでは、QField のすべての製品について、包括的でわかりやすいドキュメントを提供しています。初めてお使いになる方でも、経験豊富なプロの方でも、QFieldとその関連ツールの使用に関して知っておくべきことが全て網羅されています。" >
       
@@ -109,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understanding-conflicts-in-data-synchronization" class="md-skip">
+        <a href="#_1" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -142,7 +142,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Manage Conflicts
+              コンフリクト - 競合の管理
             
           </span>
         </div>
@@ -2168,23 +2168,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#understanding-conflicts-in-data-synchronization" class="md-nav__link">
-    Understanding Conflicts in Data Synchronization
+  <a href="#_1" class="md-nav__link">
+    データ同期におけるコンフリクトを理解する
   </a>
   
-    <nav class="md-nav" aria-label="Understanding Conflicts in Data Synchronization">
+    <nav class="md-nav" aria-label="データ同期におけるコンフリクトを理解する">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-to-avoid-conflicts" class="md-nav__link">
-    How to Avoid Conflicts?
+  <a href="#_2" class="md-nav__link">
+    コンフリクトを避けるには？
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#how-to-resolve-conflicts" class="md-nav__link">
-    How to Resolve Conflicts?
+  <a href="#_3" class="md-nav__link">
+    コンフリクトを解決するには？
   </a>
   
 </li>
@@ -2212,39 +2212,39 @@
   
 
 
-  <h1>Manage Conflicts</h1>
+  <h1>コンフリクト - 競合の管理</h1>
 
-<div><h2 id="understanding-conflicts-in-data-synchronization">Understanding Conflicts in Data Synchronization<a class="headerlink" href="#understanding-conflicts-in-data-synchronization" title="Permanent link">¶</a></h2>
-<p>Conflicts occur when any of these conditions is met:</p>
-<p>1) distinct users set the same attribute on the same feature to different values;
-2) a primary key is employed twice.
-While highly unlikely have conflicts, preventing, mitigating and resolving conflicts is important to maintain data integrity in a healthy QGIS project. Here are some tips and tricks to do just that.</p>
-<h3 id="how-to-avoid-conflicts">How to Avoid Conflicts?<a class="headerlink" href="#how-to-avoid-conflicts" title="Permanent link">¶</a></h3>
+<div><h2 id="_1">データ同期におけるコンフリクトを理解する<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
+<p>これらの条件のいずれかが満たされたときにコンフリクトが発生します：</p>
+<p>1) 異なるユーザーが同じ地物の同じ属性に異なる値を設定する；
+2) プライマリ・キーが2回使用される。
+コンフリクトが発生する可能性は極めて低いですが、健全なQGISプロジェクトでデータの整合性を維持するためには、コンフリクトを防止、緩和、解決することが重要です。ここでは、そのためのヒントとトリックをいくつか紹介します。</p>
+<h3 id="_2">コンフリクトを避けるには？<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
 <ol>
-<li><strong>Unique "fid" Serial Numbers:</strong></li>
-<li>When creating a feature, it is recommended to assign a unique "fid" serial number to each feature in the layers.</li>
+<li><strong>ユニークな「fid」シリアル番号：</strong></li>
+<li>地物を作成する際、レイヤー内の各地物にユニークな "fid "シリアル番号を割り当てることをお勧めします。</li>
 <li>
-<p>Use the expression "epoch(now())" (without the double quote) in the "fid" to generate a unique identifier per millisecond, reducing the possibility of duplicate "fid" numbers.</p>
+<p>"fid"に "epoch(now())"（二重引用符なし）という表現を使用すると、ミリ秒ごとに一意な識別子が生成され、"fid "番号が重複する可能性が低くなります。</p>
 </li>
 <li>
-<p><strong>Planning and Designation:</strong></p>
+<p><strong>計画と指定：</strong></p>
 </li>
-<li>For updating existing features based on field conditions, plan and designate the features each user will update.</li>
-<li>Users should avoid changing the "fid" or identifier numbers.</li>
+<li>現場の状況に基づいて既存の地物を更新する場合は、各ユーザーが更新する地物を計画し、指定します。</li>
+<li>ユーザーは、"fid "や識別子の番号を変更することは避けるべきです。</li>
 </ol>
-<h3 id="how-to-resolve-conflicts">How to Resolve Conflicts?<a class="headerlink" href="#how-to-resolve-conflicts" title="Permanent link">¶</a></h3>
+<h3 id="_3">コンフリクトを解決するには？<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
 <ul>
 <li>
-<p>By default, QFieldCloud overwrites conflicts using a <em>last wins</em> policy (the latest patch of changes to the attribute(s) involved in the conflict replaces all earlier patches of changes to these attributes). Alternatively, admins can set a project's conflict resolution policy to <em>manual</em>. Doing so will require the project manager to manually resolve conflicts, picking those to be applied to the project.</p>
+<p>デフォルトでは、QFieldCloudは_last wins_ポリシーを使用して競合を上書きします（競合に関係する属性への変更の最新のパッチが、これらの属性への変更の以前のパッチをすべて置き換えます）。また、管理者はプロジェクトのコンフリクト解決ポリシーを_manual_に設定することもできます。この場合、プロジェクト管理者はコンフリクトを手動で解決し、プロジェクトに適用するコンフリクトを選ぶ必要があります。</p>
 </li>
 <li>
-<p>When dealing with conflicts:</p>
+<p>コンフリクトに対処するとき：</p>
 </li>
-<li>Navigate to the "Changes" section.</li>
-<li>Filter the changes with the "Not_applied" status.</li>
-<li>For each conflicted change, select it and set the status to "Re-apply" from the "Action" dropdown menu, alternatively if all the new changes are in conflict you can choose in the last conflicted change and select "Re-apply this and newer changes".</li>
-<li>Check the details of changes in the conflict and click "Save All" at the end of the page.</li>
-<li>Refer to our official documentation <a href="https://docs.qfield.org/reference/qfieldcloud/jobs/#delta-apply-delta_apply-job">Delta apply</a> for additional information.</li>
+<li>「変更」セクションに移動します。</li>
+<li>ステータスが "Not_applied "の変更だけをフィルタします。</li>
+<li>コンフリクトしている各変更を選択し、"Action "ドロップダウンメニューからステータスを "Re-apply "に設定します。また、すべての新しい変更がコンフリクトしている場合は、最後にコンフリクトした変更を選択し、"Re-apply this and newer changes "を選択することもできます。</li>
+<li>コンフリクトの変更内容を確認し、ページの最後にある「すべて保存」をクリックします。</li>
+<li>詳細については、公式ドキュメント<a href="https://docs.qfield.org/reference/qfieldcloud/jobs/#delta-apply-delta_apply-job">Delta apply</a>をご参照ください。</li>
 </ul>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../../assets/images/resolving_conflicts.gif"><img alt="" src="../../../../assets/images/resolving_conflicts.gif" title="" width="600px"></a><figcaption></figcaption>

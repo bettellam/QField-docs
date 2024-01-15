@@ -1299,8 +1299,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" class="md-nav__link">
-    Fetching Geotags (EXIF) from the image file into the attribute table
+  <a href="#exif" class="md-nav__link">
+    属性テーブルに画像ファイルからジオタグ（EXIF）を取得する
   </a>
   
 </li>
@@ -2399,8 +2399,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" class="md-nav__link">
-    Fetching Geotags (EXIF) from the image file into the attribute table
+  <a href="#exif" class="md-nav__link">
+    属性テーブルに画像ファイルからジオタグ（EXIF）を取得する
   </a>
   
 </li>
@@ -2546,20 +2546,20 @@
     を確認してください。</li>
 <li>完了です！QField独自のQMLベースのカメラが、写真撮影に利用されるようになりました。</li>
 </ol>
-<h2 id="fetching-geotags-exif-from-the-image-file-into-the-attribute-table">Fetching Geotags (EXIF) from the image file into the attribute table<a class="headerlink" href="#fetching-geotags-exif-from-the-image-file-into-the-attribute-table" title="Permanent link">¶</a></h2>
+<h2 id="exif">属性テーブルに画像ファイルからジオタグ（EXIF）を取得する<a class="headerlink" href="#exif" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> デスクトップの準備</p>
-<p>Sometimes you might be interested in automatically storing Geotags such as the latitude, longitude, orientation, etc. This information is also known as EXIF tags.</p>
-<p>To store the EXIF information, follow these steps:</p>
+<p>緯度、経度、方位などのジオタグを自動的に保存することに興味がある方もいるかもしれません。この情報はEXIFタグとしても知られています。</p>
+<p>EXIF情報を保存するには、以下の手順に従います：</p>
 <ol>
-<li>Add an attribute per EXIF tag in the table that contains the pictures.</li>
-<li>In the pictures form, configure the default value of each attribute to the corresponding
-   <em>EXIF</em> expression <a href="https://docs.qgis.org/3.34/en/docs/user_manual/expressions/functions_list.html#exif">See QGIS EXIF function</a>,
-    and make sure <em>Apply on update</em> is activated.</li>
-<li>The EXIF tags that QField can capture are listed in the QGIS documentation (link above).
-    However, this list might slightly varies depending on the mobile characteristics.</li>
-<li>Capturing EXIF tags requires accessing the full physical path of the picture. Be sure to reflect this in the QGIS expression.
-   For example, the expression * exif(@project_folder + '/' + "path", 'Exif.Image.Orientation')<em> retrieves the orientation of the picture stored in </em>path*.</li>
-<li>Completed! QField's now capture and store the EXIF tags in the pictures table while taking pictures.</li>
+<li>写真を含むテーブルのEXIFタグごとに属性を追加します。</li>
+<li>画像フォームで、各属性に対応するデフォルト値を設定します
+   <em>EXIF</em> 式 <a href="https://docs.qgis.org/3.34/en/docs/user_manual/expressions/functions_list.html#exif">QGIS EXIF関数を参照</a>,
+    <em>更新時に適用</em>が有効になっていることを確認してください。</li>
+<li>QFieldが取得できるEXIFタグは、QGISのドキュメント（上記リンク）に記載されています。
+    ただし、このリストはモバイルデバイスによって若干異なる場合があります。</li>
+<li>EXIF タグをキャプチャするには、画像の完全な物理パスにアクセスする必要があります。必ずQGISの式に反映させてください。
+   例えば、<em> exif(@project_folder + '/' + "path", 'Exif.Image.Orientation')</em>という式は、<em>path</em>に保存されている画像の向きを取得します。</li>
+<li>完了です！QFieldが写真撮影時にEXIFタグを取得し、写真テーブルに保存できるようになりました。</li>
 </ol>
 <h2 id="_8">最大画像サイズ<a class="headerlink" href="#_8" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> デスクトップの準備</p>
