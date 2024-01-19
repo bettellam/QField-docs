@@ -2617,8 +2617,7 @@
 <h3 id="_11">定位变量<a class="headerlink" href="#_11" title="Permanent link">¶</a></h3>
 <p>您可以通过属性表单可访问的其他表达式变量访问定位信息。这些变量仅在启用定位时可用。</p>
 <p>这些变量通常用作字段 <a href="https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/vector_properties.html#default-values">默认值表达式</a> 的一部分，以跟踪单个测量点的特性。</p>
-<p>All <code>@position_*</code> variables have a corresponding <code>@gnss_*</code> variable.
-The gnss variables always report the gnss sensor values, even when the crosshair is not snapped.</p>
+<p>所有 <code>@position_*</code> 变量都有一个对应的 <code>@gnss_*</code> 变量。gnss变量始终报告gnss传感器值，即使没有捕捉到十字光标。</p>
 <ul>
 <li><code>@position_source_name</code> - The name of the device that gave location information as
     reported by the sensor. To differenciate between internal and
@@ -2677,11 +2676,11 @@ The gnss variables always report the gnss sensor values, even when the crosshair
         "A" = Automatic, 3D/2D) as reported by the sensor. It is only
         available when the crosshair is snapped to the sensor. - E</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
+<div class="admonition 信息">
+<p class="admonition-title">信息</p>
 <ul>
-<li>I: Internal position source E: External (NMEA) position source.</li>
-<li>Variables that contain <code>satellites</code> are not available on iOS.</li>
+<li>I: 内部位置源E: 外部 (NMEA) 位置源。</li>
+<li>包含 <code>satellites</code> 的变量在iOS不可用。</li>
 </ul>
 </div>
 <dl>
