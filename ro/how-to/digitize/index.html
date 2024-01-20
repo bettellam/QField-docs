@@ -1307,37 +1307,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stergere-entitati" class="md-nav__link">
-    Ștergere entități
+  <a href="#delete-features" class="md-nav__link">
+    Delete features
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#acrosare" class="md-nav__link">
-    Acroșare
+  <a href="#snapping" class="md-nav__link">
+    Snapping
   </a>
   
-    <nav class="md-nav" aria-label="Acroșare">
+    <nav class="md-nav" aria-label="Snapping">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#tipuri-de-acrosare" class="md-nav__link">
-    Tipuri de Acroșare
+  <a href="#snapping-types" class="md-nav__link">
+    Snapping Types
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acrosare-la-straturi" class="md-nav__link">
-    Acroșare la straturi
+  <a href="#snapping-to-layers" class="md-nav__link">
+    Snapping to layers
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#toleranta-acrosarii" class="md-nav__link">
-    Toleranța acroșării
+  <a href="#snapping-tolerance" class="md-nav__link">
+    Snapping tolerance
   </a>
   
 </li>
@@ -2515,37 +2515,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stergere-entitati" class="md-nav__link">
-    Ștergere entități
+  <a href="#delete-features" class="md-nav__link">
+    Delete features
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#acrosare" class="md-nav__link">
-    Acroșare
+  <a href="#snapping" class="md-nav__link">
+    Snapping
   </a>
   
-    <nav class="md-nav" aria-label="Acroșare">
+    <nav class="md-nav" aria-label="Snapping">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#tipuri-de-acrosare" class="md-nav__link">
-    Tipuri de Acroșare
+  <a href="#snapping-types" class="md-nav__link">
+    Snapping Types
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acrosare-la-straturi" class="md-nav__link">
-    Acroșare la straturi
+  <a href="#snapping-to-layers" class="md-nav__link">
+    Snapping to layers
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#toleranta-acrosarii" class="md-nav__link">
-    Toleranța acroșării
+  <a href="#snapping-tolerance" class="md-nav__link">
+    Snapping tolerance
   </a>
   
 </li>
@@ -2695,6 +2695,27 @@ is created, QField will offer the possibility of filling the ring with a new fea
 <p>QField allows you to merge features and their geometries into a single feature. To do so, identify two (or more)
 features on the map, select them in the features list and merge them by selecting
 the <em>Merge Selected Features</em> in the <em>Menu (⁝) Button</em>.</p>
+<p>To execute merging within QField, ensure the following conditions:</p>
+<ol>
+<li><strong>Editable Vector Layer:</strong></li>
+<li>
+<p>The target layer must be an editable layer.</p>
+</li>
+<li>
+<p><strong>Multi-Type Geometry:</strong></p>
+</li>
+<li>
+<p>Ensure that the geometry type of the layer is multi-type.</p>
+</li>
+<li>
+<p><strong>Data Provider's Abilities:</strong></p>
+</li>
+<li>Verify that the data provider associated with the layer (preferably GeoPackage) possesses the capability to:<ul>
+<li>Modify geometries: The ability to make changes to existing geometrical structures.</li>
+<li>Delete features: The capability to remove individual features from the dataset.</li>
+</ul>
+</li>
+</ol>
 <h2 id="freehand-digitizing">Freehand digitizing<a class="headerlink" href="#freehand-digitizing" title="Permanent link">¶</a></h2>
 <p>The freehand digitizing mode allows you to "draw" lines and polygons
 using their stylus pen or mouse. The mode is available for line and polygon
@@ -2717,7 +2738,7 @@ In some cases, it can result in very efficient workflows. To do so, identify two
 features on the map, select them in the features list and merge them by selecting
 the <em>Edit feature</em> button in the list's title bar.</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/499565955" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<h2 id="stergere-entitati">Ștergere entități<a class="headerlink" href="#stergere-entitati" title="Permanent link">¶</a></h2>
+<h2 id="delete-features">Delete features<a class="headerlink" href="#delete-features" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> Fieldwork</p>
 <p>Deleting a feature is done by selecting the <em>Delete feature</em> action in the
 feature form's <em>3-dot menu</em>.</p>
@@ -2735,22 +2756,22 @@ action in the features list <em>3-dot menu</em>.</p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/delete-multiple-features.png"><img alt="" src="../../../assets/images/delete-multiple-features.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
-<h2 id="acrosare">Acroșare<a class="headerlink" href="#acrosare" title="Permanent link">¶</a></h2>
+<h2 id="snapping">Snapping<a class="headerlink" href="#snapping" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> Desktop preparation</p>
 <p>While digitizing new features, new points can be snapped to existing
 geometries.</p>
 <p>All configuration can be done in <em>Project &gt; Snapping Settings</em></p>
-<h3 id="tipuri-de-acrosare">Tipuri de Acroșare<a class="headerlink" href="#tipuri-de-acrosare" title="Permanent link">¶</a></h3>
-<p>Este posibilă acroșarea la punctele noi</p>
+<h3 id="snapping-types">Snapping Types<a class="headerlink" href="#snapping-types" title="Permanent link">¶</a></h3>
+<p>It is possible to snap new points</p>
 <ul>
 <li>only to nodes of existing geometries</li>
 <li>only to segments of existing geometries</li>
 <li>to nodes and segments of existing geometries</li>
 </ul>
-<h3 id="acrosare-la-straturi">Acroșare la straturi<a class="headerlink" href="#acrosare-la-straturi" title="Permanent link">¶</a></h3>
-<p>Este posibilă acroșarea doar la unul sau mai multe straturi.</p>
-<h3 id="toleranta-acrosarii">Toleranța acroșării<a class="headerlink" href="#toleranta-acrosarii" title="Permanent link">¶</a></h3>
-<p>Toleranța acroșării poate fi specificată în unități de hartă sau pixeli.</p>
+<h3 id="snapping-to-layers">Snapping to layers<a class="headerlink" href="#snapping-to-layers" title="Permanent link">¶</a></h3>
+<p>It is also possible to only snap to one or a few layers.</p>
+<h3 id="snapping-tolerance">Snapping tolerance<a class="headerlink" href="#snapping-tolerance" title="Permanent link">¶</a></h3>
+<p>The snapping tolerance can be specified in map units or pixels.</p>
 <p>In almost any case, the units should be set to pixels. We made good
 experiences with a tolerance value of 20.</p></div>
 

@@ -1280,23 +1280,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#digitalizacao-manual" class="md-nav__link">
-    Digitalização manual
+  <a href="#freehand-digitizing" class="md-nav__link">
+    Freehand digitizing
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicao-topologica" class="md-nav__link">
-    Edição topológica
+  <a href="#topological-editing" class="md-nav__link">
+    Topological editing
   </a>
   
-    <nav class="md-nav" aria-label="Edição topológica">
+    <nav class="md-nav" aria-label="Topological editing">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#multi-edicao-de-elementos" class="md-nav__link">
-    Multi-edição de elementos
+  <a href="#multi-editing-of-attributes" class="md-nav__link">
+    Multi-editing of attributes
   </a>
   
 </li>
@@ -1307,8 +1307,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#eliminar-elementos" class="md-nav__link">
-    Eliminar elementos
+  <a href="#delete-features" class="md-nav__link">
+    Delete features
   </a>
   
 </li>
@@ -1322,22 +1322,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#tipos-de-snapping" class="md-nav__link">
-    Tipos de Snapping
+  <a href="#snapping-types" class="md-nav__link">
+    Snapping Types
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#snapping-a-camadas" class="md-nav__link">
-    Snapping a camadas
+  <a href="#snapping-to-layers" class="md-nav__link">
+    Snapping to layers
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tolerancia-de-snapping" class="md-nav__link">
-    Tolerância de Snapping
+  <a href="#snapping-tolerance" class="md-nav__link">
+    Snapping tolerance
   </a>
   
 </li>
@@ -2488,23 +2488,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#digitalizacao-manual" class="md-nav__link">
-    Digitalização manual
+  <a href="#freehand-digitizing" class="md-nav__link">
+    Freehand digitizing
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicao-topologica" class="md-nav__link">
-    Edição topológica
+  <a href="#topological-editing" class="md-nav__link">
+    Topological editing
   </a>
   
-    <nav class="md-nav" aria-label="Edição topológica">
+    <nav class="md-nav" aria-label="Topological editing">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#multi-edicao-de-elementos" class="md-nav__link">
-    Multi-edição de elementos
+  <a href="#multi-editing-of-attributes" class="md-nav__link">
+    Multi-editing of attributes
   </a>
   
 </li>
@@ -2515,8 +2515,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#eliminar-elementos" class="md-nav__link">
-    Eliminar elementos
+  <a href="#delete-features" class="md-nav__link">
+    Delete features
   </a>
   
 </li>
@@ -2530,22 +2530,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#tipos-de-snapping" class="md-nav__link">
-    Tipos de Snapping
+  <a href="#snapping-types" class="md-nav__link">
+    Snapping Types
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#snapping-a-camadas" class="md-nav__link">
-    Snapping a camadas
+  <a href="#snapping-to-layers" class="md-nav__link">
+    Snapping to layers
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tolerancia-de-snapping" class="md-nav__link">
-    Tolerância de Snapping
+  <a href="#snapping-tolerance" class="md-nav__link">
+    Snapping tolerance
   </a>
   
 </li>
@@ -2691,64 +2691,85 @@ for criado, o QField oferecerá a possibilidade de preencher o anel com um novo 
 <p>O QField permite juntar elementos e as suas geometrias num único elemento. Para isso, identifique dois (ou mais)
 elementos no mapa, selecione-as na lista de elementos e junte-os selecionando
 o <em>Juntar Elementos Selecionados</em> no <em>Botão Menu (⁝)</em>.</p>
-<h2 id="digitalizacao-manual">Digitalização manual<a class="headerlink" href="#digitalizacao-manual" title="Permanent link">¶</a></h2>
-<p>A digitalização manual permite aos utilizadores "desenhar" linhas e polígonos
-usando a sua pen/stylus ou o rato. O modo está disponível para adição de elementos do tipo linha/polígono
-assim como as ferramentas geometrias de editor de anéis,
-recorte, e redesenho.</p>
-<p>O modo de digitalização manual é ativado através de um novo botão
-que aparece no QField quando é definido no modo edição e a caneta stylus ou
-rato sobrepõe o enquadramento do mapa enquanto a linha ou o polígono vetorial é selecionado.</p>
+<p>To execute merging within QField, ensure the following conditions:</p>
+<ol>
+<li><strong>Editable Vector Layer:</strong></li>
+<li>
+<p>The target layer must be an editable layer.</p>
+</li>
+<li>
+<p><strong>Multi-Type Geometry:</strong></p>
+</li>
+<li>
+<p>Ensure that the geometry type of the layer is multi-type.</p>
+</li>
+<li>
+<p><strong>Data Provider's Abilities:</strong></p>
+</li>
+<li>Verify that the data provider associated with the layer (preferably GeoPackage) possesses the capability to:<ul>
+<li>Modify geometries: The ability to make changes to existing geometrical structures.</li>
+<li>Delete features: The capability to remove individual features from the dataset.</li>
+</ul>
+</li>
+</ol>
+<h2 id="freehand-digitizing">Freehand digitizing<a class="headerlink" href="#freehand-digitizing" title="Permanent link">¶</a></h2>
+<p>The freehand digitizing mode allows you to "draw" lines and polygons
+using their stylus pen or mouse. The mode is available for line and polygon
+feature additions as well as the above-mentioned geometry editor's rings,
+split, and reshape tools.</p>
+<p>The freehand digitizing mode is activated through a new toolbar button
+which appears when QField is set to editing mode and a stylus pen or
+a mouse is hovering the map canvas while a line or polygon vector is selected.</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/537673220" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<h2 id="edicao-topologica">Edição topológica<a class="headerlink" href="#edicao-topologica" title="Permanent link">¶</a></h2>
-<p>Se a edição topológica estiver ativada no projeto do QGIS antes de exportar
-para o Qfield, os nós das geometrias vizinhas partilhadas são modificados
-simultaneamente quando são movidos /eliminados e os vértices
-adicionais são adicionados aos segmentos quando um novo nó é adicionado nas geometrias
-vizinhas.</p>
+<h2 id="topological-editing">Topological editing<a class="headerlink" href="#topological-editing" title="Permanent link">¶</a></h2>
+<p>If topological editing is activated on the project QGIS before exporting
+for QField, shared nodes of neighbouring geometries are modified
+together when moving / deleting vertices and additional vertices are
+added to segments when a new node is added from neighbouring
+geometries.</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/499565314" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<h3 id="multi-edicao-de-elementos">Multi-edição de elementos<a class="headerlink" href="#multi-edicao-de-elementos" title="Permanent link">¶</a></h3>
-<p>O QField permite selecionar vários elementos e editar seus atributos de uma só vez.
-Em alguns casos, pode resultar em fluxos de trabalho muito eficientes. Para isso, identifique dois (ou mais)
-elementos no mapa, selecione-as na lista de elementos e junte-os selecionando
-o botão <em>Editar elemento</em> na barra de título da lista.</p>
+<h3 id="multi-editing-of-attributes">Multi-editing of attributes<a class="headerlink" href="#multi-editing-of-attributes" title="Permanent link">¶</a></h3>
+<p>QField allows you to select multiple features and edit their attributes all at once.
+In some cases, it can result in very efficient workflows. To do so, identify two (or more)
+features on the map, select them in the features list and merge them by selecting
+the <em>Edit feature</em> button in the list's title bar.</p>
 <p><div class="video-container"><iframe src="https://player.vimeo.com/video/499565955" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<h2 id="eliminar-elementos">Eliminar elementos<a class="headerlink" href="#eliminar-elementos" title="Permanent link">¶</a></h2>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> Trabalho de campo</p>
-<p>A exclusão de um elemento é feita selecionando a ação <em>Excluir elemento</em> no
-<em>menu de 3 pontos</em> do formulário do elemento.</p>
+<h2 id="delete-features">Delete features<a class="headerlink" href="#delete-features" title="Permanent link">¶</a></h2>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> Fieldwork</p>
+<p>Deleting a feature is done by selecting the <em>Delete feature</em> action in the
+feature form's <em>3-dot menu</em>.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/delete-single-feature.png"><img alt="" src="../../../assets/images/delete-single-feature.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
-<p>O QField também permite que você exclua vários elementos de uma vez. Para isso, primeiro
-identifique os elementos tocando rapidamente nas partes relevantes do mapa. De seguida ative
-o modo de seleção múltipla pressionando longamente um dos elementos que deseja excluir.
-Quando a caixa de seleção aparecer ao lado dos nomes dos elementos, selecione outros elementos
-para excluir (você pode tocar no mapa para adicionar mais elementos). Depois de concluído, selecione <em>Excluir elementos(s) selecionado(s)</em>
-ação na lista de elementos <em>menu de 3 pontos</em>.</p>
+<p>QField also allows you to delete multiple features at a time. To do so, first
+identify the features by short tapping on the relevant parts of the map. Then activate
+the multi-selection mode by long pressing on one of the features you want to delete.
+When checkbox appears next to the feature names, select further features
+to delete (you can tap on the map to add more features too). Once done, select the <em>Delete Selected Feature(s)</em>
+action in the features list <em>3-dot menu</em>.</p>
 <p>
 <figure><a data-caption="" data-fancybox="gallery" href="../../../assets/images/delete-multiple-features.png"><img alt="" src="../../../assets/images/delete-multiple-features.png" title="" width="600px"></a><figcaption></figcaption>
 </figure>
 </p>
 <h2 id="snapping">Snapping<a class="headerlink" href="#snapping" title="Permanent link">¶</a></h2>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> Preparação no Desktop</p>
-<p>Enquanto digitaliza novos elementos, novos pontos podem ser atraídos a
-geometrias existentes.</p>
-<p>Todas as configurações pode ser feitos em <em>Projeto &gt; Configurações de Snapping</em></p>
-<h3 id="tipos-de-snapping">Tipos de Snapping<a class="headerlink" href="#tipos-de-snapping" title="Permanent link">¶</a></h3>
-<p>É possível fazer snap a novos pontos</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"></path></svg></span> Desktop preparation</p>
+<p>While digitizing new features, new points can be snapped to existing
+geometries.</p>
+<p>All configuration can be done in <em>Project &gt; Snapping Settings</em></p>
+<h3 id="snapping-types">Snapping Types<a class="headerlink" href="#snapping-types" title="Permanent link">¶</a></h3>
+<p>It is possible to snap new points</p>
 <ul>
-<li>apenas a vértices de geometrias existentes</li>
-<li>apenas a segmentos de geometrias existentes</li>
-<li>a vértices e segmentos de geometrias existentes</li>
+<li>only to nodes of existing geometries</li>
+<li>only to segments of existing geometries</li>
+<li>to nodes and segments of existing geometries</li>
 </ul>
-<h3 id="snapping-a-camadas">Snapping a camadas<a class="headerlink" href="#snapping-a-camadas" title="Permanent link">¶</a></h3>
-<p>É também possível apenas atrair a uma ou a poucas camadas.</p>
-<h3 id="tolerancia-de-snapping">Tolerância de Snapping<a class="headerlink" href="#tolerancia-de-snapping" title="Permanent link">¶</a></h3>
-<p>A tolerância do snapping pode ser especificada em unidades de mapa ou pixeis.</p>
-<p>Na maioria dos casos, as unidades devem ser definidas para pixeis. Temos
-tido boas experiências com um valor de tolerância de 20.</p></div>
+<h3 id="snapping-to-layers">Snapping to layers<a class="headerlink" href="#snapping-to-layers" title="Permanent link">¶</a></h3>
+<p>It is also possible to only snap to one or a few layers.</p>
+<h3 id="snapping-tolerance">Snapping tolerance<a class="headerlink" href="#snapping-tolerance" title="Permanent link">¶</a></h3>
+<p>The snapping tolerance can be specified in map units or pixels.</p>
+<p>In almost any case, the units should be set to pixels. We made good
+experiences with a tolerance value of 20.</p></div>
 
 
 

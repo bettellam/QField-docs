@@ -2695,6 +2695,27 @@ is created, QField will offer the possibility of filling the ring with a new fea
 <p>QField allows you to merge features and their geometries into a single feature. To do so, identify two (or more)
 features on the map, select them in the features list and merge them by selecting
 the <em>Merge Selected Features</em> in the <em>Menu (⁝) Button</em>.</p>
+<p>To execute merging within QField, ensure the following conditions:</p>
+<ol>
+<li><strong>Editable Vector Layer:</strong></li>
+<li>
+<p>The target layer must be an editable layer.</p>
+</li>
+<li>
+<p><strong>Multi-Type Geometry:</strong></p>
+</li>
+<li>
+<p>Ensure that the geometry type of the layer is multi-type.</p>
+</li>
+<li>
+<p><strong>Data Provider's Abilities:</strong></p>
+</li>
+<li>Verify that the data provider associated with the layer (preferably GeoPackage) possesses the capability to:<ul>
+<li>Modify geometries: The ability to make changes to existing geometrical structures.</li>
+<li>Delete features: The capability to remove individual features from the dataset.</li>
+</ul>
+</li>
+</ol>
 <h2 id="freehand-digitizing">Freehand digitizing<a class="headerlink" href="#freehand-digitizing" title="Permanent link">¶</a></h2>
 <p>The freehand digitizing mode allows you to "draw" lines and polygons
 using their stylus pen or mouse. The mode is available for line and polygon
