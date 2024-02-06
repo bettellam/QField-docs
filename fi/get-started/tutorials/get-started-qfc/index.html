@@ -855,6 +855,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#enhance-your-project-with-the-optimized-packager" class="md-nav__link">
+    Enhance your project with the "Optimized Packager"
+  </a>
+  
+    <nav class="md-nav" aria-label="Enhance your project with the "Optimized Packager"">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    Example Configuration:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    Result:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#maastolaite" class="md-nav__link">
     Maastolaite
   </a>
@@ -2482,6 +2509,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#enhance-your-project-with-the-optimized-packager" class="md-nav__link">
+    Enhance your project with the "Optimized Packager"
+  </a>
+  
+    <nav class="md-nav" aria-label="Enhance your project with the "Optimized Packager"">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    Example Configuration:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    Result:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#maastolaite" class="md-nav__link">
     Maastolaite
   </a>
@@ -2813,6 +2867,35 @@ Vihreä: tila ok —&gt; pilvi on onnistunut ymmärtämään projektin. Voit yri
 </li>
 </ol>
 <p>You will receive notifications for events in which you are not the actor. These notifications are specifically for events that are initiated by other members of your organization or collaborators on your projects.</p>
+<h2 id="enhance-your-project-with-the-optimized-packager">Enhance your project with the "Optimized Packager"<a class="headerlink" href="#enhance-your-project-with-the-optimized-packager" title="Permanent link">¶</a></h2>
+<p>We recommend to use the new "Optimized Packager" over the deprecated "QGIS Core Offline Editing" for all your projects. Set the packager under "Packaging Offliner" in the "Settings" tab of your project.</p>
+<p>The "Optimized Packager" supports consolidating filtered layers of same datasource into a single oflline layer, respecting distinct symbology but also using less storage. Here is an example to illustrate this feature:</p>
+<h3 id="example-configuration">Example Configuration:<a class="headerlink" href="#example-configuration" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Layer 1.1:</strong></li>
+<li>Data Source: <code>layers.gpkg</code></li>
+<li>Table: <code>layer1</code></li>
+<li>
+<p>Filter: <code>id % 2 = 1</code></p>
+</li>
+<li>
+<p><strong>Layer 1.2:</strong></p>
+</li>
+<li>Data Source: <code>layers.gpkg</code></li>
+<li>Table: <code>layer1</code></li>
+<li>Filter: <code>id % 2 = 0</code></li>
+</ul>
+<h3 id="result">Result:<a class="headerlink" href="#result" title="Permanent link">¶</a></h3>
+<p>For the new offliner:
+- A single layer is generated in the offline geopackage, combining data from <code>layer1</code> with the specified filters.</p>
+<p>For the old (QGIS) offliner:
+- Two separate layers are created, each representing the filtered datasets:
+  - Layer 1: Filtered with <code>id % 2 = 1</code>
+  - Layer 2: Filtered with <code>id % 2 = 0</code></p>
+<p>
+<figure><a data-caption="" data-fancybox="gallery" href="../../../../assets/images/qfc_offline_packager.png"><img alt="" src="../../../../assets/images/qfc_offline_packager.png" title="" width="700px"></a><figcaption></figcaption>
+</figure>
+</p>
 <h2 id="maastolaite">Maastolaite<a class="headerlink" href="#maastolaite" title="Permanent link">¶</a></h2>
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> Maastotyö</p>
 <h3 id="asenna-qfield">Asenna QField<a class="headerlink" href="#asenna-qfield" title="Permanent link">¶</a></h3>
